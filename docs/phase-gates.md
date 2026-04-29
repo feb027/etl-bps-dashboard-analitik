@@ -31,7 +31,7 @@ A phase is not complete until:
 - [x] `python3 -m pytest -q` passes
 - [x] `dashboard/data/dashboard-data.json` is valid JSON
 - [ ] GitHub Pages enabled and HTTP 200 verified
-- [ ] Fase 0B review file exists
+- [x] Fase 0B review file exists
 
 ## Fase 1 Done Criteria — BPS API Research
 

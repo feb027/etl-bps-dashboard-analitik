@@ -3,13 +3,16 @@ from bps_etl.transform.normalize import normalize_numeric_value
 from bps_etl.transform.validate import is_valid_year
 
 
+TEST_API_KEY_PLACEHOLDER = "test-api-key-placeholder"
+
+
 def test_build_query_params_does_not_mutate_request():
     request = BPSRequest(model="var", domain="0000", params={"page": 1})
-    params = build_query_params(request, api_key="secret")
+    params = build_query_params(request, api_key=TEST_API_KEY_PLACEHOLDER)
     assert params["model"] == "var"
     assert params["domain"] == "0000"
     assert params["page"] == 1
-    assert params["key"] == "secret"
+    assert params["key"] == TEST_API_KEY_PLACEHOLDER
     assert request.params == {"page": 1}
 
 
