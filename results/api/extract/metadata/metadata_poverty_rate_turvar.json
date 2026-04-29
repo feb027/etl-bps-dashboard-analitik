@@ -1,0 +1,41 @@
+{
+  "captured_at": "2026-04-29T16:35:03Z",
+  "request": {
+    "model": "turvar",
+    "domain": "0000",
+    "params": {
+      "var": 192
+    }
+  },
+  "request_fingerprint": "8053674d8ef478f32040bd82a88f8d4d249bd362439d45b5135182d5d91a0852",
+  "row_count": 3,
+  "payload": {
+    "metadata": {
+      "page": 1,
+      "pages": 1,
+      "per_page": 10,
+      "count": 3,
+      "total": 3
+    },
+    "rows": [
+      {
+        "turvar_id": 432,
+        "turvar": "Perkotaan",
+        "group_turvar_id": 85,
+        "name_group_turvar": "Klasifikasi Perkotaan/Perdesaan"
+      },
+      {
+        "turvar_id": 433,
+        "turvar": "Perdesaan",
+        "group_turvar_id": 85,
+        "name_group_turvar": "Klasifikasi Perkotaan/Perdesaan"
+      },
+      {
+        "turvar_id": 434,
+        "turvar": "Jumlah",
+        "group_turvar_id": 85,
+        "name_group_turvar": "Klasifikasi Perkotaan/Perdesaan"
+      }
+    ]
+  }
+}

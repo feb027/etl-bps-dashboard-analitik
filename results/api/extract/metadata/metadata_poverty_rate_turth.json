@@ -1,0 +1,41 @@
+{
+  "captured_at": "2026-04-29T16:35:03Z",
+  "request": {
+    "model": "turth",
+    "domain": "0000",
+    "params": {
+      "var": 192
+    }
+  },
+  "request_fingerprint": "e4554971c640f32a93b6e4bdb37c85ed7613446db62bcdc2ff96c6c7fec75d6e",
+  "row_count": 3,
+  "payload": {
+    "metadata": {
+      "page": 1,
+      "pages": 1,
+      "per_page": 10,
+      "count": 3,
+      "total": 3
+    },
+    "rows": [
+      {
+        "turth_id": 61,
+        "turth": "Semester 1 (Maret)",
+        "group_turth_id": 6,
+        "name_group_turth": "Semesteran"
+      },
+      {
+        "turth_id": 62,
+        "turth": "Semester 2 (September)",
+        "group_turth_id": 6,
+        "name_group_turth": "Semesteran"
+      },
+      {
+        "turth_id": 63,
+        "turth": "Tahunan",
+        "group_turth_id": 6,
+        "name_group_turth": "Semesteran"
+      }
+    ]
+  }
+}

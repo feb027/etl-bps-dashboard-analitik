@@ -37,6 +37,13 @@
       <article><span id="unmatched-keys">0</span><small>Unmatched Keys</small></article>
     </section>
 
+    <section class="metrics compact" aria-label="Evidence extract fase 3">
+      <article><span id="extract-targets">0</span><small>Extract Targets</small></article>
+      <article><span id="metadata-snapshots">0</span><small>Metadata Snapshots</small></article>
+      <article><span id="dynamic-snapshots">0</span><small>Dynamic Snapshots</small></article>
+      <article><span id="total-raw-rows">0</span><small>Raw Rows/Keys</small></article>
+    </section>
+
     <section class="status-card">
       <p class="section-label">Fact Grain</p>
       <code id="fact-grain">Memuat grain...</code>
@@ -49,12 +56,12 @@
 
     <section class="empty-state" id="empty-state" hidden>
       <h2>Data statistik belum tersedia di dashboard</h2>
-      <p>Fase 2 baru menyelesaikan desain arsitektur dan schema. Grafik sosial ekonomi akan ditampilkan setelah Fase 3–5 menyelesaikan extract, transform, dan load real-data.</p>
+      <p>Fase 3 sudah menyimpan raw metadata/data BPS secara commit-safe. Grafik sosial ekonomi tetap ditahan sampai Fase 4–5 menyelesaikan transform dan load real-data.</p>
       <code>python scripts/run_etl.py --mode quick</code>
     </section>
 
     <section class="method-card">
-      <p class="section-label">Artifact Fase 2</p>
+      <p class="section-label">Artifact Fase 2–3</p>
       <ul class="artifact-list" id="artifact-list"></ul>
     </section>
 

@@ -57,12 +57,12 @@ A phase is not complete until:
 
 ## Fase 3 Done Criteria — Extract Layer
 
-- [ ] BPS client implemented
-- [ ] retry and timeout implemented
-- [ ] raw evidence saving implemented
-- [ ] no hardcoded key
-- [ ] unit tests with mocked response pass
-- [ ] review approves
+- [x] BPS client implemented
+- [x] retry and timeout implemented
+- [x] raw evidence saving implemented
+- [x] no hardcoded key
+- [x] unit tests with mocked response pass
+- [x] review approves
 
 ## Fase 4 Done Criteria — Transform Layer
 

@@ -1,0 +1,29 @@
+{
+  "captured_at": "2026-04-29T16:35:03Z",
+  "request": {
+    "model": "turth",
+    "domain": "0000",
+    "params": {
+      "var": 415
+    }
+  },
+  "request_fingerprint": "b6edb05ae77040d411ebf56aa2a8a10c587f1227bb9d617316d3469a5323ba54",
+  "row_count": 1,
+  "payload": {
+    "metadata": {
+      "page": 1,
+      "pages": 1,
+      "per_page": 10,
+      "count": 1,
+      "total": 1
+    },
+    "rows": [
+      {
+        "turth_id": 0,
+        "turth": "Tahun",
+        "group_turth_id": 0,
+        "name_group_turth": "Tahunan"
+      }
+    ]
+  }
+}

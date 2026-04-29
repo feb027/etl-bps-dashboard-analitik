@@ -1,14 +1,14 @@
 {
   "project": {
     "title": "ETL BPS Dashboard Analitik",
-    "status": "Fase 2 complete: ETL architecture dan schema SQLite sudah disetujui; data statistik belum diload ke dashboard.",
-    "current_phase": "2 — ETL Architecture & Schema",
-    "generated_at": "2026-04-29T16:05:24Z",
+    "status": "Fase 3 complete: extract layer BPS sudah disetujui; raw metadata/data tersimpan commit-safe; transform/load statistik belum dijalankan.",
+    "current_phase": "3 — Extract Layer",
+    "generated_at": "2026-04-29T16:35:03Z",
     "review": {
-      "phase": 2,
-      "score": 88,
+      "phase": 3,
+      "score": 91,
       "verdict": "APPROVED",
-      "file": "docs/REVIEW_phase2_etl_design.md"
+      "file": "docs/REVIEW_phase3_extract_layer.md"
     }
   },
   "summary": {
@@ -40,8 +40,14 @@
     {
       "phase": "3",
       "title": "Extract Layer",
+      "status": "complete",
+      "description": "BPS client, retry/timeout, raw snapshot saving, manifest, 8 extract tests, dan review Fase 3 selesai."
+    },
+    {
+      "phase": "4",
+      "title": "Transform Layer",
       "status": "next",
-      "description": "Implementasi extractor production untuk metadata dan data BPS."
+      "description": "Decode raw datacontent menjadi normalized fact rows dan quality metrics."
     }
   ],
   "design_metrics": {
@@ -52,7 +58,13 @@
     "dimension_tables": 5,
     "fact_tables": 1,
     "audit_tables": 2,
-    "schema_validation_tests": 10
+    "schema_validation_tests": 10,
+    "extract_targets": 12,
+    "metadata_snapshots": 20,
+    "dynamic_snapshots": 12,
+    "total_extract_snapshots": 32,
+    "total_raw_rows": 3642,
+    "extract_tests": 8
   },
   "schema": {
     "fact_grain": "var_id + kode_wilayah + th_id + turvar_id + turth_id + source_domain",
@@ -75,7 +87,13 @@
     "src/bps_etl/load/schema.sql",
     "tests/test_schema.py",
     "reports/progress-2-etl-design.md",
-    "docs/REVIEW_phase2_etl_design.md"
+    "docs/REVIEW_phase2_etl_design.md",
+    "docs/extract-layer.md",
+    "src/bps_etl/extract/pipeline.py",
+    "src/bps_etl/extract/snapshot.py",
+    "results/api/extract/extract_manifest.json",
+    "reports/progress-3-extract-layer.md",
+    "docs/REVIEW_phase3_extract_layer.md"
   ],
   "charts": {
     "trend": [],
@@ -84,11 +102,11 @@
   "quality": {
     "missing_values": null,
     "duplicate_records": null,
-    "api_calls": 12,
+    "api_calls": 32,
     "notes": [
-      "Dashboard tetap tidak menampilkan grafik statistik sampai ETL load real-data selesai.",
-      "Angka Fase 1 dan Fase 2 di halaman ini adalah evidence project/design, bukan nilai statistik sosial ekonomi.",
-      "Tidak ada chart palsu atau record palsu."
+      "Dashboard tetap tidak menampilkan grafik statistik sampai transform/load real-data selesai.",
+      "Fase 3 menyimpan raw BPS snapshots dan manifest commit-safe tanpa API key.",
+      "Angka Fase 3 di halaman ini adalah evidence extract, bukan nilai statistik sosial ekonomi."
     ]
   }
 }

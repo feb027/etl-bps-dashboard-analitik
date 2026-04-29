@@ -1,0 +1,4076 @@
+{
+  "captured_at": "2026-04-29T16:35:03Z",
+  "request": {
+    "model": "vervar",
+    "domain": "0000",
+    "params": {
+      "var": 415
+    }
+  },
+  "request_fingerprint": "f365dc1501f6ec897c865a11bbe4dcc3864be22ef9a8c393c786bfcd263d92c1",
+  "row_count": 579,
+  "payload": {
+    "metadata": {
+      "page": 1,
+      "pages": 58,
+      "per_page": 10,
+      "count": 10,
+      "total": 579
+    },
+    "rows": [
+      {
+        "kode_ver_id": 1100,
+        "vervar": "&lt;b&gt;ACEH&lt;/b&gt;",
+        "item_ver_id": 6424,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1101,
+        "vervar": "Simeulue",
+        "item_ver_id": 6425,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1102,
+        "vervar": "Aceh Singkil",
+        "item_ver_id": 6426,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1103,
+        "vervar": "Aceh Selatan",
+        "item_ver_id": 6427,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1104,
+        "vervar": "Aceh Tenggara",
+        "item_ver_id": 6428,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1105,
+        "vervar": "Aceh Timur",
+        "item_ver_id": 6429,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1106,
+        "vervar": "Aceh Tengah",
+        "item_ver_id": 6430,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1107,
+        "vervar": "Aceh Barat",
+        "item_ver_id": 6431,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1108,
+        "vervar": "Aceh Besar",
+        "item_ver_id": 6432,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1109,
+        "vervar": "Pidie",
+        "item_ver_id": 6433,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1110,
+        "vervar": "Bireuen",
+        "item_ver_id": 6434,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1111,
+        "vervar": "Aceh Utara",
+        "item_ver_id": 6435,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1112,
+        "vervar": "Aceh Barat Daya",
+        "item_ver_id": 6436,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1113,
+        "vervar": "Gayo Lues",
+        "item_ver_id": 6437,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1114,
+        "vervar": "Aceh Tamiang",
+        "item_ver_id": 6438,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1115,
+        "vervar": "Nagan Raya",
+        "item_ver_id": 6439,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1116,
+        "vervar": "Aceh Jaya",
+        "item_ver_id": 6440,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1117,
+        "vervar": "Bener Meriah",
+        "item_ver_id": 6441,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1118,
+        "vervar": "Pidie Jaya",
+        "item_ver_id": 6442,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1171,
+        "vervar": "Kota Banda Aceh",
+        "item_ver_id": 6443,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1172,
+        "vervar": "Kota Sabang",
+        "item_ver_id": 6444,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1173,
+        "vervar": "Kota Langsa",
+        "item_ver_id": 6445,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1174,
+        "vervar": "Kota Lhokseumawe",
+        "item_ver_id": 6446,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1175,
+        "vervar": "Kota Subulussalam",
+        "item_ver_id": 6447,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1200,
+        "vervar": "&lt;b&gt;SUMATERA UTARA&lt;/b&gt;",
+        "item_ver_id": 6448,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1201,
+        "vervar": "Nias",
+        "item_ver_id": 6449,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1202,
+        "vervar": "Mandailing Natal",
+        "item_ver_id": 6450,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1203,
+        "vervar": "Tapanuli Selatan",
+        "item_ver_id": 6451,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1204,
+        "vervar": "Tapanuli Tengah",
+        "item_ver_id": 6452,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1205,
+        "vervar": "Tapanuli Utara",
+        "item_ver_id": 6453,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1206,
+        "vervar": "Toba Samosir / Toba",
+        "item_ver_id": 6454,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1207,
+        "vervar": "Labuhan Batu",
+        "item_ver_id": 6455,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1208,
+        "vervar": "Asahan",
+        "item_ver_id": 6456,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1209,
+        "vervar": "Simalungun",
+        "item_ver_id": 6457,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1210,
+        "vervar": "Dairi",
+        "item_ver_id": 6458,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1211,
+        "vervar": "Karo",
+        "item_ver_id": 6459,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1212,
+        "vervar": "Deli Serdang",
+        "item_ver_id": 6460,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1213,
+        "vervar": "Langkat",
+        "item_ver_id": 6461,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1214,
+        "vervar": "Nias Selatan",
+        "item_ver_id": 6462,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1215,
+        "vervar": "Humbang Hasundutan",
+        "item_ver_id": 6463,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1216,
+        "vervar": "Pakpak Bharat",
+        "item_ver_id": 6464,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1217,
+        "vervar": "Samosir",
+        "item_ver_id": 6465,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1218,
+        "vervar": "Serdang Bedagai",
+        "item_ver_id": 6466,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1219,
+        "vervar": "Batu Bara",
+        "item_ver_id": 6467,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1220,
+        "vervar": "Padang Lawas Utara",
+        "item_ver_id": 6468,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1221,
+        "vervar": "Padang Lawas",
+        "item_ver_id": 6469,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1222,
+        "vervar": "Labuhan Batu Selatan",
+        "item_ver_id": 6470,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1223,
+        "vervar": "Labuhan Batu Utara",
+        "item_ver_id": 6471,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1224,
+        "vervar": "Nias Utara",
+        "item_ver_id": 6472,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1225,
+        "vervar": "Nias Barat",
+        "item_ver_id": 6473,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1271,
+        "vervar": "Kota Sibolga",
+        "item_ver_id": 6474,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1272,
+        "vervar": "Kota Tanjung Balai",
+        "item_ver_id": 6475,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1273,
+        "vervar": "Kota Pematang Siantar",
+        "item_ver_id": 6476,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1274,
+        "vervar": "Kota Tebing Tinggi",
+        "item_ver_id": 6477,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1275,
+        "vervar": "Kota Medan",
+        "item_ver_id": 6478,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1276,
+        "vervar": "Kota Binjai",
+        "item_ver_id": 6479,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1277,
+        "vervar": "Kota Padangsidimpuan",
+        "item_ver_id": 6480,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1278,
+        "vervar": "Kota Gunungsitoli",
+        "item_ver_id": 6481,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1300,
+        "vervar": "&lt;b&gt;SUMATERA BARAT&lt;/b&gt;",
+        "item_ver_id": 6482,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1301,
+        "vervar": "Kepulauan Mentawai",
+        "item_ver_id": 6483,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1302,
+        "vervar": "Pesisir Selatan",
+        "item_ver_id": 6484,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1303,
+        "vervar": "Solok",
+        "item_ver_id": 6485,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1304,
+        "vervar": "Sijunjung",
+        "item_ver_id": 6486,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1305,
+        "vervar": "Tanah Datar",
+        "item_ver_id": 6487,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1306,
+        "vervar": "Padang Pariaman",
+        "item_ver_id": 6488,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1307,
+        "vervar": "Agam",
+        "item_ver_id": 6489,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1308,
+        "vervar": "Lima Puluh Kota",
+        "item_ver_id": 6490,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1309,
+        "vervar": "Pasaman",
+        "item_ver_id": 6491,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1310,
+        "vervar": "Solok Selatan",
+        "item_ver_id": 6492,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1311,
+        "vervar": "Dharmasraya",
+        "item_ver_id": 6493,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1312,
+        "vervar": "Pasaman Barat",
+        "item_ver_id": 6494,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1371,
+        "vervar": "Kota Padang",
+        "item_ver_id": 6495,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1372,
+        "vervar": "Kota Solok",
+        "item_ver_id": 6496,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1373,
+        "vervar": "Kota Sawah Lunto",
+        "item_ver_id": 6497,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1374,
+        "vervar": "Kota Padang Panjang",
+        "item_ver_id": 6498,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1375,
+        "vervar": "Kota Bukittinggi",
+        "item_ver_id": 6499,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1376,
+        "vervar": "Kota Payakumbuh",
+        "item_ver_id": 6500,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1377,
+        "vervar": "Kota Pariaman",
+        "item_ver_id": 6501,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1400,
+        "vervar": "&lt;b&gt;RIAU&lt;/b&gt;",
+        "item_ver_id": 6502,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1401,
+        "vervar": "Kuantan Singingi",
+        "item_ver_id": 6503,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1402,
+        "vervar": "Indragiri Hulu",
+        "item_ver_id": 6504,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1403,
+        "vervar": "Indragiri Hilir",
+        "item_ver_id": 6505,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1404,
+        "vervar": "Pelalawan",
+        "item_ver_id": 6506,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1405,
+        "vervar": "Siak",
+        "item_ver_id": 6507,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1406,
+        "vervar": "Kampar",
+        "item_ver_id": 6508,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1407,
+        "vervar": "Rokan Hulu",
+        "item_ver_id": 6509,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1408,
+        "vervar": "Bengkalis",
+        "item_ver_id": 6510,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1409,
+        "vervar": "Rokan Hilir",
+        "item_ver_id": 6511,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1410,
+        "vervar": "Kepulauan Meranti",
+        "item_ver_id": 6512,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1471,
+        "vervar": "Kota Pekanbaru",
+        "item_ver_id": 6513,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1473,
+        "vervar": "Kota Dumai",
+        "item_ver_id": 6514,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1500,
+        "vervar": "&lt;b&gt;JAMBI&lt;/b&gt;",
+        "item_ver_id": 6515,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1501,
+        "vervar": "Kerinci",
+        "item_ver_id": 6516,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1502,
+        "vervar": "Merangin",
+        "item_ver_id": 6517,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1503,
+        "vervar": "Sarolangun",
+        "item_ver_id": 6518,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1504,
+        "vervar": "Batang Hari",
+        "item_ver_id": 6519,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1505,
+        "vervar": "Muaro Jambi",
+        "item_ver_id": 6520,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1506,
+        "vervar": "Tanjung Jabung Timur",
+        "item_ver_id": 6521,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1507,
+        "vervar": "Tanjung Jabung Barat",
+        "item_ver_id": 6522,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1508,
+        "vervar": "Tebo",
+        "item_ver_id": 6523,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1509,
+        "vervar": "Bungo",
+        "item_ver_id": 6524,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1571,
+        "vervar": "Kota Jambi",
+        "item_ver_id": 6525,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1572,
+        "vervar": "Kota Sungai Penuh",
+        "item_ver_id": 6526,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1600,
+        "vervar": "&lt;b&gt;SUMATERA SELATAN&lt;/b&gt;",
+        "item_ver_id": 6527,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1601,
+        "vervar": "Ogan Komering Ulu",
+        "item_ver_id": 6528,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1602,
+        "vervar": "Ogan Komering Ilir",
+        "item_ver_id": 6529,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1603,
+        "vervar": "Muara Enim",
+        "item_ver_id": 6530,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1604,
+        "vervar": "Lahat",
+        "item_ver_id": 6531,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1605,
+        "vervar": "Musi Rawas",
+        "item_ver_id": 6532,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1606,
+        "vervar": "Musi Banyuasin",
+        "item_ver_id": 6533,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1607,
+        "vervar": "Banyu Asin",
+        "item_ver_id": 6534,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1608,
+        "vervar": "Ogan Komering Ulu Selatan",
+        "item_ver_id": 6535,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1609,
+        "vervar": "Ogan Komering Ulu Timur",
+        "item_ver_id": 6536,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1610,
+        "vervar": "Ogan Ilir",
+        "item_ver_id": 6537,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1611,
+        "vervar": "Empat Lawang",
+        "item_ver_id": 6538,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1612,
+        "vervar": "Penukal Abab Lematang Ilir",
+        "item_ver_id": 6539,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1613,
+        "vervar": "Musi Rawas Utara",
+        "item_ver_id": 6540,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1671,
+        "vervar": "Kota Palembang",
+        "item_ver_id": 6541,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1672,
+        "vervar": "Kota Prabumulih",
+        "item_ver_id": 6542,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1673,
+        "vervar": "Kota Pagar Alam",
+        "item_ver_id": 6543,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1674,
+        "vervar": "Kota Lubuklinggau",
+        "item_ver_id": 6544,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1700,
+        "vervar": "&lt;b&gt;BENGKULU&lt;/b&gt;",
+        "item_ver_id": 6545,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1701,
+        "vervar": "Bengkulu Selatan",
+        "item_ver_id": 6546,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1702,
+        "vervar": "Rejang Lebong",
+        "item_ver_id": 6547,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1703,
+        "vervar": "Bengkulu Utara",
+        "item_ver_id": 6548,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1704,
+        "vervar": "Kaur",
+        "item_ver_id": 6549,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1705,
+        "vervar": "Seluma",
+        "item_ver_id": 6550,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1706,
+        "vervar": "Mukomuko",
+        "item_ver_id": 6551,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1707,
+        "vervar": "Lebong",
+        "item_ver_id": 6552,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1708,
+        "vervar": "Kepahiang",
+        "item_ver_id": 6553,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1709,
+        "vervar": "Bengkulu Tengah",
+        "item_ver_id": 6554,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1771,
+        "vervar": "Kota Bengkulu",
+        "item_ver_id": 6555,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1800,
+        "vervar": "&lt;b&gt;LAMPUNG&lt;/b&gt;",
+        "item_ver_id": 6556,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1801,
+        "vervar": "Lampung Barat",
+        "item_ver_id": 6557,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1802,
+        "vervar": "Tanggamus",
+        "item_ver_id": 6558,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1803,
+        "vervar": "Lampung Selatan",
+        "item_ver_id": 6559,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1804,
+        "vervar": "Lampung Timur",
+        "item_ver_id": 6560,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1805,
+        "vervar": "Lampung Tengah",
+        "item_ver_id": 6561,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1806,
+        "vervar": "Lampung Utara",
+        "item_ver_id": 6562,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1807,
+        "vervar": "Way Kanan",
+        "item_ver_id": 6563,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1808,
+        "vervar": "Tulangbawang",
+        "item_ver_id": 6564,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1809,
+        "vervar": "Pesawaran",
+        "item_ver_id": 6565,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1810,
+        "vervar": "Pringsewu",
+        "item_ver_id": 6566,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1811,
+        "vervar": "Mesuji",
+        "item_ver_id": 6567,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1812,
+        "vervar": "Tulang Bawang Barat",
+        "item_ver_id": 6568,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1813,
+        "vervar": "Pesisir Barat",
+        "item_ver_id": 6569,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1871,
+        "vervar": "Kota Bandar Lampung",
+        "item_ver_id": 6570,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1872,
+        "vervar": "Kota Metro",
+        "item_ver_id": 6571,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1900,
+        "vervar": "&lt;b&gt;KEP. BANGKA BELITUNG&lt;/b&gt;",
+        "item_ver_id": 6572,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1901,
+        "vervar": "Bangka",
+        "item_ver_id": 6573,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1902,
+        "vervar": "Belitung",
+        "item_ver_id": 6574,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1903,
+        "vervar": "Bangka Barat",
+        "item_ver_id": 6575,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1904,
+        "vervar": "Bangka Tengah",
+        "item_ver_id": 6576,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1905,
+        "vervar": "Bangka Selatan",
+        "item_ver_id": 6577,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1906,
+        "vervar": "Belitung Timur",
+        "item_ver_id": 6578,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 1971,
+        "vervar": "Kota Pangkal Pinang",
+        "item_ver_id": 6579,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 2100,
+        "vervar": "&lt;b&gt;KEPULAUAN RIAU&lt;/b&gt;",
+        "item_ver_id": 6580,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 2101,
+        "vervar": "Karimun",
+        "item_ver_id": 6581,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 2102,
+        "vervar": "Bintan",
+        "item_ver_id": 6582,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 2103,
+        "vervar": "Natuna",
+        "item_ver_id": 6583,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 2104,
+        "vervar": "Lingga",
+        "item_ver_id": 6584,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 2105,
+        "vervar": "Kepulauan Anambas",
+        "item_ver_id": 6585,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 2171,
+        "vervar": "Kota Batam",
+        "item_ver_id": 6586,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 2172,
+        "vervar": "Kota Tanjung Pinang",
+        "item_ver_id": 6587,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3100,
+        "vervar": "&lt;b&gt;DKI JAKARTA&lt;/b&gt;",
+        "item_ver_id": 6588,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3101,
+        "vervar": "Kep. Seribu",
+        "item_ver_id": 6589,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3171,
+        "vervar": "Kota Jakarta Selatan",
+        "item_ver_id": 6590,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3172,
+        "vervar": "Kota Jakarta Timur",
+        "item_ver_id": 6591,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3173,
+        "vervar": "Kota Jakarta Pusat",
+        "item_ver_id": 6592,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3174,
+        "vervar": "Kota Jakarta Barat",
+        "item_ver_id": 6593,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3175,
+        "vervar": "Kota Jakarta Utara",
+        "item_ver_id": 6594,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3200,
+        "vervar": "&lt;b&gt;JAWA BARAT&lt;/b&gt;",
+        "item_ver_id": 6595,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3201,
+        "vervar": "Bogor",
+        "item_ver_id": 6596,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3202,
+        "vervar": "Sukabumi",
+        "item_ver_id": 6597,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3203,
+        "vervar": "Cianjur",
+        "item_ver_id": 6598,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3204,
+        "vervar": "Bandung",
+        "item_ver_id": 6599,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3205,
+        "vervar": "Garut",
+        "item_ver_id": 6600,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3206,
+        "vervar": "Tasikmalaya",
+        "item_ver_id": 6601,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3207,
+        "vervar": "Ciamis",
+        "item_ver_id": 6602,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3208,
+        "vervar": "Kuningan",
+        "item_ver_id": 6603,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3209,
+        "vervar": "Cirebon",
+        "item_ver_id": 6604,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3210,
+        "vervar": "Majalengka",
+        "item_ver_id": 6605,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3211,
+        "vervar": "Sumedang",
+        "item_ver_id": 6606,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3212,
+        "vervar": "Indramayu",
+        "item_ver_id": 6607,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3213,
+        "vervar": "Subang",
+        "item_ver_id": 6608,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3214,
+        "vervar": "Purwakarta",
+        "item_ver_id": 6609,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3215,
+        "vervar": "Karawang",
+        "item_ver_id": 6610,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3216,
+        "vervar": "Bekasi",
+        "item_ver_id": 6611,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3217,
+        "vervar": "Bandung Barat",
+        "item_ver_id": 6612,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3218,
+        "vervar": "Pangandaran",
+        "item_ver_id": 6613,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3271,
+        "vervar": "Kota Bogor",
+        "item_ver_id": 6614,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3272,
+        "vervar": "Kota Sukabumi",
+        "item_ver_id": 6615,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3273,
+        "vervar": "Kota Bandung",
+        "item_ver_id": 6616,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3274,
+        "vervar": "Kota Cirebon",
+        "item_ver_id": 6617,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3275,
+        "vervar": "Kota Bekasi",
+        "item_ver_id": 6618,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3276,
+        "vervar": "Kota Depok",
+        "item_ver_id": 6619,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3277,
+        "vervar": "Kota Cimahi",
+        "item_ver_id": 6620,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3278,
+        "vervar": "Kota Tasikmalaya",
+        "item_ver_id": 6621,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3279,
+        "vervar": "Kota Banjar",
+        "item_ver_id": 6622,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3300,
+        "vervar": "&lt;b&gt;JAWA TENGAH&lt;/b&gt;",
+        "item_ver_id": 6623,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3301,
+        "vervar": "Cilacap",
+        "item_ver_id": 6624,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3302,
+        "vervar": "Banyumas",
+        "item_ver_id": 6625,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3303,
+        "vervar": "Purbalingga",
+        "item_ver_id": 6626,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3304,
+        "vervar": "Banjarnegara",
+        "item_ver_id": 6627,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3305,
+        "vervar": "Kebumen",
+        "item_ver_id": 6628,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3306,
+        "vervar": "Purworejo",
+        "item_ver_id": 6629,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3307,
+        "vervar": "Wonosobo",
+        "item_ver_id": 6630,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3308,
+        "vervar": "Magelang",
+        "item_ver_id": 6631,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3309,
+        "vervar": "Boyolali",
+        "item_ver_id": 6632,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3310,
+        "vervar": "Klaten",
+        "item_ver_id": 6633,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3311,
+        "vervar": "Sukoharjo",
+        "item_ver_id": 6634,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3312,
+        "vervar": "Wonogiri",
+        "item_ver_id": 6635,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3313,
+        "vervar": "Karanganyar",
+        "item_ver_id": 6636,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3314,
+        "vervar": "Sragen",
+        "item_ver_id": 6637,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3315,
+        "vervar": "Grobogan",
+        "item_ver_id": 6638,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3316,
+        "vervar": "Blora",
+        "item_ver_id": 6639,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3317,
+        "vervar": "Rembang",
+        "item_ver_id": 6640,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3318,
+        "vervar": "Pati",
+        "item_ver_id": 6641,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3319,
+        "vervar": "Kudus",
+        "item_ver_id": 6642,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3320,
+        "vervar": "Jepara",
+        "item_ver_id": 6643,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3321,
+        "vervar": "Demak",
+        "item_ver_id": 6644,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3322,
+        "vervar": "Semarang",
+        "item_ver_id": 6645,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3323,
+        "vervar": "Temanggung",
+        "item_ver_id": 6646,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3324,
+        "vervar": "Kendal",
+        "item_ver_id": 6647,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3325,
+        "vervar": "Batang",
+        "item_ver_id": 6648,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3326,
+        "vervar": "Pekalongan",
+        "item_ver_id": 6649,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3327,
+        "vervar": "Pemalang",
+        "item_ver_id": 6650,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3328,
+        "vervar": "Tegal",
+        "item_ver_id": 6651,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3329,
+        "vervar": "Brebes",
+        "item_ver_id": 6652,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3371,
+        "vervar": "Kota Magelang",
+        "item_ver_id": 6653,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3372,
+        "vervar": "Kota Surakarta",
+        "item_ver_id": 6654,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3373,
+        "vervar": "Kota Salatiga",
+        "item_ver_id": 6655,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3374,
+        "vervar": "Kota Semarang",
+        "item_ver_id": 6656,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3375,
+        "vervar": "Kota Pekalongan",
+        "item_ver_id": 6657,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3376,
+        "vervar": "Kota Tegal",
+        "item_ver_id": 6658,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3400,
+        "vervar": "&lt;b&gt;D I YOGYAKARTA&lt;/b&gt;",
+        "item_ver_id": 6659,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3401,
+        "vervar": "Kulon Progo",
+        "item_ver_id": 6660,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3402,
+        "vervar": "Bantul",
+        "item_ver_id": 6661,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3403,
+        "vervar": "Gunung Kidul",
+        "item_ver_id": 6662,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3404,
+        "vervar": "Sleman",
+        "item_ver_id": 6663,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3471,
+        "vervar": "Kota Yogyakarta",
+        "item_ver_id": 6664,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3500,
+        "vervar": "&lt;b&gt;JAWA TIMUR&lt;b&gt;",
+        "item_ver_id": 6665,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3501,
+        "vervar": "Pacitan",
+        "item_ver_id": 6666,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3502,
+        "vervar": "Ponorogo",
+        "item_ver_id": 6667,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3503,
+        "vervar": "Trenggalek",
+        "item_ver_id": 6668,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3504,
+        "vervar": "Tulungagung",
+        "item_ver_id": 6669,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3505,
+        "vervar": "Blitar",
+        "item_ver_id": 6670,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3506,
+        "vervar": "Kediri",
+        "item_ver_id": 6671,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3507,
+        "vervar": "Malang",
+        "item_ver_id": 6672,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3508,
+        "vervar": "Lumajang",
+        "item_ver_id": 6673,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3509,
+        "vervar": "Jember",
+        "item_ver_id": 6674,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3510,
+        "vervar": "Banyuwangi",
+        "item_ver_id": 6675,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3511,
+        "vervar": "Bondowoso",
+        "item_ver_id": 6676,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3512,
+        "vervar": "Situbondo",
+        "item_ver_id": 6677,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3513,
+        "vervar": "Probolinggo",
+        "item_ver_id": 6678,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3514,
+        "vervar": "Pasuruan",
+        "item_ver_id": 6679,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3515,
+        "vervar": "Sidoarjo",
+        "item_ver_id": 6680,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3516,
+        "vervar": "Mojokerto",
+        "item_ver_id": 6681,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3517,
+        "vervar": "Jombang",
+        "item_ver_id": 6682,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3518,
+        "vervar": "Nganjuk",
+        "item_ver_id": 6683,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3519,
+        "vervar": "Madiun",
+        "item_ver_id": 6684,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3520,
+        "vervar": "Magetan",
+        "item_ver_id": 6685,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3521,
+        "vervar": "Ngawi",
+        "item_ver_id": 6686,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3522,
+        "vervar": "Bojonegoro",
+        "item_ver_id": 6687,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3523,
+        "vervar": "Tuban",
+        "item_ver_id": 6688,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3524,
+        "vervar": "Lamongan",
+        "item_ver_id": 6689,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3525,
+        "vervar": "Gresik",
+        "item_ver_id": 6690,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3526,
+        "vervar": "Bangkalan",
+        "item_ver_id": 6691,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3527,
+        "vervar": "Sampang",
+        "item_ver_id": 6692,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3528,
+        "vervar": "Pamekasan",
+        "item_ver_id": 6693,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3529,
+        "vervar": "Sumenep",
+        "item_ver_id": 6694,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3571,
+        "vervar": "Kota Kediri",
+        "item_ver_id": 6695,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3572,
+        "vervar": "Kota Blitar",
+        "item_ver_id": 6696,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3573,
+        "vervar": "Kota Malang",
+        "item_ver_id": 6697,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3574,
+        "vervar": "Kota Probolinggo",
+        "item_ver_id": 6698,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3575,
+        "vervar": "Kota Pasuruan",
+        "item_ver_id": 6699,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3576,
+        "vervar": "Kota Mojokerto",
+        "item_ver_id": 6700,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3577,
+        "vervar": "Kota Madiun",
+        "item_ver_id": 6701,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3578,
+        "vervar": "Kota Surabaya",
+        "item_ver_id": 6702,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3579,
+        "vervar": "Kota Batu",
+        "item_ver_id": 6703,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3600,
+        "vervar": "&lt;b&gt;BANTEN&lt;/b&gt;",
+        "item_ver_id": 6704,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3601,
+        "vervar": "Pandeglang",
+        "item_ver_id": 6705,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3602,
+        "vervar": "Lebak",
+        "item_ver_id": 6706,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3603,
+        "vervar": "Tangerang",
+        "item_ver_id": 6707,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3604,
+        "vervar": "Serang",
+        "item_ver_id": 6708,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3671,
+        "vervar": "Kota Tangerang",
+        "item_ver_id": 6709,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3672,
+        "vervar": "Kota Cilegon",
+        "item_ver_id": 6710,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3673,
+        "vervar": "Kota Serang",
+        "item_ver_id": 6711,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 3674,
+        "vervar": "Kota Tangerang Selatan",
+        "item_ver_id": 6712,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 5100,
+        "vervar": "&lt;b&gt;BALI&lt;/b&gt;",
+        "item_ver_id": 6713,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 5101,
+        "vervar": "Jembrana",
+        "item_ver_id": 6714,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 5102,
+        "vervar": "Tabanan",
+        "item_ver_id": 6715,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 5103,
+        "vervar": "Badung",
+        "item_ver_id": 6716,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 5104,
+        "vervar": "Gianyar",
+        "item_ver_id": 6717,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 5105,
+        "vervar": "Klungkung",
+        "item_ver_id": 6718,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 5106,
+        "vervar": "Bangli",
+        "item_ver_id": 6719,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 5107,
+        "vervar": "Karangasem",
+        "item_ver_id": 6720,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 5108,
+        "vervar": "Buleleng",
+        "item_ver_id": 6721,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 5171,
+        "vervar": "Kota Denpasar",
+        "item_ver_id": 6722,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 5200,
+        "vervar": "&lt;b&gt;NUSA TENGGARA BARAT&lt;/b&gt;",
+        "item_ver_id": 6723,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 5201,
+        "vervar": "Lombok Barat",
+        "item_ver_id": 6724,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 5202,
+        "vervar": "Lombok Tengah",
+        "item_ver_id": 6725,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 5203,
+        "vervar": "Lombok Timur",
+        "item_ver_id": 6726,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 5204,
+        "vervar": "Sumbawa",
+        "item_ver_id": 6727,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 5205,
+        "vervar": "Dompu",
+        "item_ver_id": 6728,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 5206,
+        "vervar": "Bima",
+        "item_ver_id": 6729,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 5207,
+        "vervar": "Sumbawa Barat",
+        "item_ver_id": 6730,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 5208,
+        "vervar": "Lombok Utara",
+        "item_ver_id": 6731,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 5271,
+        "vervar": "Kota Mataram",
+        "item_ver_id": 6732,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 5272,
+        "vervar": "Kota Bima",
+        "item_ver_id": 6733,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 5300,
+        "vervar": "&lt;b&gt;NUSA TENGGARA TIMUR&lt;/b&gt;",
+        "item_ver_id": 6734,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 5301,
+        "vervar": "Sumba Barat",
+        "item_ver_id": 6735,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 5302,
+        "vervar": "Sumba Timur",
+        "item_ver_id": 6736,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 5303,
+        "vervar": "Kupang",
+        "item_ver_id": 6737,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 5304,
+        "vervar": "Timor Tengah Selatan",
+        "item_ver_id": 6738,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 5305,
+        "vervar": "Timor Tengah Utara",
+        "item_ver_id": 6739,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 5306,
+        "vervar": "Belu",
+        "item_ver_id": 6740,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 5307,
+        "vervar": "Alor",
+        "item_ver_id": 6741,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 5308,
+        "vervar": "Lembata",
+        "item_ver_id": 6742,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 5309,
+        "vervar": "Flores Timur",
+        "item_ver_id": 6743,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 5310,
+        "vervar": "Sikka",
+        "item_ver_id": 6744,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 5311,
+        "vervar": "Ende",
+        "item_ver_id": 6745,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 5312,
+        "vervar": "Ngada",
+        "item_ver_id": 6746,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 5313,
+        "vervar": "Manggarai",
+        "item_ver_id": 6747,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 5314,
+        "vervar": "Rote Ndao",
+        "item_ver_id": 6748,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 5315,
+        "vervar": "Manggarai Barat",
+        "item_ver_id": 6749,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 5316,
+        "vervar": "Sumba Tengah",
+        "item_ver_id": 6750,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 5317,
+        "vervar": "Sumba Barat Daya",
+        "item_ver_id": 6751,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 5318,
+        "vervar": "Nagekeo",
+        "item_ver_id": 6752,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 5319,
+        "vervar": "Manggarai Timur",
+        "item_ver_id": 6753,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 5320,
+        "vervar": "Sabu Raijua",
+        "item_ver_id": 6754,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 5321,
+        "vervar": "Malaka",
+        "item_ver_id": 6755,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 5371,
+        "vervar": "Kota Kupang",
+        "item_ver_id": 6756,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6100,
+        "vervar": "&lt;b&gt;KALIMANTAN BARAT&lt;/b&gt;",
+        "item_ver_id": 6757,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6101,
+        "vervar": "Sambas",
+        "item_ver_id": 6758,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6102,
+        "vervar": "Bengkayang",
+        "item_ver_id": 6759,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6103,
+        "vervar": "Landak",
+        "item_ver_id": 6760,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6104,
+        "vervar": "Mempawah",
+        "item_ver_id": 6761,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6105,
+        "vervar": "Sanggau",
+        "item_ver_id": 6762,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6106,
+        "vervar": "Ketapang",
+        "item_ver_id": 6763,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6107,
+        "vervar": "Sintang",
+        "item_ver_id": 6764,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6108,
+        "vervar": "Kapuas Hulu",
+        "item_ver_id": 6765,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6109,
+        "vervar": "Sekadau",
+        "item_ver_id": 6766,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6110,
+        "vervar": "Melawi",
+        "item_ver_id": 6767,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6111,
+        "vervar": "Kayong Utara",
+        "item_ver_id": 6768,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6112,
+        "vervar": "Kubu Raya",
+        "item_ver_id": 6769,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6171,
+        "vervar": "Kota Pontianak",
+        "item_ver_id": 6770,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6172,
+        "vervar": "Kota Singkawang",
+        "item_ver_id": 6771,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6200,
+        "vervar": "&lt;b&gt;KALIMANTAN TENGAH&lt;/b&gt;",
+        "item_ver_id": 6772,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6201,
+        "vervar": "Kotawaringin Barat",
+        "item_ver_id": 6773,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6202,
+        "vervar": "Kotawaringin Timur",
+        "item_ver_id": 6774,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6203,
+        "vervar": "Kapuas",
+        "item_ver_id": 6775,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6204,
+        "vervar": "Barito Selatan",
+        "item_ver_id": 6776,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6205,
+        "vervar": "Barito Utara",
+        "item_ver_id": 6777,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6206,
+        "vervar": "Sukamara",
+        "item_ver_id": 6778,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6207,
+        "vervar": "Lamandau",
+        "item_ver_id": 6779,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6208,
+        "vervar": "Seruyan",
+        "item_ver_id": 6780,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6209,
+        "vervar": "Katingan",
+        "item_ver_id": 6781,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6210,
+        "vervar": "Pulang Pisau",
+        "item_ver_id": 6782,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6211,
+        "vervar": "Gunung Mas",
+        "item_ver_id": 6783,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6212,
+        "vervar": "Barito Timur",
+        "item_ver_id": 6784,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6213,
+        "vervar": "Murung Raya",
+        "item_ver_id": 6785,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6271,
+        "vervar": "Kota Palangka Raya",
+        "item_ver_id": 6786,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6300,
+        "vervar": "&lt;b&gt;KALIMANTAN SELATAN&lt;/b&gt;",
+        "item_ver_id": 6787,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6301,
+        "vervar": "Tanah Laut",
+        "item_ver_id": 6788,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6302,
+        "vervar": "Kotabaru",
+        "item_ver_id": 6789,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6303,
+        "vervar": "Banjar",
+        "item_ver_id": 6790,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6304,
+        "vervar": "Barito Kuala",
+        "item_ver_id": 6791,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6305,
+        "vervar": "Tapin",
+        "item_ver_id": 6792,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6306,
+        "vervar": "Hulu Sungai Selatan",
+        "item_ver_id": 6793,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6307,
+        "vervar": "Hulu Sungai Tengah",
+        "item_ver_id": 6794,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6308,
+        "vervar": "Hulu Sungai Utara",
+        "item_ver_id": 6795,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6309,
+        "vervar": "Tabalong",
+        "item_ver_id": 6796,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6310,
+        "vervar": "Tanah Bumbu",
+        "item_ver_id": 6797,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6311,
+        "vervar": "Balangan",
+        "item_ver_id": 6798,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6371,
+        "vervar": "Kota Banjarmasin",
+        "item_ver_id": 6799,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6372,
+        "vervar": "Kota Banjar Baru",
+        "item_ver_id": 6800,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6400,
+        "vervar": "&lt;b&gt;KALIMANTAN TIMUR&lt;/b&gt;",
+        "item_ver_id": 6801,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6401,
+        "vervar": "Paser",
+        "item_ver_id": 6802,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6402,
+        "vervar": "Kutai Barat",
+        "item_ver_id": 6803,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6403,
+        "vervar": "Kutai Kartanegara",
+        "item_ver_id": 6804,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6404,
+        "vervar": "Kutai Timur",
+        "item_ver_id": 6805,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6405,
+        "vervar": "Berau",
+        "item_ver_id": 6806,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6409,
+        "vervar": "Penajam Paser Utara",
+        "item_ver_id": 6807,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6411,
+        "vervar": "Mahakam Ulu",
+        "item_ver_id": 6808,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6471,
+        "vervar": "Kota Balikpapan",
+        "item_ver_id": 6809,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6472,
+        "vervar": "Kota Samarinda",
+        "item_ver_id": 6810,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6474,
+        "vervar": "Kota Bontang",
+        "item_ver_id": 6811,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6500,
+        "vervar": "&lt;b&gt;KALIMANTAN UTARA&lt;/b&gt;",
+        "item_ver_id": 6812,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6501,
+        "vervar": "Malinau",
+        "item_ver_id": 6813,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6502,
+        "vervar": "Bulungan",
+        "item_ver_id": 6814,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6503,
+        "vervar": "Tana Tidung",
+        "item_ver_id": 6815,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6504,
+        "vervar": "Nunukan",
+        "item_ver_id": 6816,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 6571,
+        "vervar": "Kota Tarakan",
+        "item_ver_id": 6817,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7100,
+        "vervar": "&lt;b&gt;SULAWESI UTARA&lt;/b&gt;",
+        "item_ver_id": 6818,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7101,
+        "vervar": "Bolaang Mongondow",
+        "item_ver_id": 6819,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7102,
+        "vervar": "Minahasa",
+        "item_ver_id": 6820,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7103,
+        "vervar": "Kepulauan Sangihe",
+        "item_ver_id": 6821,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7104,
+        "vervar": "Kepulauan Talaud",
+        "item_ver_id": 6822,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7105,
+        "vervar": "Minahasa Selatan",
+        "item_ver_id": 6823,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7106,
+        "vervar": "Minahasa Utara",
+        "item_ver_id": 6824,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7107,
+        "vervar": "Bolaang Mongondow Utara",
+        "item_ver_id": 6825,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7108,
+        "vervar": "Siau Tagulandang Biaro",
+        "item_ver_id": 6826,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7109,
+        "vervar": "Minahasa Tenggara",
+        "item_ver_id": 6827,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7110,
+        "vervar": "Bolaang Mongondow Selatan",
+        "item_ver_id": 6828,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7111,
+        "vervar": "Bolaang Mongondow Timur",
+        "item_ver_id": 6829,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7171,
+        "vervar": "Kota Manado",
+        "item_ver_id": 6830,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7172,
+        "vervar": "Kota Bitung",
+        "item_ver_id": 6831,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7173,
+        "vervar": "Kota Tomohon",
+        "item_ver_id": 6832,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7174,
+        "vervar": "Kota Kotamobagu",
+        "item_ver_id": 6833,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7200,
+        "vervar": "&lt;b&gt;SULAWESI TENGAH&lt;/b&gt;",
+        "item_ver_id": 6834,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7201,
+        "vervar": "Banggai Kepulauan",
+        "item_ver_id": 6835,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7202,
+        "vervar": "Banggai",
+        "item_ver_id": 6836,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7203,
+        "vervar": "Morowali",
+        "item_ver_id": 6837,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7204,
+        "vervar": "Poso",
+        "item_ver_id": 6838,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7205,
+        "vervar": "Donggala",
+        "item_ver_id": 6839,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7206,
+        "vervar": "Toli-Toli",
+        "item_ver_id": 6840,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7207,
+        "vervar": "Buol",
+        "item_ver_id": 6841,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7208,
+        "vervar": "Parigi Moutong",
+        "item_ver_id": 6842,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7209,
+        "vervar": "Tojo Una-Una",
+        "item_ver_id": 6843,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7210,
+        "vervar": "Sigi",
+        "item_ver_id": 6844,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7211,
+        "vervar": "Banggai Laut",
+        "item_ver_id": 6845,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7212,
+        "vervar": "Morowali Utara",
+        "item_ver_id": 6846,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7271,
+        "vervar": "Kota Palu",
+        "item_ver_id": 6847,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7300,
+        "vervar": "&lt;b&gt;SULAWESI SELATAN&lt;/b&gt;",
+        "item_ver_id": 6848,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7301,
+        "vervar": "Kepulauan Selayar",
+        "item_ver_id": 6849,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7302,
+        "vervar": "Bulukumba",
+        "item_ver_id": 6850,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7303,
+        "vervar": "Bantaeng",
+        "item_ver_id": 6851,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7304,
+        "vervar": "Jeneponto",
+        "item_ver_id": 6852,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7305,
+        "vervar": "Takalar",
+        "item_ver_id": 6853,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7306,
+        "vervar": "Gowa",
+        "item_ver_id": 6854,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7307,
+        "vervar": "Sinjai",
+        "item_ver_id": 6855,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7308,
+        "vervar": "Maros",
+        "item_ver_id": 6856,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7309,
+        "vervar": "Pangkajene dan Kepulauan",
+        "item_ver_id": 6857,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7310,
+        "vervar": "Barru",
+        "item_ver_id": 6858,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7311,
+        "vervar": "Bone",
+        "item_ver_id": 6859,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7312,
+        "vervar": "Soppeng",
+        "item_ver_id": 6860,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7313,
+        "vervar": "Wajo",
+        "item_ver_id": 6861,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7314,
+        "vervar": "Sidenreng Rappang",
+        "item_ver_id": 6862,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7315,
+        "vervar": "Pinrang",
+        "item_ver_id": 6863,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7316,
+        "vervar": "Enrekang",
+        "item_ver_id": 6864,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7317,
+        "vervar": "Luwu",
+        "item_ver_id": 6865,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7318,
+        "vervar": "Tana Toraja",
+        "item_ver_id": 6866,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7322,
+        "vervar": "Luwu Utara",
+        "item_ver_id": 6867,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7325,
+        "vervar": "Luwu Timur",
+        "item_ver_id": 6868,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7326,
+        "vervar": "Toraja Utara",
+        "item_ver_id": 6869,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7371,
+        "vervar": "Kota Makasar",
+        "item_ver_id": 6870,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7372,
+        "vervar": "Kota Parepare",
+        "item_ver_id": 6871,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7373,
+        "vervar": "Kota Palopo",
+        "item_ver_id": 6872,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7400,
+        "vervar": "&lt;b&gt;SULAWESI TENGGARA&lt;/b&gt;",
+        "item_ver_id": 6873,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7401,
+        "vervar": "Buton",
+        "item_ver_id": 6874,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7402,
+        "vervar": "Muna",
+        "item_ver_id": 6875,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7403,
+        "vervar": "Konawe",
+        "item_ver_id": 6876,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7404,
+        "vervar": "Kolaka",
+        "item_ver_id": 6877,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7405,
+        "vervar": "Konawe Selatan",
+        "item_ver_id": 6878,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7406,
+        "vervar": "Bombana",
+        "item_ver_id": 6879,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7407,
+        "vervar": "Wakatobi",
+        "item_ver_id": 6880,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7408,
+        "vervar": "Kolaka Utara",
+        "item_ver_id": 6881,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7409,
+        "vervar": "Buton Utara",
+        "item_ver_id": 6882,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7410,
+        "vervar": "Konawe Utara",
+        "item_ver_id": 6883,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7411,
+        "vervar": "Kolaka Timur",
+        "item_ver_id": 6884,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7412,
+        "vervar": "Konawe Kepulauan",
+        "item_ver_id": 6885,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7413,
+        "vervar": "Muna Barat",
+        "item_ver_id": 6886,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7414,
+        "vervar": "Buton Tengah",
+        "item_ver_id": 6887,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7415,
+        "vervar": "Buton Selatan",
+        "item_ver_id": 6888,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7471,
+        "vervar": "Kota Kendari",
+        "item_ver_id": 6889,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7472,
+        "vervar": "Kota Baubau",
+        "item_ver_id": 6890,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7500,
+        "vervar": "&lt;b&gt;GORONTALO&lt;/b&gt;",
+        "item_ver_id": 6891,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7501,
+        "vervar": "Boalemo",
+        "item_ver_id": 6892,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7502,
+        "vervar": "Gorontalo",
+        "item_ver_id": 6893,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7503,
+        "vervar": "Pohuwato",
+        "item_ver_id": 6894,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7504,
+        "vervar": "Bone Bolango",
+        "item_ver_id": 6895,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7505,
+        "vervar": "Gorontalo Utara",
+        "item_ver_id": 6896,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7571,
+        "vervar": "Kota Gorontalo",
+        "item_ver_id": 6897,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7600,
+        "vervar": "&lt;b&gt;SULAWESI BARAT&lt;/b&gt;",
+        "item_ver_id": 6898,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7601,
+        "vervar": "Majene",
+        "item_ver_id": 6899,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7602,
+        "vervar": "Polewali Mandar",
+        "item_ver_id": 6900,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7603,
+        "vervar": "Mamasa",
+        "item_ver_id": 6901,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7604,
+        "vervar": "Mamuju",
+        "item_ver_id": 6902,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7605,
+        "vervar": "Mamuju Utara / Pasangkayu",
+        "item_ver_id": 6903,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 7606,
+        "vervar": "Mamuju Tengah",
+        "item_ver_id": 6904,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 8100,
+        "vervar": "&lt;b&gt;MALUKU&lt;/b&gt;",
+        "item_ver_id": 6905,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 8101,
+        "vervar": "Maluku Tenggara Barat / Kepulauan Tanimbar",
+        "item_ver_id": 6906,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 8102,
+        "vervar": "Maluku Tenggara",
+        "item_ver_id": 6907,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 8103,
+        "vervar": "Maluku Tengah",
+        "item_ver_id": 6908,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 8104,
+        "vervar": "Buru",
+        "item_ver_id": 6909,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 8105,
+        "vervar": "Kepulauan Aru",
+        "item_ver_id": 6910,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 8106,
+        "vervar": "Seram Bagian Barat",
+        "item_ver_id": 6911,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 8107,
+        "vervar": "Seram Bagian Timur",
+        "item_ver_id": 6912,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 8108,
+        "vervar": "Maluku Barat Daya",
+        "item_ver_id": 6913,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 8109,
+        "vervar": "Buru Selatan",
+        "item_ver_id": 6914,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 8171,
+        "vervar": "Kota Ambon",
+        "item_ver_id": 6915,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 8172,
+        "vervar": "Kota Tual",
+        "item_ver_id": 6916,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 8200,
+        "vervar": "&lt;b&gt;MALUKU UTARA&lt;/b&gt;",
+        "item_ver_id": 6917,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 8201,
+        "vervar": "Halmahera Barat",
+        "item_ver_id": 6918,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 8202,
+        "vervar": "Halmahera Tengah",
+        "item_ver_id": 6919,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 8203,
+        "vervar": "Kepulauan Sula",
+        "item_ver_id": 6920,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 8204,
+        "vervar": "Halmahera Selatan",
+        "item_ver_id": 6921,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 8205,
+        "vervar": "Halmahera Utara",
+        "item_ver_id": 6922,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 8206,
+        "vervar": "Halmahera Timur",
+        "item_ver_id": 6923,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 8207,
+        "vervar": "Pulau Morotai",
+        "item_ver_id": 6924,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 8208,
+        "vervar": "Pulau Taliabu",
+        "item_ver_id": 6925,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 8271,
+        "vervar": "Kota Ternate",
+        "item_ver_id": 6926,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 8272,
+        "vervar": "Kota Tidore Kepulauan",
+        "item_ver_id": 6927,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9100,
+        "vervar": "&lt;b&gt;PAPUA BARAT&lt;/b&gt;",
+        "item_ver_id": 6928,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9101,
+        "vervar": "Fakfak",
+        "item_ver_id": 6929,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9102,
+        "vervar": "Kaimana",
+        "item_ver_id": 6930,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9103,
+        "vervar": "Teluk Wondama",
+        "item_ver_id": 6931,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9104,
+        "vervar": "Teluk Bintuni",
+        "item_ver_id": 6932,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9105,
+        "vervar": "Manokwari",
+        "item_ver_id": 6933,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9106,
+        "vervar": "Sorong Selatan",
+        "item_ver_id": 6934,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9107,
+        "vervar": "Sorong",
+        "item_ver_id": 6935,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9108,
+        "vervar": "Raja Ampat",
+        "item_ver_id": 6936,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9109,
+        "vervar": "Tambrauw",
+        "item_ver_id": 6937,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9110,
+        "vervar": "Maybrat",
+        "item_ver_id": 6938,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9111,
+        "vervar": "Manokwari Selatan",
+        "item_ver_id": 6939,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9112,
+        "vervar": "Pegunungan Arfak",
+        "item_ver_id": 6940,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9171,
+        "vervar": "Kota Sorong",
+        "item_ver_id": 6941,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9200,
+        "vervar": "&lt;b&gt;PAPUA BARAT DAYA&lt;/b&gt;",
+        "item_ver_id": 9418,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9201,
+        "vervar": "Raja Ampat",
+        "item_ver_id": 9419,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9202,
+        "vervar": "Sorong",
+        "item_ver_id": 9420,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9203,
+        "vervar": "Sorong Selatan",
+        "item_ver_id": 9421,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9204,
+        "vervar": "Maybrat",
+        "item_ver_id": 9422,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9205,
+        "vervar": "Tambrauw",
+        "item_ver_id": 9423,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9271,
+        "vervar": "Kota Sorong",
+        "item_ver_id": 9424,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9400,
+        "vervar": "&lt;b&gt;PAPUA&lt;/b&gt;",
+        "item_ver_id": 6942,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9401,
+        "vervar": "Merauke",
+        "item_ver_id": 6943,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9402,
+        "vervar": "Jayawijaya",
+        "item_ver_id": 6944,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9403,
+        "vervar": "Jayapura",
+        "item_ver_id": 6945,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9404,
+        "vervar": "Nabire",
+        "item_ver_id": 6946,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9408,
+        "vervar": "Kepulauan Yapen",
+        "item_ver_id": 6947,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9409,
+        "vervar": "Biak Numfor",
+        "item_ver_id": 6948,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9410,
+        "vervar": "Paniai",
+        "item_ver_id": 6949,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9411,
+        "vervar": "Puncak Jaya",
+        "item_ver_id": 6950,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9412,
+        "vervar": "Mimika",
+        "item_ver_id": 6951,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9413,
+        "vervar": "Boven Digoel",
+        "item_ver_id": 6952,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9414,
+        "vervar": "Mappi",
+        "item_ver_id": 6953,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9415,
+        "vervar": "Asmat",
+        "item_ver_id": 6954,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9416,
+        "vervar": "Yahukimo",
+        "item_ver_id": 6955,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9417,
+        "vervar": "Pegunungan Bintang",
+        "item_ver_id": 6956,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9418,
+        "vervar": "Tolikara",
+        "item_ver_id": 6957,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9419,
+        "vervar": "Sarmi",
+        "item_ver_id": 6958,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9420,
+        "vervar": "Keerom",
+        "item_ver_id": 6959,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9426,
+        "vervar": "Waropen",
+        "item_ver_id": 6960,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9427,
+        "vervar": "Supiori",
+        "item_ver_id": 6961,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9428,
+        "vervar": "Mamberamo Raya",
+        "item_ver_id": 6962,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9429,
+        "vervar": "Nduga",
+        "item_ver_id": 6963,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9430,
+        "vervar": "Lanny Jaya",
+        "item_ver_id": 6964,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9431,
+        "vervar": "Mamberamo Tengah",
+        "item_ver_id": 6965,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9432,
+        "vervar": "Yalimo",
+        "item_ver_id": 6966,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9433,
+        "vervar": "Puncak",
+        "item_ver_id": 6967,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9434,
+        "vervar": "Dogiyai",
+        "item_ver_id": 6968,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9435,
+        "vervar": "Intan Jaya",
+        "item_ver_id": 6969,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9436,
+        "vervar": "Deiyai",
+        "item_ver_id": 6970,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9471,
+        "vervar": "Kota Jayapura",
+        "item_ver_id": 6971,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9500,
+        "vervar": "&lt;b&gt;PAPUA SELATAN&lt;/b&gt;",
+        "item_ver_id": 9425,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9501,
+        "vervar": "Merauke",
+        "item_ver_id": 9426,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9502,
+        "vervar": "Boven Digoel",
+        "item_ver_id": 9427,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9503,
+        "vervar": "Mappi",
+        "item_ver_id": 9428,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9504,
+        "vervar": "Asmat",
+        "item_ver_id": 9429,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9600,
+        "vervar": "&lt;b&gt;PAPUA TENGAH&lt;/b&gt;",
+        "item_ver_id": 9430,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9601,
+        "vervar": "Mimika",
+        "item_ver_id": 9431,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9602,
+        "vervar": "Dogiyai",
+        "item_ver_id": 9432,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9603,
+        "vervar": "Deiyai",
+        "item_ver_id": 9433,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9604,
+        "vervar": "Nabire",
+        "item_ver_id": 9434,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9605,
+        "vervar": "Paniai",
+        "item_ver_id": 9435,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9606,
+        "vervar": "Intan Jaya",
+        "item_ver_id": 9436,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9607,
+        "vervar": "Puncak",
+        "item_ver_id": 9437,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9608,
+        "vervar": "Puncak Jaya",
+        "item_ver_id": 9438,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9700,
+        "vervar": "&lt;b&gt;PAPUA PEGUNUNGAN&lt;/b&gt;",
+        "item_ver_id": 9439,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9701,
+        "vervar": "Nduga",
+        "item_ver_id": 9440,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9702,
+        "vervar": "Jayawijaya",
+        "item_ver_id": 9441,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9703,
+        "vervar": "Lanny Jaya",
+        "item_ver_id": 9442,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9704,
+        "vervar": "Tolikara",
+        "item_ver_id": 9443,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9705,
+        "vervar": "Mamberamo Tengah",
+        "item_ver_id": 9444,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9706,
+        "vervar": "Yalimo",
+        "item_ver_id": 9445,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9707,
+        "vervar": "Yahukimo",
+        "item_ver_id": 9446,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9708,
+        "vervar": "Pegunungan Bintang",
+        "item_ver_id": 9447,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      },
+      {
+        "kode_ver_id": 9999,
+        "vervar": "&lt;b&gt;INDONESIA&lt;/b&gt;",
+        "item_ver_id": 6972,
+        "group_ver_id": 431,
+        "name_group_ver_id": "Provinsi/Kabupaten/Kota/Indonesia"
+      }
+    ]
+  }
+}
