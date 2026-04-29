@@ -9,12 +9,52 @@ function setText(id, value) {
   if (el) el.textContent = value ?? '0';
 }
 
+function formatNumber(value) {
+  return new Intl.NumberFormat('id-ID').format(value ?? 0);
+}
+
+function renderPhaseProgress(phases = []) {
+  const list = document.getElementById('phase-list');
+  if (!list) return;
+
+  list.innerHTML = phases.map((item) => `
+    <article class="phase-item phase-${item.status}">
+      <span class="phase-badge">Fase ${item.phase}</span>
+      <div>
+        <h3>${item.title}</h3>
+        <p>${item.description}</p>
+      </div>
+    </article>
+  `).join('');
+}
+
+function renderArtifacts(artifacts = []) {
+  const list = document.getElementById('artifact-list');
+  if (!list) return;
+
+  list.innerHTML = artifacts.map((artifact) => `<li><code>${artifact}</code></li>`).join('');
+}
+
 function render(data) {
+  const metrics = data.design_metrics || {};
+  const review = data.project?.review || {};
+
+  setText('current-phase', data.project?.current_phase || 'Fase tidak tersedia');
   setText('project-status', data.project?.status || 'Status tidak tersedia');
-  setText('indicator-count', data.summary?.indicator_count ?? 0);
-  setText('region-count', data.summary?.region_count ?? 0);
-  setText('year-count', data.summary?.year_count ?? 0);
-  setText('record-count', data.summary?.record_count ?? 0);
+  setText('review-pill', review.verdict ? `Review Fase ${review.phase}: ${review.score}/100 ${review.verdict}` : 'Review: -');
+
+  setText('valid-indicators', formatNumber(metrics.valid_indicators));
+  setText('api-probe-rows', formatNumber(metrics.api_probe_rows));
+  setText('normalized-sample-records', formatNumber(metrics.normalized_sample_records));
+  setText('schema-validation-tests', formatNumber(metrics.schema_validation_tests));
+  setText('dimension-tables', formatNumber(metrics.dimension_tables));
+  setText('fact-tables', formatNumber(metrics.fact_tables));
+  setText('audit-tables', formatNumber(metrics.audit_tables));
+  setText('unmatched-keys', formatNumber(metrics.unmatched_datacontent_keys));
+  setText('fact-grain', data.schema?.fact_grain || '-');
+
+  renderPhaseProgress(data.phase_progress || []);
+  renderArtifacts(data.artifacts || []);
 
   const empty = document.getElementById('empty-state');
   if (empty && (data.summary?.record_count ?? 0) === 0) {

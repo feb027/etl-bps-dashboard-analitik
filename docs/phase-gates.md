@@ -48,12 +48,12 @@ A phase is not complete until:
 
 ## Fase 2 Done Criteria — ETL Design
 
-- [ ] data dictionary exists
-- [ ] database schema exists
-- [ ] ETL architecture diagram/doc exists
-- [ ] transform rules documented
-- [ ] primary/unique keys defined
-- [ ] review approves
+- [x] data dictionary exists
+- [x] database schema exists
+- [x] ETL architecture diagram/doc exists
+- [x] transform rules documented
+- [x] primary/unique keys defined
+- [x] review approves
 
 ## Fase 3 Done Criteria — Extract Layer
 
