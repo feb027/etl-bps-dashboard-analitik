@@ -6,6 +6,7 @@
 - Date initialized: 2026-04-29
 - Repository: `feb027/etl-bps-dashboard-analitik`
 - Dashboard URL target: `https://feb027.github.io/etl-bps-dashboard-analitik/`
+- Latest verified commit: `0dfa08bb1124dcdfaa422981dce6db81c20fe13b`
 
 ## Decisions
 
@@ -34,6 +35,17 @@
 |---|---|---:|---|---|
 | 0A/0B | Codex lecturer/technical reviewer | 88 | APPROVED | `docs/REVIEW_phase0b.md` |
 
+## Remote & Pages Verification
+
+| Check | Result |
+|---|---|
+| GitHub repo | `https://github.com/feb027/etl-bps-dashboard-analitik` |
+| Remote main commit | `0dfa08bb1124dcdfaa422981dce6db81c20fe13b` |
+| GitHub Pages URL | `https://feb027.github.io/etl-bps-dashboard-analitik/` |
+| Page HTTP | 200 verified |
+| Dashboard JSON HTTP | 200 verified |
+| Dashboard JSON status | `Fase 0B scaffold; data statistik belum tersedia` |
+
 ## Blockers
 
 - BPS API key must be provided locally in `.env` for Fase 1.
@@ -41,7 +53,6 @@
 
 ## Next Action
 
-1. Re-authenticate GitHub CLI token or create the remote repo manually, then push scaffold.
-2. Enable GitHub Pages from root and verify HTTP 200.
-3. Update Fase 0B gate after remote/pages verification.
-4. Start branch `phase-1-bps-api-research`.
+1. Start branch `phase-1-bps-api-research`.
+2. Implement `scripts/verify_bps_api.py` to probe BPS `var`, `th`, `vervar`, `turvar`, `turth`, `unit`, and `data`.
+3. Save API evidence under `results/api/` and normalized sample tables under `results/tables/`.

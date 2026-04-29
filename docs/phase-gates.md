@@ -20,7 +20,7 @@ A phase is not complete until:
 
 ## Fase 0B Done Criteria
 
-- [ ] GitHub repo created and pushed
+- [x] GitHub repo created and pushed
 - [x] README exists
 - [x] `.gitignore` protects secrets/data/db
 - [x] `.env.example` exists
@@ -30,7 +30,7 @@ A phase is not complete until:
 - [x] `python3 -m py_compile scripts/*.py` passes
 - [x] `python3 -m pytest -q` passes
 - [x] `dashboard/data/dashboard-data.json` is valid JSON
-- [ ] GitHub Pages enabled and HTTP 200 verified
+- [x] GitHub Pages enabled and HTTP 200 verified
 - [x] Fase 0B review file exists
 
 ## Fase 1 Done Criteria — BPS API Research
