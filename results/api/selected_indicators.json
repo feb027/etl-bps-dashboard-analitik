@@ -1,0 +1,86 @@
+[
+  {
+    "indicator_key": "poverty_rate",
+    "var_id": 192,
+    "theme": "Kemiskinan",
+    "reason": "Persentase penduduk miskin, indikator inti sosial-ekonomi.",
+    "indicator_label": "Persentase Penduduk Miskin (P0) Menurut Provinsi dan Daerah",
+    "unit": "Persen",
+    "subject": "Kemiskinan dan Ketimpangan",
+    "target_years": [
+      "2023",
+      "2022",
+      "2021"
+    ],
+    "period_ids": {
+      "2023": 123,
+      "2022": 122,
+      "2021": 121
+    },
+    "decoded_records": 520,
+    "unmatched_keys": 0
+  },
+  {
+    "indicator_key": "open_unemployment_rate",
+    "var_id": 543,
+    "theme": "Ketenagakerjaan",
+    "reason": "Tingkat pengangguran terbuka, indikator pasar kerja.",
+    "indicator_label": "Tingkat Pengangguran Terbuka Menurut Provinsi",
+    "unit": "Persen",
+    "subject": "Tenaga Kerja",
+    "target_years": [
+      "2023",
+      "2022",
+      "2021"
+    ],
+    "period_ids": {
+      "2023": 123,
+      "2022": 122,
+      "2021": 121
+    },
+    "decoded_records": 210,
+    "unmatched_keys": 0
+  },
+  {
+    "indicator_key": "mean_years_schooling_new_method",
+    "var_id": 415,
+    "theme": "Pendidikan",
+    "reason": "Rata-rata lama sekolah metode baru, indikator pendidikan.",
+    "indicator_label": "[Metode Baru] Rata-rata Lama Sekolah",
+    "unit": "Tahun",
+    "subject": "Indeks Pembangunan Manusia",
+    "target_years": [
+      "2023",
+      "2022",
+      "2021"
+    ],
+    "period_ids": {
+      "2023": 123,
+      "2022": 122,
+      "2021": 121
+    },
+    "decoded_records": 1647,
+    "unmatched_keys": 0
+  },
+  {
+    "indicator_key": "human_development_index_new_method",
+    "var_id": 494,
+    "theme": "Pembangunan Manusia",
+    "reason": "IPM metode baru, indikator pembangunan sosial-ekonomi.",
+    "indicator_label": "[Metode Baru] Indeks Pembangunan Manusia (IPM) menurut Provinsi",
+    "unit": "",
+    "subject": "Indeks Pembangunan Manusia",
+    "target_years": [
+      "2023",
+      "2022",
+      "2021"
+    ],
+    "period_ids": {
+      "2023": 123,
+      "2022": 122,
+      "2021": 121
+    },
+    "decoded_records": 113,
+    "unmatched_keys": 0
+  }
+]

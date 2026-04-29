@@ -1,0 +1,84 @@
+{
+  "indicator_key": "open_unemployment_rate",
+  "var_id": 543,
+  "var": [
+    {
+      "val": 543,
+      "label": "Tingkat Pengangguran Terbuka Menurut Provinsi",
+      "unit": "Persen",
+      "subj": "Tenaga Kerja",
+      "def": "",
+      "decimal": 2,
+      "note": "<p>Data 2011-2013 menggunakan Backcast dari Penimbang Proyeksi Komponen                    <br />Data 2018-2020 menggunakan Backcast dari Penimbang berbasis SUPAS 2015                    <br />1986-1998, penghitungan tanpa data Provinsi Timor Timor                    <br />Pada tahun 1995, Sakernas tidak dilaksanakan                    <br />Pada tahun 2000, tanpa Maluku                    <br />Sumber: Survei Angkatan Kerja Nasional (Sakernas)                    <br /><br /><br /></p><p><br /></p><p><br /></p>"
+    }
+  ],
+  "vervar_sample": [
+    {
+      "val": 1100,
+      "label": "ACEH"
+    },
+    {
+      "val": 1200,
+      "label": "SUMATERA UTARA"
+    },
+    {
+      "val": 1300,
+      "label": "SUMATERA BARAT"
+    },
+    {
+      "val": 1400,
+      "label": "RIAU"
+    },
+    {
+      "val": 1500,
+      "label": "JAMBI"
+    },
+    {
+      "val": 1600,
+      "label": "SUMATERA SELATAN"
+    },
+    {
+      "val": 1700,
+      "label": "BENGKULU"
+    },
+    {
+      "val": 1800,
+      "label": "LAMPUNG"
+    },
+    {
+      "val": 1900,
+      "label": "KEP. BANGKA BELITUNG"
+    },
+    {
+      "val": 2100,
+      "label": "KEP. RIAU"
+    }
+  ],
+  "turvar": [
+    {
+      "val": "0",
+      "label": "Tidak ada"
+    }
+  ],
+  "tahun": [
+    {
+      "val": 123,
+      "label": "2023"
+    }
+  ],
+  "turtahun": [
+    {
+      "val": 189,
+      "label": "Februari"
+    },
+    {
+      "val": 190,
+      "label": "Agustus"
+    },
+    {
+      "val": 191,
+      "label": "Tahunan"
+    }
+  ],
+  "datacontent_key_rule": "vervar.val + var.val + turvar.val + tahun.val + turtahun.val"
+}

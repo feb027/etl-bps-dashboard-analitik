@@ -1,0 +1,76 @@
+{
+  "indicator_key": "mean_years_schooling_new_method",
+  "var_id": 415,
+  "var": [
+    {
+      "val": 415,
+      "label": "[Metode Baru] Rata-rata Lama Sekolah",
+      "unit": "Tahun",
+      "subj": "Indeks Pembangunan Manusia",
+      "def": "",
+      "decimal": 2,
+      "note": "<p><br /></p><p><br /></p><p><br /></p><p>Untuk penjelasan lebih lanjut mengenai IPM metode baru silahkan klik link di bawah ini\n<br /><a href=\"https://searchengine.web.bps.go.id/filemenu/Booklet-IPM-Metode-Baru.pdf\">-Booklet IPM metode Baru</a>\n<br /><a href=\"https://searchengine.web.bps.go.id/filemenu/Bahan-Sosialisasi-IPM-Metode-Baru.pdf\">-Bahan Sosialisasi IPM metode baru</a><br /></p><p><br /></p><p><br /></p><p><br /></p>"
+    }
+  ],
+  "vervar_sample": [
+    {
+      "val": 1100,
+      "label": "<b>ACEH</b>"
+    },
+    {
+      "val": 1101,
+      "label": "Simeulue"
+    },
+    {
+      "val": 1102,
+      "label": "Aceh Singkil"
+    },
+    {
+      "val": 1103,
+      "label": "Aceh Selatan"
+    },
+    {
+      "val": 1104,
+      "label": "Aceh Tenggara"
+    },
+    {
+      "val": 1105,
+      "label": "Aceh Timur"
+    },
+    {
+      "val": 1106,
+      "label": "Aceh Tengah"
+    },
+    {
+      "val": 1107,
+      "label": "Aceh Barat"
+    },
+    {
+      "val": 1108,
+      "label": "Aceh Besar"
+    },
+    {
+      "val": 1109,
+      "label": "Pidie"
+    }
+  ],
+  "turvar": [
+    {
+      "val": "0",
+      "label": "Tidak ada"
+    }
+  ],
+  "tahun": [
+    {
+      "val": 123,
+      "label": "2023"
+    }
+  ],
+  "turtahun": [
+    {
+      "val": 0,
+      "label": "Tahun"
+    }
+  ],
+  "datacontent_key_rule": "vervar.val + var.val + turvar.val + tahun.val + turtahun.val"
+}

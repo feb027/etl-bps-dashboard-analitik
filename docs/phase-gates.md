@@ -35,16 +35,16 @@ A phase is not complete until:
 
 ## Fase 1 Done Criteria — BPS API Research
 
-- [ ] API key loaded only from `.env`
-- [ ] BPS docs/source logged in references
-- [ ] `model=var` verified
-- [ ] `model=th` verified and `th_id` usage documented
-- [ ] `model=vervar`, `turvar`, `turth` checked for target indicators
-- [ ] `model=data` produces real `datacontent`
-- [ ] at least 3 valid indicators selected
-- [ ] normalized sample table exists
-- [ ] progress report exists
-- [ ] lecturer/technical review approves
+- [x] API key loaded only from `.env`
+- [x] BPS docs/source logged in references
+- [x] `model=var` verified
+- [x] `model=th` verified and `th_id` usage documented
+- [x] `model=vervar`, `turvar`, `turth` checked for target indicators
+- [x] `model=data` produces real `datacontent`
+- [x] at least 3 valid indicators selected
+- [x] normalized sample table exists
+- [x] progress report exists
+- [x] lecturer/technical review approves
 
 ## Fase 2 Done Criteria — ETL Design
 

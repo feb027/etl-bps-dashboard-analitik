@@ -1,0 +1,76 @@
+{
+  "indicator_key": "human_development_index_new_method",
+  "var_id": 494,
+  "var": [
+    {
+      "val": 494,
+      "label": "[Metode Baru] Indeks Pembangunan Manusia (IPM) menurut Provinsi",
+      "unit": "",
+      "subj": "Indeks Pembangunan Manusia",
+      "def": "",
+      "decimal": 2,
+      "note": "<p><br /></p><p><br /></p><p><br /></p><p>Untuk penjelasan lebih lanjut mengenai IPM metode baru silahkan klik link di bawah ini\n<br /><a href=\"https://searchengine.web.bps.go.id/filemenu/Booklet-IPM-Metode-Baru.pdf\">-Booklet IPM metode Baru</a>\n<br /><a href=\"https://searchengine.web.bps.go.id/filemenu/Bahan-Sosialisasi-IPM-Metode-Baru.pdf\">-Bahan Sosialisasi IPM metode baru</a><br /></p><p><br /></p><p><br /></p><p><br /></p>"
+    }
+  ],
+  "vervar_sample": [
+    {
+      "val": 1100,
+      "label": "ACEH"
+    },
+    {
+      "val": 1200,
+      "label": "SUMATERA UTARA"
+    },
+    {
+      "val": 1300,
+      "label": "SUMATERA BARAT"
+    },
+    {
+      "val": 1400,
+      "label": "RIAU"
+    },
+    {
+      "val": 1500,
+      "label": "JAMBI"
+    },
+    {
+      "val": 1600,
+      "label": "SUMATERA SELATAN"
+    },
+    {
+      "val": 1700,
+      "label": "BENGKULU"
+    },
+    {
+      "val": 1800,
+      "label": "LAMPUNG"
+    },
+    {
+      "val": 1900,
+      "label": "KEP. BANGKA BELITUNG"
+    },
+    {
+      "val": 2100,
+      "label": "KEP. RIAU"
+    }
+  ],
+  "turvar": [
+    {
+      "val": "0",
+      "label": "Tidak ada"
+    }
+  ],
+  "tahun": [
+    {
+      "val": 123,
+      "label": "2023"
+    }
+  ],
+  "turtahun": [
+    {
+      "val": 0,
+      "label": "Tahun"
+    }
+  ],
+  "datacontent_key_rule": "vervar.val + var.val + turvar.val + tahun.val + turtahun.val"
+}
