@@ -1,0 +1,14 @@
+{
+  "source": "BPS Web API Documentation",
+  "url": "https://webapi.bps.go.id/documentation/",
+  "relevant_models": [
+    "var",
+    "th",
+    "vervar",
+    "turvar",
+    "turth",
+    "unit",
+    "data"
+  ],
+  "note": "Fase 1 uses official BPS dynamic data models and stores API responses without the API key."
+}
