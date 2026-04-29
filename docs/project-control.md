@@ -2,11 +2,11 @@
 
 ## Current Status
 
-- Current phase: **1 — BPS API Research & Proof**
+- Current phase: **2 — ETL Architecture & Schema**
 - Date initialized: 2026-04-29
 - Repository: `feb027/etl-bps-dashboard-analitik`
 - Dashboard URL target: `https://feb027.github.io/etl-bps-dashboard-analitik/`
-- Latest verified commit: `0dfa08bb1124dcdfaa422981dce6db81c20fe13b`
+- Latest verified commit: `22442189ff4e270befca8fcbdae3d7fb77ab9890`
 
 ## Decisions
 
@@ -34,6 +34,11 @@
 | `results/tables/bps_api_probe_results.csv` | Probe table per indicator/year | Created |
 | `results/tables/normalized_sample.csv` | Decoded tabular sample | Created |
 | `reports/progress-1-api-research.md` | Fase 1 progress report | Created |
+| `docs/etl-architecture.md` | Fase 2 ETL architecture design | Created |
+| `docs/database-schema.md` | Fase 2 SQLite schema explanation | Created |
+| `docs/transform-rules.md` | Fase 2 transform rules | Created |
+| `src/bps_etl/load/schema.sql` | SQLite DDL design | Created |
+| `tests/test_schema.py` | Executable schema validation | Created |
 
 ## Review Status
 
@@ -41,6 +46,7 @@
 |---|---|---:|---|---|
 | 0A/0B | Codex lecturer/technical reviewer | 88 | APPROVED | `docs/REVIEW_phase0b.md` |
 | 1 | Codex lecturer/technical reviewer | 90 | APPROVED | `docs/REVIEW_phase1_api_research.md` |
+| 2 | Codex lecturer/technical reviewer | 88 | APPROVED | `docs/REVIEW_phase2_etl_design.md` |
 
 ## Remote & Pages Verification
 
@@ -69,8 +75,19 @@
 
 Key finding: `model=data` requires `th_id` from `model=th`; BPS `datacontent` keys decode as `vervar.val + var.val + turvar.val + tahun.val + turtahun.val`.
 
+## Fase 2 Snapshot
+
+| Metric | Value |
+|---|---:|
+| Dimension tables | 5 |
+| Fact tables | 1 |
+| Audit tables | 2 |
+| Schema validation tests | 10 |
+
+Schema grain: `var_id + kode_wilayah + th_id + turvar_id + turth_id + source_domain`.
+
 ## Next Action
 
-1. Push branch `phase-1-bps-api-research`.
+1. Push branch `phase-2-etl-architecture-schema`.
 2. Open PR to `main`.
-3. Start Fase 2 — ETL architecture and schema after PR is reviewed/merged.
+3. Start Fase 3 — Extract Layer after PR is reviewed/merged.
