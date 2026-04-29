@@ -1,8 +1,15 @@
 {
   "project": {
     "title": "ETL BPS Dashboard Analitik",
-    "status": "Fase 0B scaffold; data statistik belum tersedia",
-    "generated_at": "2026-04-29T15:00:08.658261+00:00"
+    "status": "Fase 2 complete: ETL architecture dan schema SQLite sudah disetujui; data statistik belum diload ke dashboard.",
+    "current_phase": "2 — ETL Architecture & Schema",
+    "generated_at": "2026-04-29T16:05:24Z",
+    "review": {
+      "phase": 2,
+      "score": 88,
+      "verdict": "APPROVED",
+      "file": "docs/REVIEW_phase2_etl_design.md"
+    }
   },
   "summary": {
     "indicator_count": 0,
@@ -11,6 +18,65 @@
     "record_count": 0,
     "last_etl_run": null
   },
+  "phase_progress": [
+    {
+      "phase": "0B",
+      "title": "Repository Infrastructure",
+      "status": "complete",
+      "description": "Scaffold repo, dashboard empty-state, GitHub Pages, dan smoke tests."
+    },
+    {
+      "phase": "1",
+      "title": "BPS API Research & Proof",
+      "status": "complete",
+      "description": "4 indikator BPS valid, 12 probe rows, 2490 normalized sample records, 0 unmatched datacontent keys."
+    },
+    {
+      "phase": "2",
+      "title": "ETL Architecture & Schema",
+      "status": "complete",
+      "description": "Star-schema SQLite, transform rules, data dictionary, dan 10 schema validation tests selesai."
+    },
+    {
+      "phase": "3",
+      "title": "Extract Layer",
+      "status": "next",
+      "description": "Implementasi extractor production untuk metadata dan data BPS."
+    }
+  ],
+  "design_metrics": {
+    "valid_indicators": 4,
+    "api_probe_rows": 12,
+    "normalized_sample_records": 2490,
+    "unmatched_datacontent_keys": 0,
+    "dimension_tables": 5,
+    "fact_tables": 1,
+    "audit_tables": 2,
+    "schema_validation_tests": 10
+  },
+  "schema": {
+    "fact_grain": "var_id + kode_wilayah + th_id + turvar_id + turth_id + source_domain",
+    "tables": [
+      "dim_indikator",
+      "dim_wilayah",
+      "dim_waktu",
+      "dim_turvar",
+      "dim_turtahun",
+      "fact_statistik",
+      "raw_api_snapshot",
+      "etl_run_log"
+    ]
+  },
+  "artifacts": [
+    "docs/etl-architecture.md",
+    "docs/database-schema.md",
+    "docs/transform-rules.md",
+    "docs/data-dictionary.md",
+    "src/bps_etl/load/schema.sql",
+    "tests/test_schema.py",
+    "reports/progress-2-etl-design.md",
+    "docs/REVIEW_phase2_etl_design.md"
+  ],
   "charts": {
     "trend": [],
     "regional_comparison": []
@@ -18,9 +84,11 @@
   "quality": {
     "missing_values": null,
     "duplicate_records": null,
-    "api_calls": null,
+    "api_calls": 12,
     "notes": [
-      "Dashboard intentionally shows empty state until real ETL artifacts exist."
+      "Dashboard tetap tidak menampilkan grafik statistik sampai ETL load real-data selesai.",
+      "Angka Fase 1 dan Fase 2 di halaman ini adalah evidence project/design, bukan nilai statistik sosial ekonomi.",
+      "Tidak ada chart palsu atau record palsu."
     ]
   }
 }

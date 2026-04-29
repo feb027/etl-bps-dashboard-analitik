@@ -11,29 +11,55 @@
     <header class="hero">
       <p class="eyebrow">Rekayasa Data · Web API BPS</p>
       <h1>ETL BPS Dashboard Analitik</h1>
-      <p class="subtitle">Dashboard statis berbasis artifact JSON. Tidak menampilkan dummy data.</p>
+      <p class="subtitle">Dashboard artifact-driven. Fase desain ETL ditampilkan sebagai progress project; grafik statistik hanya muncul setelah real ETL load selesai.</p>
     </header>
 
     <section class="status-card" id="status-card">
-      <h2>Status Proyek</h2>
-      <p id="project-status">Memuat status...</p>
+      <div>
+        <p class="section-label">Status Proyek</p>
+        <h2 id="current-phase">Memuat fase...</h2>
+        <p id="project-status">Memuat status...</p>
+      </div>
+      <div class="review-pill" id="review-pill">Review: -</div>
     </section>
 
-    <section class="metrics" aria-label="Ringkasan data">
-      <article><span id="indicator-count">0</span><small>Indikator</small></article>
-      <article><span id="region-count">0</span><small>Wilayah</small></article>
-      <article><span id="year-count">0</span><small>Tahun</small></article>
-      <article><span id="record-count">0</span><small>Record</small></article>
+    <section class="metrics" aria-label="Evidence fase 1 dan fase 2">
+      <article><span id="valid-indicators">0</span><small>Indikator Valid</small></article>
+      <article><span id="api-probe-rows">0</span><small>Probe API</small></article>
+      <article><span id="normalized-sample-records">0</span><small>Sample Normalized</small></article>
+      <article><span id="schema-validation-tests">0</span><small>Schema Tests</small></article>
+    </section>
+
+    <section class="metrics compact" aria-label="Ringkasan schema">
+      <article><span id="dimension-tables">0</span><small>Dimension Tables</small></article>
+      <article><span id="fact-tables">0</span><small>Fact Table</small></article>
+      <article><span id="audit-tables">0</span><small>Audit Tables</small></article>
+      <article><span id="unmatched-keys">0</span><small>Unmatched Keys</small></article>
+    </section>
+
+    <section class="status-card">
+      <p class="section-label">Fact Grain</p>
+      <code id="fact-grain">Memuat grain...</code>
+    </section>
+
+    <section class="phase-card">
+      <p class="section-label">Phase Progress</p>
+      <div class="phase-list" id="phase-list"></div>
     </section>
 
     <section class="empty-state" id="empty-state" hidden>
-      <h2>Data statistik belum tersedia</h2>
-      <p>Jalankan fase API research, ETL, dan dashboard generator sebelum grafik analitik ditampilkan.</p>
+      <h2>Data statistik belum tersedia di dashboard</h2>
+      <p>Fase 2 baru menyelesaikan desain arsitektur dan schema. Grafik sosial ekonomi akan ditampilkan setelah Fase 3–5 menyelesaikan extract, transform, dan load real-data.</p>
       <code>python scripts/run_etl.py --mode quick</code>
     </section>
 
     <section class="method-card">
-      <h2>Metodologi Target</h2>
+      <p class="section-label">Artifact Fase 2</p>
+      <ul class="artifact-list" id="artifact-list"></ul>
+    </section>
+
+    <section class="method-card">
+      <p class="section-label">Metodologi Target</p>
       <ol>
         <li>Extract data dan metadata dari Web API BPS.</li>
         <li>Transform respons JSON menjadi tabel tervalidasi.</li>
