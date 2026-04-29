@@ -32,7 +32,7 @@
 
 | Phase | Reviewer | Score | Verdict | File |
 |---|---|---:|---|---|
-| 0A/0B | Pending | - | Pending | - |
+| 0A/0B | Codex lecturer/technical reviewer | 88 | APPROVED | `docs/REVIEW_phase0b.md` |
 
 ## Blockers
 
@@ -41,7 +41,7 @@
 
 ## Next Action
 
-1. Commit and push scaffold.
-2. Enable GitHub Pages from root.
-3. Run Fase 0B review gate.
+1. Re-authenticate GitHub CLI token or create the remote repo manually, then push scaffold.
+2. Enable GitHub Pages from root and verify HTTP 200.
+3. Update Fase 0B gate after remote/pages verification.
 4. Start branch `phase-1-bps-api-research`.
