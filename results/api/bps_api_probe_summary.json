@@ -1,0 +1,13 @@
+{
+  "status": "planned",
+  "message": "Implement API probes in Fase 1 after API key is configured locally.",
+  "models_to_verify": [
+    "var",
+    "th",
+    "vervar",
+    "turvar",
+    "turth",
+    "unit",
+    "data"
+  ]
+}

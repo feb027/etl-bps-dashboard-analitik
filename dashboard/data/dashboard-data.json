@@ -1,0 +1,26 @@
+{
+  "project": {
+    "title": "ETL BPS Dashboard Analitik",
+    "status": "Fase 0B scaffold; data statistik belum tersedia",
+    "generated_at": "2026-04-29T15:00:08.658261+00:00"
+  },
+  "summary": {
+    "indicator_count": 0,
+    "region_count": 0,
+    "year_count": 0,
+    "record_count": 0,
+    "last_etl_run": null
+  },
+  "charts": {
+    "trend": [],
+    "regional_comparison": []
+  },
+  "quality": {
+    "missing_values": null,
+    "duplicate_records": null,
+    "api_calls": null,
+    "notes": [
+      "Dashboard intentionally shows empty state until real ETL artifacts exist."
+    ]
+  }
+}

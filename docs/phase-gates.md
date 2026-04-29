@@ -1,0 +1,109 @@
+# Phase Gates
+
+## Global Done Rule
+
+A phase is not complete until:
+1. expected artifacts exist,
+2. tests/validations pass,
+3. docs match artifacts,
+4. no dummy/fake data is presented as real,
+5. review gate is approved or explicitly deferred by user.
+
+## Fase 0A Done Criteria
+
+- [x] `AGENTS.md` exists
+- [x] project-control exists
+- [x] workflow doc exists
+- [x] phase gates exist
+- [x] reviewer prompts exist
+- [x] user approved operating model
+
+## Fase 0B Done Criteria
+
+- [ ] GitHub repo created and pushed
+- [x] README exists
+- [x] `.gitignore` protects secrets/data/db
+- [x] `.env.example` exists
+- [x] package scaffold exists
+- [x] static dashboard shell exists
+- [x] smoke test exists
+- [x] `python3 -m py_compile scripts/*.py` passes
+- [x] `python3 -m pytest -q` passes
+- [x] `dashboard/data/dashboard-data.json` is valid JSON
+- [ ] GitHub Pages enabled and HTTP 200 verified
+- [ ] Fase 0B review file exists
+
+## Fase 1 Done Criteria — BPS API Research
+
+- [ ] API key loaded only from `.env`
+- [ ] BPS docs/source logged in references
+- [ ] `model=var` verified
+- [ ] `model=th` verified and `th_id` usage documented
+- [ ] `model=vervar`, `turvar`, `turth` checked for target indicators
+- [ ] `model=data` produces real `datacontent`
+- [ ] at least 3 valid indicators selected
+- [ ] normalized sample table exists
+- [ ] progress report exists
+- [ ] lecturer/technical review approves
+
+## Fase 2 Done Criteria — ETL Design
+
+- [ ] data dictionary exists
+- [ ] database schema exists
+- [ ] ETL architecture diagram/doc exists
+- [ ] transform rules documented
+- [ ] primary/unique keys defined
+- [ ] review approves
+
+## Fase 3 Done Criteria — Extract Layer
+
+- [ ] BPS client implemented
+- [ ] retry and timeout implemented
+- [ ] raw evidence saving implemented
+- [ ] no hardcoded key
+- [ ] unit tests with mocked response pass
+- [ ] review approves
+
+## Fase 4 Done Criteria — Transform Layer
+
+- [ ] `datacontent` decoder implemented
+- [ ] normalized fact preview exists
+- [ ] data quality metrics exist
+- [ ] duplicate/missing checks implemented
+- [ ] tests pass
+- [ ] review approves
+
+## Fase 5 Done Criteria — Load Layer
+
+- [ ] SQLite schema implemented
+- [ ] quick ETL run fills dimensions and facts
+- [ ] rerun is idempotent
+- [ ] ETL run log works
+- [ ] tests pass
+- [ ] review approves
+
+## Fase 6 Done Criteria — Dashboard
+
+- [ ] dashboard JSON generated from real database/artifacts
+- [ ] no fake chart/table
+- [ ] static dashboard renders locally
+- [ ] GitHub Pages works
+- [ ] screenshots saved
+- [ ] review approves
+
+## Fase 7 Done Criteria — Report
+
+- [ ] final report complete
+- [ ] all claims backed by artifacts
+- [ ] references valid
+- [ ] figures/tables linked
+- [ ] lecturer review approves
+
+## Fase 8 Done Criteria — Final Audit
+
+- [ ] repo clean
+- [ ] no secrets/data/db tracked
+- [ ] tests pass
+- [ ] dashboard link works
+- [ ] final review approves
+- [ ] release/tag optional

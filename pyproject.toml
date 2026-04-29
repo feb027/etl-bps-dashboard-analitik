@@ -1,0 +1,9 @@
+[project]
+name = "etl-bps-dashboard-analitik"
+version = "0.1.0"
+description = "ETL pipeline and static analytics dashboard for socioeconomic data from BPS Web API."
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
