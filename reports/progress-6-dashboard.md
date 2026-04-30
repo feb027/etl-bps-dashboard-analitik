@@ -49,3 +49,10 @@ git diff --check
 ## Review Gate
 
 Approved: `docs/REVIEW_phase6_dashboard.md`, skor 91/100.
+
+## Live Verification
+
+- GitHub Pages root: `https://feb027.github.io/etl-bps-dashboard-analitik/` returned HTTP 200.
+- Dashboard page: `https://feb027.github.io/etl-bps-dashboard-analitik/dashboard/` returned HTTP 200.
+- Dashboard JSON: `https://feb027.github.io/etl-bps-dashboard-analitik/dashboard/data/dashboard-data.json` returned HTTP 200 and `current_phase = 6 — Dashboard`.
+- OG image: `https://feb027.github.io/etl-bps-dashboard-analitik/dashboard/og-dashboard.png` returned HTTP 200.

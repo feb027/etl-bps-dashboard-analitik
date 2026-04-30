@@ -87,7 +87,7 @@ A phase is not complete until:
 - [x] dashboard JSON generated from real database/artifacts
 - [x] no fake chart/table
 - [x] static dashboard renders locally
-- [ ] GitHub Pages works
+- [x] GitHub Pages works
 - [x] screenshots saved
 - [x] review approves
 

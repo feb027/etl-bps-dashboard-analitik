@@ -79,7 +79,7 @@
 | GitHub Pages URL | `https://feb027.github.io/etl-bps-dashboard-analitik/` |
 | Page HTTP | 200 verified |
 | Dashboard JSON HTTP | 200 verified |
-| Dashboard JSON status | Fase 6 dashboard approved locally; live GitHub Pages verification pending PR merge |
+| Dashboard JSON status | Fase 6 dashboard approved and live JSON verified with `current_phase = 6 — Dashboard` |
 
 ## Blockers
 
@@ -170,6 +170,6 @@ Design system: `docs/dashboard-design-system.md`.
 
 ## Next Action
 
-1. Push branch and open PR to `main`.
-2. Merge after checks pass.
-3. Verify live GitHub Pages dashboard and JSON after deployment.
+1. Start Fase 7 — final academic report from the approved ETL/dashboard artifacts.
+2. Use `results/figures/dashboard-phase6-full.png` as dashboard evidence.
+3. Keep SQLite database ignored; regenerate dashboard JSON only from local load output.
