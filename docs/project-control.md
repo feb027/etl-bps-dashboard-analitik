@@ -6,7 +6,7 @@
 - Date initialized: 2026-04-29
 - Repository: `feb027/etl-bps-dashboard-analitik`
 - Dashboard URL target: `https://feb027.github.io/etl-bps-dashboard-analitik/`
-- Latest verified commit: `735bf0712af827e3a5729a83360cd053c418f0ff`
+- Latest verified data commit: `d35a9d696aee91146cde4ba412c38eecab395a7d`
 
 ## Decisions
 
@@ -77,11 +77,11 @@
 | Check | Result |
 |---|---|
 | GitHub repo | `https://github.com/feb027/etl-bps-dashboard-analitik` |
-| Remote main commit | `011f010be2f3cbe6568bac13887c553ec47225a2` |
+| Verified Fase 6.1 data commit | `d35a9d696aee91146cde4ba412c38eecab395a7d` |
 | GitHub Pages URL | `https://feb027.github.io/etl-bps-dashboard-analitik/` |
 | Page HTTP | 200 verified |
 | Dashboard JSON HTTP | 200 verified |
-| Dashboard JSON status | Fase 6.1 data expansion generated locally; live verification pending until the Fase 6.1 commit is published |
+| Dashboard JSON status | Fase 6.1 live JSON verified with `current_phase = 6.1 — Data Expansion`, `record_count = 4292`, `indicator_count = 6`, `year_count = 4` |
 
 ## Blockers
 
