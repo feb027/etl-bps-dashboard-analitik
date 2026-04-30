@@ -84,12 +84,12 @@ A phase is not complete until:
 
 ## Fase 6 Done Criteria — Dashboard
 
-- [ ] dashboard JSON generated from real database/artifacts
-- [ ] no fake chart/table
-- [ ] static dashboard renders locally
+- [x] dashboard JSON generated from real database/artifacts
+- [x] no fake chart/table
+- [x] static dashboard renders locally
 - [ ] GitHub Pages works
-- [ ] screenshots saved
-- [ ] review approves
+- [x] screenshots saved
+- [x] review approves
 
 ## Fase 7 Done Criteria — Report
 

@@ -1,0 +1,24 @@
+:root {
+  color-scheme: light;
+  --paper: oklch(0.956 0.018 82);
+  --paper-warm: oklch(0.982 0.01 87);
+  --ink: oklch(0.205 0.024 241);
+  --ink-soft: oklch(0.385 0.032 238);
+  --muted: oklch(0.51 0.03 238);
+  --line: oklch(0.82 0.025 84);
+  --line-strong: oklch(0.68 0.035 84);
+  --atlas-blue: oklch(0.48 0.143 249);
+  --atlas-blue-quiet: oklch(0.91 0.035 245);
+  --atlas-green: oklch(0.51 0.115 158);
+  --atlas-amber: oklch(0.68 0.13 72);
+  --atlas-red: oklch(0.55 0.15 31);
+  --surface: oklch(0.992 0.006 90);
+  --surface-inset: oklch(0.938 0.018 82);
+  --shadow-soft: 0 24px 80px oklch(0.25 0.03 241 / 0.08);
+  --shadow-low: 0 10px 30px oklch(0.25 0.03 241 / 0.06);
+  --radius-panel: 8px;
+  --radius-control: 7px;
+  --max-content: 1180px;
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+}

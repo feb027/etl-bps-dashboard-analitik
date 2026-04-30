@@ -3,92 +3,165 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>ETL BPS Dashboard Analitik</title>
-  <link rel="stylesheet" href="styles.css" />
+  <title>Atlas Data Sosial Ekonomi BPS | ETL Dashboard Analitik</title>
+  <meta name="description" content="Dashboard statis GitHub Pages yang menampilkan tren, ranking wilayah, tabel detail, dan evidence ETL dari SQLite hasil pipeline BPS." />
+  <link rel="canonical" href="https://feb027.github.io/etl-bps-dashboard-analitik/dashboard/" />
+  <meta name="theme-color" content="#f5f1e8" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="id_ID" />
+  <meta property="og:url" content="https://feb027.github.io/etl-bps-dashboard-analitik/dashboard/" />
+  <meta property="og:title" content="Atlas Data Sosial Ekonomi BPS" />
+  <meta property="og:description" content="Dashboard real-data-only dari SQLite ETL BPS: tren indikator, ranking wilayah, tabel fakta, dan evidence pipeline." />
+  <meta property="og:image" content="https://feb027.github.io/etl-bps-dashboard-analitik/dashboard/og-dashboard.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Atlas Data Sosial Ekonomi BPS" />
+  <meta name="twitter:description" content="Dashboard statis dari artifact ETL dan SQLite BPS, tanpa data dummy." />
+  <meta name="twitter:image" content="https://feb027.github.io/etl-bps-dashboard-analitik/dashboard/og-dashboard.png" />
+  <link rel="stylesheet" href="styles/tokens.css" />
+  <link rel="stylesheet" href="styles/base.css" />
+  <link rel="stylesheet" href="styles/layout.css" />
+  <link rel="stylesheet" href="styles/components.css" />
+  <link rel="stylesheet" href="styles/visualizations.css" />
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js" defer></script>
+  <script type="module" src="scripts/main.js"></script>
 </head>
 <body>
-  <main class="shell">
-    <header class="hero">
-      <p class="eyebrow">Rekayasa Data · Web API BPS</p>
-      <h1>ETL BPS Dashboard Analitik</h1>
-      <p class="subtitle">Dashboard artifact-driven. Evidence ETL ditampilkan sebagai progress project; grafik statistik muncul setelah generator dashboard Fase 6 selesai.</p>
-    </header>
+  <a class="skip-link" href="#content">Lewati ke konten utama</a>
+  <header class="atlas-hero" aria-labelledby="page-title">
+    <div class="atlas-hero__inner">
+      <p class="kicker">Rekayasa Data · Web API BPS · SQLite Evidence</p>
+      <h1 id="page-title">Atlas Data Sosial Ekonomi BPS</h1>
+      <p class="lede" id="project-status">Memuat ringkasan dashboard dari artifact ETL...</p>
+      <dl class="evidence-ribbon" aria-label="Ringkasan sumber data">
+        <div>
+          <dt>Indikator</dt>
+          <dd id="summary-indicators">0</dd>
+        </div>
+        <div>
+          <dt>Wilayah</dt>
+          <dd id="summary-regions">0</dd>
+        </div>
+        <div>
+          <dt>Tahun</dt>
+          <dd id="summary-years">0</dd>
+        </div>
+        <div>
+          <dt>Baris fakta</dt>
+          <dd id="summary-records">0</dd>
+        </div>
+      </dl>
+      <p class="source-line" id="source-line">Sumber: memuat dashboard/data/dashboard-data.json</p>
+    </div>
+  </header>
 
-    <section class="status-card" id="status-card">
-      <div>
-        <p class="section-label">Status Proyek</p>
-        <h2 id="current-phase">Memuat fase...</h2>
-        <p id="project-status">Memuat status...</p>
+  <main id="content">
+    <section class="control-band" aria-labelledby="filter-title">
+      <div class="section-heading">
+        <p class="kicker">Kontrol atlas</p>
+        <h2 id="filter-title">Pilih indikator, tahun, dan mode ranking</h2>
       </div>
-      <div class="review-pill" id="review-pill">Review: -</div>
+      <form class="filter-form" id="filter-form">
+        <label>
+          <span>Indikator</span>
+          <select id="indicator-select" name="indicator"></select>
+        </label>
+        <label>
+          <span>Tahun</span>
+          <select id="year-select" name="year"></select>
+        </label>
+        <label>
+          <span>Cari wilayah</span>
+          <input id="region-search" name="region" type="search" autocomplete="off" placeholder="Contoh: Jawa, Aceh, Papua" />
+        </label>
+        <fieldset class="segmented" aria-label="Mode ranking">
+          <legend>Ranking</legend>
+          <label><input type="radio" name="ranking-mode" value="top" checked /> <span>Tertinggi</span></label>
+          <label><input type="radio" name="ranking-mode" value="bottom" /> <span>Terendah</span></label>
+          <label><input type="radio" name="ranking-mode" value="change" /> <span>Perubahan</span></label>
+        </fieldset>
+      </form>
     </section>
 
-    <section class="metrics" aria-label="Evidence fase 1 dan fase 2">
-      <article><span id="valid-indicators">0</span><small>Indikator Valid</small></article>
-      <article><span id="api-probe-rows">0</span><small>Probe API</small></article>
-      <article><span id="normalized-sample-records">0</span><small>Sample Normalized</small></article>
-      <article><span id="schema-validation-tests">0</span><small>Schema Tests</small></article>
+    <section class="atlas-section atlas-section--trend" aria-labelledby="trend-title">
+      <div class="section-heading">
+        <p class="kicker">Tren utama</p>
+        <h2 id="trend-title">Rata-rata indikator menurut tahun</h2>
+        <p id="trend-summary">Memuat tren dari baris fakta SQLite.</p>
+      </div>
+      <div class="chart-stage">
+        <div id="trend-chart" class="chart chart--trend" role="img" aria-label="Grafik garis tren indikator BPS"></div>
+        <div id="trend-fallback" class="chart-fallback" hidden></div>
+      </div>
     </section>
 
-    <section class="metrics compact" aria-label="Ringkasan schema">
-      <article><span id="dimension-tables">0</span><small>Dimension Tables</small></article>
-      <article><span id="fact-tables">0</span><small>Fact Table</small></article>
-      <article><span id="audit-tables">0</span><small>Audit Tables</small></article>
-      <article><span id="unmatched-keys">0</span><small>Unmatched Keys</small></article>
+    <section class="atlas-section atlas-section--narrative" aria-labelledby="insight-title">
+      <div class="section-heading">
+        <p class="kicker">Catatan pembacaan</p>
+        <h2 id="insight-title">Insight otomatis dari extrema nyata</h2>
+      </div>
+      <div class="narrative-panel" id="narrative-panel" aria-live="polite">
+        Memuat insight dari dashboard-data.json.
+      </div>
     </section>
 
-    <section class="metrics compact" aria-label="Evidence extract fase 3">
-      <article><span id="extract-targets">0</span><small>Extract Targets</small></article>
-      <article><span id="metadata-snapshots">0</span><small>Metadata Snapshots</small></article>
-      <article><span id="dynamic-snapshots">0</span><small>Dynamic Snapshots</small></article>
-      <article><span id="total-raw-rows">0</span><small>Raw Rows/Keys</small></article>
+    <section class="atlas-section atlas-section--ranking" aria-labelledby="ranking-title">
+      <div class="section-heading">
+        <p class="kicker">Ranking wilayah</p>
+        <h2 id="ranking-title">Perbandingan regional untuk pilihan saat ini</h2>
+        <p id="ranking-summary">Memuat ranking wilayah.</p>
+      </div>
+      <div class="chart-stage">
+        <div id="ranking-chart" class="chart chart--ranking" role="img" aria-label="Grafik ranking horizontal wilayah"></div>
+        <div id="ranking-fallback" class="chart-fallback" hidden></div>
+      </div>
     </section>
 
-    <section class="metrics compact" aria-label="Evidence transform fase 4">
-      <article><span id="transform-fact-rows">0</span><small>Fact Preview Rows</small></article>
-      <article><span id="transform-quality-gate">-</span><small>Quality Gate</small></article>
-      <article><span id="transform-unmatched">0</span><small>Transform Unmatched</small></article>
-      <article><span id="transform-duplicates">0</span><small>Duplicate Grains</small></article>
-    </section>
-
-    <section class="metrics compact" aria-label="Evidence load fase 5">
-      <article><span id="load-fact-rows">0</span><small>SQLite Fact Rows</small></article>
-      <article><span id="load-regions">0</span><small>SQLite Regions</small></article>
-      <article><span id="load-snapshots">0</span><small>Snapshot Audit Rows</small></article>
-      <article><span id="load-runs">0</span><small>ETL Run Logs</small></article>
-    </section>
-
-    <section class="status-card">
-      <p class="section-label">Fact Grain</p>
-      <code id="fact-grain">Memuat grain...</code>
-    </section>
-
-    <section class="phase-card">
-      <p class="section-label">Phase Progress</p>
-      <div class="phase-list" id="phase-list"></div>
-    </section>
-
-    <section class="empty-state" id="empty-state" hidden>
-      <h2>Grafik statistik belum tersedia di dashboard</h2>
-      <p>Fase 5 sudah memuat data ke SQLite. Grafik sosial ekonomi tetap ditahan sampai Fase 6 generator dashboard/charts selesai.</p>
-      <code>python scripts/run_etl.py --phase load --mode quick</code>
-    </section>
-
-    <section class="method-card">
-      <p class="section-label">Artifact Fase 2–5</p>
-      <ul class="artifact-list" id="artifact-list"></ul>
-    </section>
-
-    <section class="method-card">
-      <p class="section-label">Metodologi Target</p>
-      <ol>
-        <li>Extract data dan metadata dari Web API BPS.</li>
-        <li>Transform respons JSON menjadi tabel tervalidasi.</li>
-        <li>Load ke SQLite dengan schema dimensi dan fakta.</li>
-        <li>Generate dashboard JSON dari database/artifact nyata.</li>
-      </ol>
+    <section class="atlas-section atlas-section--table" aria-labelledby="table-title">
+      <div class="section-heading section-heading--inline">
+        <div>
+          <p class="kicker">Tabel fakta</p>
+          <h2 id="table-title">Baris detail dari fact_statistik</h2>
+        </div>
+        <p class="table-count" id="table-count" aria-live="polite">0 baris</p>
+      </div>
+      <div class="table-wrap">
+        <table id="detail-table">
+          <caption>Subset baris fakta BPS yang sesuai filter dashboard.</caption>
+          <thead>
+            <tr>
+              <th scope="col"><button type="button" data-sort="indicator_name">Indikator</button></th>
+              <th scope="col"><button type="button" data-sort="year">Tahun</button></th>
+              <th scope="col"><button type="button" data-sort="region_name">Wilayah</button></th>
+              <th scope="col">Turunan</th>
+              <th scope="col"><button type="button" data-sort="value">Nilai</button></th>
+              <th scope="col">Sumber</th>
+            </tr>
+          </thead>
+          <tbody id="table-body"></tbody>
+        </table>
+      </div>
     </section>
   </main>
-  <script src="app.js"></script>
+
+  <footer class="evidence-footer" aria-labelledby="evidence-title">
+    <div class="section-heading">
+      <p class="kicker">Evidence footer</p>
+      <h2 id="evidence-title">Jejak artifact dan kualitas data</h2>
+    </div>
+    <div class="evidence-footer__grid">
+      <dl>
+        <div><dt>Run ETL terakhir</dt><dd id="evidence-run">-</dd></div>
+        <div><dt>Database</dt><dd id="evidence-db">-</dd></div>
+        <div><dt>Review</dt><dd id="evidence-review">-</dd></div>
+        <div><dt>No dummy data</dt><dd id="evidence-quality">-</dd></div>
+      </dl>
+      <div>
+        <h3>Artifact rujukan</h3>
+        <ul class="artifact-list" id="artifact-list"></ul>
+      </div>
+    </div>
+  </footer>
+
+  <div class="load-error" id="load-error" role="status" aria-live="assertive" hidden></div>
 </body>
 </html>

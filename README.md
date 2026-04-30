@@ -6,9 +6,9 @@ Repo ini adalah proyek mata kuliah Rekayasa Data untuk membangun pipeline **Extr
 
 ## Status
 
-- Fase saat ini: **5 — Load Layer**
+- Fase saat ini: **6 — Dashboard**
 - Data statistik: 2.490 fact rows sudah dimuat ke SQLite lokal dari artifact BPS asli
-- Dashboard: evidence ETL sudah diperbarui, grafik statistik menunggu Fase 6, **tanpa dummy/fake chart**
+- Dashboard: grafik, ranking, narasi, dan tabel detail sudah digenerate dari SQLite lokal, **tanpa dummy/fake chart**
 - Prinsip utama: evidence-first, real-data-only, no hardcoded API key
 
 ## Arsitektur Target
@@ -70,6 +70,13 @@ python3 -m json.tool results/database/load_metrics.json >/dev/null
 python3 scripts/run_etl.py --phase load --mode quick \
   --database-path data/database/bps_etl.sqlite \
   --metrics-path results/database/load_metrics.json
+```
+
+## Generate Dashboard Data
+
+```bash
+python3 scripts/run_etl.py --phase load --mode quick
+python3 scripts/generate_dashboard_data.py
 ```
 
 ## Jalankan Dashboard Lokal
