@@ -109,7 +109,7 @@
 
 .segmented label {
   display: block;
-  min-height: 46px;
+  block-size: 46px;
 }
 
 .segmented input {
@@ -121,11 +121,12 @@
   white-space: nowrap;
 }
 
-.segmented span {
-  display: flex;
-  min-height: 46px;
-  align-items: center;
-  justify-content: center;
+.segmented-button {
+  display: grid;
+  place-items: center;
+  block-size: 100%;
+  inline-size: 100%;
+  box-sizing: border-box;
   border: 1px solid var(--line-strong);
   border-radius: var(--radius-control);
   background: var(--surface-inset);
@@ -140,25 +141,25 @@
   transition-timing-function: var(--ease-out);
 }
 
-.segmented span b {
+.segmented-text {
   display: block;
   font: inherit;
   line-height: 1;
-  transform: translateY(5px);
+  transform: translateY(15px);
 }
 
-.segmented input:checked + span {
+.segmented input:checked + .segmented-button {
   border-color: var(--atlas-blue);
   background: var(--atlas-blue);
   color: var(--paper-warm);
 }
 
-.segmented input:focus-visible + span {
+.segmented input:focus-visible + .segmented-button {
   outline: 3px solid oklch(0.66 0.16 249 / 0.78);
   outline-offset: 3px;
 }
 
-.segmented span:active {
+.segmented-button:active {
   transform: scale(0.96);
 }
 
