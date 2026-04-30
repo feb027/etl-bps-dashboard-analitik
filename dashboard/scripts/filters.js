@@ -9,6 +9,7 @@ export function populateFilters(data, state) {
       const option = document.createElement('option');
       option.value = indicator.key;
       option.textContent = indicator.name;
+      option.title = indicator.name;
       option.selected = indicator.key === state.indicatorKey;
       indicatorSelect.append(option);
     });

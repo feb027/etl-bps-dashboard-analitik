@@ -39,8 +39,8 @@
 
 .filter-form {
   display: grid;
-  grid-template-columns: minmax(190px, 1.1fr) minmax(120px, 0.58fr) minmax(190px, 1fr);
-  gap: 12px;
+  grid-template-columns: minmax(360px, 1.65fr) minmax(118px, 0.42fr) minmax(220px, 0.95fr);
+  gap: 14px;
   align-items: end;
 }
 
@@ -63,15 +63,29 @@
 .filter-form select,
 .filter-form input {
   width: 100%;
-  min-height: 42px;
+  min-height: 46px;
   border: 1px solid var(--line-strong);
   border-radius: var(--radius-control);
   background: var(--surface-inset);
   color: var(--ink);
-  padding: 9px 11px;
+  padding: 10px 13px;
   transition-duration: 160ms;
   transition-property: border-color, background-color, box-shadow;
   transition-timing-function: var(--ease-out);
+}
+
+.filter-form select {
+  text-overflow: ellipsis;
+}
+
+.selected-indicator {
+  display: block;
+  min-height: 1.25rem;
+  margin-block-start: 7px;
+  color: var(--ink-soft);
+  font-size: 0.82rem;
+  font-weight: 650;
+  line-height: 1.35;
 }
 
 .filter-form select:hover,
@@ -83,14 +97,19 @@
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   grid-column: 1 / -1;
-  gap: 6px;
-  margin: 2px 0 0;
+  gap: 8px;
+  margin: 0;
   border: 0;
   padding: 0;
 }
 
+.segmented legend {
+  grid-column: 1 / -1;
+}
+
 .segmented label {
-  min-height: 40px;
+  display: block;
+  min-height: 46px;
 }
 
 .segmented input {
@@ -103,18 +122,29 @@
 }
 
 .segmented span {
-  display: grid;
-  min-height: 40px;
-  place-items: center;
+  display: flex;
+  min-height: 46px;
+  align-items: center;
+  justify-content: center;
   border: 1px solid var(--line-strong);
   border-radius: var(--radius-control);
   background: var(--surface-inset);
   color: var(--ink-soft);
   font-size: 0.9rem;
   font-weight: 760;
+  line-height: 1;
+  padding: 0 14px;
+  text-align: center;
   transition-duration: 160ms;
   transition-property: background-color, border-color, color, transform;
   transition-timing-function: var(--ease-out);
+}
+
+.segmented span b {
+  display: block;
+  font: inherit;
+  line-height: 1;
+  transform: translateY(5px);
 }
 
 .segmented input:checked + span {
@@ -266,7 +296,7 @@ td[data-kind="number"] {
   box-shadow: var(--shadow-low);
 }
 
-@media (max-width: 940px) {
+@media (max-width: 1100px) {
   .filter-form {
     grid-template-columns: 1fr 1fr;
   }

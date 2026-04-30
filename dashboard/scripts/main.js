@@ -44,6 +44,7 @@ function renderDynamicSections() {
   const tableRows = sortedRows(filteredTableRows(dashboardData, state), state);
 
   setText('trend-summary', `${trend.indicator_name}: rata-rata ${trend.points.length} tahun dari baris fakta BPS yang tersedia.`);
+  setText('selected-indicator-label', indicator?.name ?? state.indicatorKey);
   if (state.rankingMode === 'change') {
     setText('ranking-summary', `${ranking.indicator_name}: perubahan wilayah ${ranking.from_year}-${ranking.to_year}, difilter menurut pencarian wilayah.`);
   } else {

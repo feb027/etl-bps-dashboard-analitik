@@ -63,7 +63,8 @@
       <form class="filter-form" id="filter-form">
         <label>
           <span>Indikator</span>
-          <select id="indicator-select" name="indicator"></select>
+          <select id="indicator-select" name="indicator" aria-describedby="selected-indicator-label"></select>
+          <small class="selected-indicator" id="selected-indicator-label">Memuat nama indikator...</small>
         </label>
         <label>
           <span>Tahun</span>
@@ -75,9 +76,9 @@
         </label>
         <fieldset class="segmented" aria-label="Mode ranking">
           <legend>Ranking</legend>
-          <label><input type="radio" name="ranking-mode" value="top" checked /> <span>Tertinggi</span></label>
-          <label><input type="radio" name="ranking-mode" value="bottom" /> <span>Terendah</span></label>
-          <label><input type="radio" name="ranking-mode" value="change" /> <span>Perubahan</span></label>
+          <label><input type="radio" name="ranking-mode" value="top" checked /> <span><b>Tertinggi</b></span></label>
+          <label><input type="radio" name="ranking-mode" value="bottom" /> <span><b>Terendah</b></span></label>
+          <label><input type="radio" name="ranking-mode" value="change" /> <span><b>Perubahan</b></span></label>
         </fieldset>
       </form>
     </section>

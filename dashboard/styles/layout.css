@@ -24,13 +24,16 @@ main {
   top: 0;
   z-index: 5;
   display: grid;
-  grid-template-columns: 0.72fr 1.28fr;
-  gap: 28px;
+  grid-template-columns: minmax(260px, 0.48fr) minmax(0, 1.52fr);
+  gap: 32px;
   align-items: end;
-  border-bottom: 1px solid var(--line);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-panel);
   background: oklch(0.956 0.018 82 / 0.96);
-  padding-block: 18px;
+  padding: 20px 22px 22px;
   backdrop-filter: blur(8px);
+  box-shadow: var(--shadow-low);
+  overflow: visible;
 }
 
 .atlas-section {
@@ -78,7 +81,7 @@ main {
   gap: 34px;
 }
 
-@media (max-width: 940px) {
+@media (max-width: 1100px) {
   .control-band,
   .atlas-section,
   .atlas-section--trend,
