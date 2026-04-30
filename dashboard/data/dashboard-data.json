@@ -1,14 +1,14 @@
 {
   "project": {
     "title": "ETL BPS Dashboard Analitik",
-    "status": "Fase 3 complete: extract layer BPS sudah disetujui; raw metadata/data tersimpan commit-safe; transform/load statistik belum dijalankan.",
-    "current_phase": "3 — Extract Layer",
-    "generated_at": "2026-04-29T16:35:03Z",
+    "status": "Fase 4 complete: transform layer BPS disetujui; 2490 fact preview rows dan dimensi siap untuk Fase 5 load SQLite.",
+    "current_phase": "4 — Transform Layer",
+    "generated_at": "2026-04-30T03:25:00Z",
     "review": {
-      "phase": 3,
-      "score": 91,
+      "phase": 4,
+      "score": 93,
       "verdict": "APPROVED",
-      "file": "docs/REVIEW_phase3_extract_layer.md"
+      "file": "docs/REVIEW_phase4_transform_layer.md"
     }
   },
   "summary": {
@@ -46,8 +46,14 @@
     {
       "phase": "4",
       "title": "Transform Layer",
+      "status": "complete",
+      "description": "Decode datacontent, fact preview, dimension preview, quality metrics, 34 tests, dan review Fase 4 selesai."
+    },
+    {
+      "phase": "5",
+      "title": "Load Layer",
       "status": "next",
-      "description": "Decode raw datacontent menjadi normalized fact rows dan quality metrics."
+      "description": "Load normalized fact/dim rows ke SQLite secara idempotent."
     }
   ],
   "design_metrics": {
@@ -64,7 +70,19 @@
     "dynamic_snapshots": 12,
     "total_extract_snapshots": 32,
     "total_raw_rows": 3642,
-    "extract_tests": 8
+    "extract_tests": 8,
+    "transform_dynamic_snapshots": 12,
+    "transform_fact_preview_rows": 2490,
+    "transform_quality_gate": "passed",
+    "transform_unmatched_count": 0,
+    "transform_duplicate_fact_key_count": 0,
+    "transform_null_value_count": 0,
+    "transform_tests": 5,
+    "dim_indikator_rows": 4,
+    "dim_wilayah_rows": 553,
+    "dim_waktu_rows": 3,
+    "dim_turvar_rows": 4,
+    "dim_turtahun_rows": 5
   },
   "schema": {
     "fact_grain": "var_id + kode_wilayah + th_id + turvar_id + turth_id + source_domain",
@@ -93,7 +111,15 @@
     "src/bps_etl/extract/snapshot.py",
     "results/api/extract/extract_manifest.json",
     "reports/progress-3-extract-layer.md",
-    "docs/REVIEW_phase3_extract_layer.md"
+    "docs/REVIEW_phase3_extract_layer.md",
+    "docs/transform-layer.md",
+    "src/bps_etl/transform/pipeline.py",
+    "results/tables/transform/fact_statistik_preview.csv",
+    "results/tables/transform/dimensions_preview.json",
+    "results/tables/transform/transform_quality_metrics.json",
+    "results/tables/transform/transform_manifest.json",
+    "reports/progress-4-transform-layer.md",
+    "docs/REVIEW_phase4_transform_layer.md"
   ],
   "charts": {
     "trend": [],
@@ -104,9 +130,9 @@
     "duplicate_records": null,
     "api_calls": 32,
     "notes": [
-      "Dashboard tetap tidak menampilkan grafik statistik sampai transform/load real-data selesai.",
-      "Fase 3 menyimpan raw BPS snapshots dan manifest commit-safe tanpa API key.",
-      "Angka Fase 3 di halaman ini adalah evidence extract, bukan nilai statistik sosial ekonomi."
+      "Dashboard tetap tidak menampilkan grafik statistik sampai load SQLite dan generator dashboard selesai.",
+      "Fase 4 menghasilkan preview fact/dimension rows dari artifact BPS asli, bukan data tiruan.",
+      "Quality gate transform passed: raw=decoded, unmatched=0, duplicate grain=0, null=0."
     ]
   }
 }

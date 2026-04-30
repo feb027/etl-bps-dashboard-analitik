@@ -28,15 +28,19 @@ def test_dashboard_json_is_empty_state_not_fake_data():
     assert data["charts"]["trend"] == []
     assert data["charts"]["regional_comparison"] == []
     assert "dummy" not in json.dumps(data, ensure_ascii=False).lower()
-    assert data["project"]["current_phase"] == "3 — Extract Layer"
+    assert data["project"]["current_phase"] == "4 — Transform Layer"
     assert data["project"]["review"]["verdict"] == "APPROVED"
-    assert data["project"]["review"]["score"] == 91
+    assert data["project"]["review"]["score"] == 93
     assert data["design_metrics"]["valid_indicators"] == 4
     assert data["design_metrics"]["schema_validation_tests"] == 10
     assert data["design_metrics"]["extract_tests"] == 8
+    assert data["design_metrics"]["transform_tests"] == 5
     assert data["design_metrics"]["extract_targets"] == 12
     assert data["design_metrics"]["total_extract_snapshots"] == 32
     assert data["design_metrics"]["total_raw_rows"] == 3642
+    assert data["design_metrics"]["transform_fact_preview_rows"] == 2490
+    assert data["design_metrics"]["transform_quality_gate"] == "passed"
+    assert data["design_metrics"]["transform_unmatched_count"] == 0
     assert data["schema"]["fact_grain"] == "var_id + kode_wilayah + th_id + turvar_id + turth_id + source_domain"
 
 

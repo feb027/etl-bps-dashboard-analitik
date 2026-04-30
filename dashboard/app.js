@@ -55,6 +55,10 @@ function render(data) {
   setText('metadata-snapshots', formatNumber(metrics.metadata_snapshots));
   setText('dynamic-snapshots', formatNumber(metrics.dynamic_snapshots));
   setText('total-raw-rows', formatNumber(metrics.total_raw_rows));
+  setText('transform-fact-rows', formatNumber(metrics.transform_fact_preview_rows));
+  setText('transform-quality-gate', metrics.transform_quality_gate || '-');
+  setText('transform-unmatched', formatNumber(metrics.transform_unmatched_count));
+  setText('transform-duplicates', formatNumber(metrics.transform_duplicate_fact_key_count));
   setText('fact-grain', data.schema?.fact_grain || '-');
 
   renderPhaseProgress(data.phase_progress || []);

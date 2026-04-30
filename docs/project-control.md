@@ -2,11 +2,11 @@
 
 ## Current Status
 
-- Current phase: **3 — Extract Layer**
+- Current phase: **4 — Transform Layer**
 - Date initialized: 2026-04-29
 - Repository: `feb027/etl-bps-dashboard-analitik`
 - Dashboard URL target: `https://feb027.github.io/etl-bps-dashboard-analitik/`
-- Latest verified commit: `e7534586daa015f2522fd00aeec66fdb6a11cc6c`
+- Latest verified commit: `fe55aafdbb47cae6d72c821b49cf96579e3e831f`
 
 ## Decisions
 
@@ -44,6 +44,11 @@
 | `src/bps_etl/extract/snapshot.py` | Commit-safe raw snapshot writer | Created |
 | `results/api/extract/extract_manifest.json` | Fase 3 extract run manifest | Created |
 | `reports/progress-3-extract-layer.md` | Fase 3 progress report | Created |
+| `docs/transform-layer.md` | Fase 4 transform technical documentation | Created |
+| `src/bps_etl/transform/pipeline.py` | Fase 4 transform orchestration | Created |
+| `results/tables/transform/transform_manifest.json` | Fase 4 transform run manifest | Created |
+| `results/tables/transform/fact_statistik_preview.csv` | Fase 4 normalized fact preview | Created |
+| `reports/progress-4-transform-layer.md` | Fase 4 progress report | Created |
 
 ## Review Status
 
@@ -53,6 +58,7 @@
 | 1 | Codex lecturer/technical reviewer | 90 | APPROVED | `docs/REVIEW_phase1_api_research.md` |
 | 2 | Codex lecturer/technical reviewer | 88 | APPROVED | `docs/REVIEW_phase2_etl_design.md` |
 | 3 | Codex lecturer/technical reviewer | 91 | APPROVED | `docs/REVIEW_phase3_extract_layer.md` |
+| 4 | Codex lecturer/technical reviewer | 93 | APPROVED | `docs/REVIEW_phase4_transform_layer.md` |
 
 ## Remote & Pages Verification
 
@@ -63,7 +69,7 @@
 | GitHub Pages URL | `https://feb027.github.io/etl-bps-dashboard-analitik/` |
 | Page HTTP | 200 verified |
 | Dashboard JSON HTTP | 200 verified |
-| Dashboard JSON status | `Fase 2 complete` on live main; Fase 3 dashboard update pending PR merge |
+| Dashboard JSON status | `Fase 3 complete` on live main; Fase 4 dashboard update pending PR merge |
 
 ## Blockers
 
@@ -105,8 +111,25 @@ Schema grain: `var_id + kode_wilayah + th_id + turvar_id + turth_id + source_dom
 
 Extract manifest: `results/api/extract/extract_manifest.json`.
 
+## Fase 4 Snapshot
+
+| Metric | Value |
+|---|---:|
+| Dynamic snapshots transformed | 12 |
+| Fact preview rows | 2490 |
+| Dimension indikator rows | 4 |
+| Dimension wilayah rows | 553 |
+| Dimension waktu rows | 3 |
+| Unmatched keys | 0 |
+| Duplicate fact grains | 0 |
+| Null/non-numeric values | 0 |
+| Quality gate | `passed` |
+| Transform tests | 5 |
+
+Transform manifest: `results/tables/transform/transform_manifest.json`.
+
 ## Next Action
 
-1. Push branch `phase-3-extract-layer`.
+1. Push branch `phase-4-transform-layer`.
 2. Open PR to `main`.
-3. Start Fase 4 — Transform Layer after PR is reviewed/merged.
+3. Start Fase 5 — Load Layer after PR is reviewed/merged.

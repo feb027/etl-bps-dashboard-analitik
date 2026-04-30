@@ -11,7 +11,7 @@
     <header class="hero">
       <p class="eyebrow">Rekayasa Data · Web API BPS</p>
       <h1>ETL BPS Dashboard Analitik</h1>
-      <p class="subtitle">Dashboard artifact-driven. Fase desain ETL ditampilkan sebagai progress project; grafik statistik hanya muncul setelah real ETL load selesai.</p>
+      <p class="subtitle">Dashboard artifact-driven. Evidence ETL ditampilkan sebagai progress project; grafik statistik hanya muncul setelah real ETL load selesai.</p>
     </header>
 
     <section class="status-card" id="status-card">
@@ -44,6 +44,13 @@
       <article><span id="total-raw-rows">0</span><small>Raw Rows/Keys</small></article>
     </section>
 
+    <section class="metrics compact" aria-label="Evidence transform fase 4">
+      <article><span id="transform-fact-rows">0</span><small>Fact Preview Rows</small></article>
+      <article><span id="transform-quality-gate">-</span><small>Quality Gate</small></article>
+      <article><span id="transform-unmatched">0</span><small>Transform Unmatched</small></article>
+      <article><span id="transform-duplicates">0</span><small>Duplicate Grains</small></article>
+    </section>
+
     <section class="status-card">
       <p class="section-label">Fact Grain</p>
       <code id="fact-grain">Memuat grain...</code>
@@ -56,12 +63,12 @@
 
     <section class="empty-state" id="empty-state" hidden>
       <h2>Data statistik belum tersedia di dashboard</h2>
-      <p>Fase 3 sudah menyimpan raw metadata/data BPS secara commit-safe. Grafik sosial ekonomi tetap ditahan sampai Fase 4–5 menyelesaikan transform dan load real-data.</p>
-      <code>python scripts/run_etl.py --mode quick</code>
+      <p>Fase 4 sudah membuat preview fact/dimension rows dari raw BPS artifact. Grafik sosial ekonomi tetap ditahan sampai Fase 5 load SQLite dan generator dashboard selesai.</p>
+      <code>python scripts/run_etl.py --phase transform --mode quick</code>
     </section>
 
     <section class="method-card">
-      <p class="section-label">Artifact Fase 2–3</p>
+      <p class="section-label">Artifact Fase 2–4</p>
       <ul class="artifact-list" id="artifact-list"></ul>
     </section>
 
