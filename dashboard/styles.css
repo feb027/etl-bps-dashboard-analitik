@@ -69,6 +69,7 @@ h2, h3 { margin: 0 0 8px; }
   font-weight: 900;
 }
 .phase-complete .phase-badge { color: #166534; background: #dcfce7; }
+.phase-review .phase-badge { color: #92400e; background: #fef3c7; }
 .phase-next .phase-badge { color: #92400e; background: #fef3c7; }
 .phase-item p { margin: 0; }
 .artifact-list {

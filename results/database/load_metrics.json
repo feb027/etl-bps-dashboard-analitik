@@ -1,0 +1,28 @@
+{
+  "status": "success",
+  "phase": "5 — Load Layer",
+  "run_id": "load-20260430T034938Z-ad0a8371",
+  "started_at": "2026-04-30T03:49:38Z",
+  "finished_at": "2026-04-30T03:49:38Z",
+  "database_path": "data/database/bps_etl.sqlite",
+  "source_transform_manifest": "results/tables/transform/transform_manifest.json",
+  "source_extract_manifest": "results/api/extract/extract_manifest.json",
+  "source_git_commit": "011f010",
+  "indicator_count": 4,
+  "raw_snapshot_count": 32,
+  "fact_row_count": 2490,
+  "table_counts": {
+    "dim_indikator": 4,
+    "dim_wilayah": 553,
+    "dim_waktu": 3,
+    "dim_turvar": 4,
+    "dim_turtahun": 5,
+    "fact_statistik": 2490,
+    "raw_api_snapshot": 32,
+    "etl_run_log": 1
+  },
+  "idempotent_keys": {
+    "fact_statistik": "var_id + kode_wilayah + th_id + turvar_id + turth_id + source_domain",
+    "raw_api_snapshot": "snapshot_id"
+  }
+}

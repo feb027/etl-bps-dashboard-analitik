@@ -17,6 +17,7 @@ from bps_etl.config import BPS_BASE_URL
 from bps_etl.extract.client import BPSClient
 from bps_etl.extract.metadata import TARGET_MODELS, load_extract_targets
 from bps_etl.extract.pipeline import DEFAULT_EXTRACT_OUTPUT_DIR, run_extract
+from bps_etl.load.database import DEFAULT_DATABASE_PATH, DEFAULT_LOAD_METRICS_PATH, DEFAULT_TRANSFORM_DIR, run_load
 from bps_etl.transform.pipeline import DEFAULT_TRANSFORM_OUTPUT_DIR, run_transform
 
 
@@ -41,10 +42,14 @@ def require_api_key() -> str:
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Run BPS ETL pipeline")
-    parser.add_argument("--phase", choices=["extract", "transform"], default="extract", help="Pipeline phase to run. Fase 4 supports transform from committed extract artifacts.")
+    parser.add_argument("--phase", choices=["extract", "transform", "load"], default="extract", help="Pipeline phase to run. Fase 5 supports loading transform artifacts into SQLite.")
     parser.add_argument("--mode", choices=["quick", "full"], default="quick", help="quick uses selected committed artifacts; full is reserved for later expansion.")
     parser.add_argument("--selected-indicators", type=Path, default=ROOT / "results" / "api" / "selected_indicators.json")
     parser.add_argument("--extract-manifest", type=Path, default=ROOT / "results" / "api" / "extract" / "extract_manifest.json")
+    parser.add_argument("--transform-dir", type=Path, default=DEFAULT_TRANSFORM_DIR)
+    parser.add_argument("--database-path", type=Path, default=DEFAULT_DATABASE_PATH)
+    parser.add_argument("--metrics-path", type=Path, default=DEFAULT_LOAD_METRICS_PATH)
+    parser.add_argument("--source-git-commit", default=None)
     parser.add_argument("--output-dir", type=Path, default=None)
     parser.add_argument("--timeout", type=int, default=30)
     parser.add_argument("--retries", type=int, default=2)
@@ -64,6 +69,17 @@ def main(argv: Sequence[str] | None = None) -> int:
             output_dir=args.output_dir or DEFAULT_TRANSFORM_OUTPUT_DIR,
         )
         print(json.dumps({k: v for k, v in summary.items() if k != "snapshots"}, ensure_ascii=False, indent=2))
+        return 0
+
+    if args.phase == "load":
+        summary = run_load(
+            database_path=args.database_path,
+            transform_dir=args.transform_dir,
+            extract_manifest_path=args.extract_manifest,
+            metrics_path=args.metrics_path,
+            source_git_commit=args.source_git_commit,
+        )
+        print(json.dumps(summary, ensure_ascii=False, indent=2))
         return 0
 
     targets = load_extract_targets(args.selected_indicators)

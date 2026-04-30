@@ -25,12 +25,12 @@ python scripts/generate_dashboard_data.py
 5. Data quality summary.
 6. Methodology card.
 
-## Empty State
+## Empty/No-Chart State
 
-If `record_count == 0`, render:
+Before Fase 6, `record_count` may be greater than zero because SQLite load is complete, but chart arrays can remain empty. Render the no-chart state when both chart arrays are empty:
 
 ```text
-Data statistik belum tersedia. Jalankan ETL setelah Fase 1–5 selesai.
+Grafik statistik belum tersedia. Jalankan generator dashboard/charts pada Fase 6.
 ```
 
 No placeholder chart values.

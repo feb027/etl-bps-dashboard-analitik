@@ -75,12 +75,12 @@ A phase is not complete until:
 
 ## Fase 5 Done Criteria — Load Layer
 
-- [ ] SQLite schema implemented
-- [ ] quick ETL run fills dimensions and facts
-- [ ] rerun is idempotent
-- [ ] ETL run log works
-- [ ] tests pass
-- [ ] review approves
+- [x] SQLite schema implemented
+- [x] quick ETL run fills dimensions and facts
+- [x] rerun is idempotent
+- [x] ETL run log works
+- [x] tests pass
+- [x] review approves
 
 ## Fase 6 Done Criteria — Dashboard
 

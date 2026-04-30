@@ -41,7 +41,10 @@ function render(data) {
 
   setText('current-phase', data.project?.current_phase || 'Fase tidak tersedia');
   setText('project-status', data.project?.status || 'Status tidak tersedia');
-  setText('review-pill', review.verdict ? `Review Fase ${review.phase}: ${review.score}/100 ${review.verdict}` : 'Review: -');
+  const reviewLabel = review.verdict
+    ? `Review Fase ${review.phase}: ${review.score == null ? review.verdict : `${review.score}/100 ${review.verdict}`}`
+    : 'Review: -';
+  setText('review-pill', reviewLabel);
 
   setText('valid-indicators', formatNumber(metrics.valid_indicators));
   setText('api-probe-rows', formatNumber(metrics.api_probe_rows));
@@ -59,13 +62,18 @@ function render(data) {
   setText('transform-quality-gate', metrics.transform_quality_gate || '-');
   setText('transform-unmatched', formatNumber(metrics.transform_unmatched_count));
   setText('transform-duplicates', formatNumber(metrics.transform_duplicate_fact_key_count));
+  setText('load-fact-rows', formatNumber(metrics.load_fact_rows));
+  setText('load-regions', formatNumber(metrics.load_dim_wilayah_rows));
+  setText('load-snapshots', formatNumber(metrics.load_raw_snapshot_rows));
+  setText('load-runs', formatNumber(metrics.load_run_log_rows));
   setText('fact-grain', data.schema?.fact_grain || '-');
 
   renderPhaseProgress(data.phase_progress || []);
   renderArtifacts(data.artifacts || []);
 
   const empty = document.getElementById('empty-state');
-  if (empty && (data.summary?.record_count ?? 0) === 0) {
+  const hasCharts = (data.charts?.trend?.length ?? 0) > 0 || (data.charts?.regional_comparison?.length ?? 0) > 0;
+  if (empty && !hasCharts) {
     empty.hidden = false;
   }
 }

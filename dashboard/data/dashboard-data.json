@@ -1,22 +1,22 @@
 {
   "project": {
     "title": "ETL BPS Dashboard Analitik",
-    "status": "Fase 4 complete: transform layer BPS disetujui; 2490 fact preview rows dan dimensi siap untuk Fase 5 load SQLite.",
-    "current_phase": "4 — Transform Layer",
-    "generated_at": "2026-04-30T03:25:00Z",
+    "status": "Fase 5 load layer implemented: SQLite berhasil terisi idempotent dari output transform; dashboard statistik/grafik masih ditahan untuk Fase 6.",
+    "current_phase": "5 — Load Layer",
+    "generated_at": "2026-04-30T03:57:27Z",
     "review": {
-      "phase": 4,
-      "score": 93,
+      "phase": 5,
+      "score": 92,
       "verdict": "APPROVED",
-      "file": "docs/REVIEW_phase4_transform_layer.md"
+      "file": "docs/REVIEW_phase5_load_layer.md"
     }
   },
   "summary": {
-    "indicator_count": 0,
-    "region_count": 0,
-    "year_count": 0,
-    "record_count": 0,
-    "last_etl_run": null
+    "indicator_count": 4,
+    "region_count": 553,
+    "year_count": 3,
+    "record_count": 2490,
+    "last_etl_run": "load-20260430T034938Z-ad0a8371"
   },
   "phase_progress": [
     {
@@ -52,8 +52,14 @@
     {
       "phase": "5",
       "title": "Load Layer",
+      "status": "complete",
+      "description": "SQLite schema initialized, dimension/fact tables loaded, run log written, idempotency tests selesai, dan review Fase 5 approved."
+    },
+    {
+      "phase": "6",
+      "title": "Dashboard",
       "status": "next",
-      "description": "Load normalized fact/dim rows ke SQLite secara idempotent."
+      "description": "Generate dashboard JSON/charts dari database SQLite yang sudah terisi."
     }
   ],
   "design_metrics": {
@@ -82,7 +88,17 @@
     "dim_wilayah_rows": 553,
     "dim_waktu_rows": 3,
     "dim_turvar_rows": 4,
-    "dim_turtahun_rows": 5
+    "dim_turtahun_rows": 5,
+    "load_fact_rows": 2490,
+    "load_dim_indikator_rows": 4,
+    "load_dim_wilayah_rows": 553,
+    "load_dim_waktu_rows": 3,
+    "load_dim_turvar_rows": 4,
+    "load_dim_turtahun_rows": 5,
+    "load_raw_snapshot_rows": 32,
+    "load_run_log_rows": 1,
+    "load_tests": 5,
+    "load_database_path": "data/database/bps_etl.sqlite"
   },
   "schema": {
     "fact_grain": "var_id + kode_wilayah + th_id + turvar_id + turth_id + source_domain",
@@ -119,7 +135,11 @@
     "results/tables/transform/transform_quality_metrics.json",
     "results/tables/transform/transform_manifest.json",
     "reports/progress-4-transform-layer.md",
-    "docs/REVIEW_phase4_transform_layer.md"
+    "docs/REVIEW_phase4_transform_layer.md",
+    "docs/load-layer.md",
+    "src/bps_etl/load/database.py",
+    "results/database/load_metrics.json",
+    "reports/progress-5-load-layer.md"
   ],
   "charts": {
     "trend": [],
@@ -130,9 +150,9 @@
     "duplicate_records": null,
     "api_calls": 32,
     "notes": [
-      "Dashboard tetap tidak menampilkan grafik statistik sampai load SQLite dan generator dashboard selesai.",
-      "Fase 4 menghasilkan preview fact/dimension rows dari artifact BPS asli, bukan data tiruan.",
-      "Quality gate transform passed: raw=decoded, unmatched=0, duplicate grain=0, null=0."
+      "SQLite load selesai dan fact_statistik terisi dari artifact BPS asli.",
+      "Database SQLite berada di data/database/bps_etl.sqlite dan tidak dicommit karena aturan no .db in git.",
+      "Dashboard tetap tidak menampilkan grafik statistik sampai Fase 6 generator dashboard/charts selesai."
     ]
   }
 }
