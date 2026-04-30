@@ -2,11 +2,11 @@
 
 ## Current Status
 
-- Current phase: **5 — Load Layer**
+- Current phase: **6 — Dashboard**
 - Date initialized: 2026-04-29
 - Repository: `feb027/etl-bps-dashboard-analitik`
 - Dashboard URL target: `https://feb027.github.io/etl-bps-dashboard-analitik/`
-- Latest verified commit: `011f010be2f3cbe6568bac13887c553ec47225a2`
+- Latest verified commit: `735bf0712af827e3a5729a83360cd053c418f0ff`
 
 ## Decisions
 
@@ -53,6 +53,10 @@
 | `src/bps_etl/load/database.py` | Fase 5 SQLite load implementation | Updated |
 | `results/database/load_metrics.json` | Fase 5 load metrics evidence | Created |
 | `reports/progress-5-load-layer.md` | Fase 5 progress report | Created |
+| `dashboard/styles/tokens.css` | Fase 6 design tokens | Created |
+| `dashboard/scripts/main.js` | Fase 6 dashboard JS entrypoint | Created |
+| `docs/dashboard-design-system.md` | Fase 6 UI Skills/design system notes | Created |
+| `reports/progress-6-dashboard.md` | Fase 6 progress report | Created |
 
 ## Review Status
 
@@ -64,6 +68,7 @@
 | 3 | Codex lecturer/technical reviewer | 91 | APPROVED | `docs/REVIEW_phase3_extract_layer.md` |
 | 4 | Codex lecturer/technical reviewer | 93 | APPROVED | `docs/REVIEW_phase4_transform_layer.md` |
 | 5 | Codex lecturer/technical reviewer | 92 | APPROVED | `docs/REVIEW_phase5_load_layer.md` |
+| 6 | Codex lecturer/technical/UI reviewer | 91 | APPROVED | `docs/REVIEW_phase6_dashboard.md` |
 
 ## Remote & Pages Verification
 
@@ -74,7 +79,7 @@
 | GitHub Pages URL | `https://feb027.github.io/etl-bps-dashboard-analitik/` |
 | Page HTTP | 200 verified |
 | Dashboard JSON HTTP | 200 verified |
-| Dashboard JSON status | `Fase 4 complete` on live main; Fase 5 dashboard update pending PR merge |
+| Dashboard JSON status | Fase 6 dashboard approved locally; live GitHub Pages verification pending PR merge |
 
 ## Blockers
 
@@ -150,8 +155,21 @@ Transform manifest: `results/tables/transform/transform_manifest.json`.
 Load metrics: `results/database/load_metrics.json`.
 Local SQLite: `data/database/bps_etl.sqlite` (ignored, not committed).
 
+## Fase 6 Snapshot
+
+| Metric | Value |
+|---|---:|
+| Dashboard source fact rows | 2490 |
+| Trend series | 4 |
+| Table rows | 2490 |
+| Ranking modes | 3 |
+| Static dashboard stack | Vanilla HTML/CSS/JS + ECharts CDN |
+
+Dashboard data: `dashboard/data/dashboard-data.json`.
+Design system: `docs/dashboard-design-system.md`.
+
 ## Next Action
 
 1. Push branch and open PR to `main`.
 2. Merge after checks pass.
-3. Start Fase 6 — Dashboard from populated SQLite.
+3. Verify live GitHub Pages dashboard and JSON after deployment.

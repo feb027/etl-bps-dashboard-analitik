@@ -1,0 +1,52 @@
+.chart-stage {
+  min-width: 0;
+  border-block: 1px solid var(--line-strong);
+  background:
+    linear-gradient(180deg, oklch(0.992 0.006 90 / 0.9), oklch(0.956 0.018 82 / 0.65));
+  box-shadow: var(--shadow-soft);
+}
+
+.chart {
+  width: 100%;
+  min-height: 420px;
+}
+
+.chart--ranking {
+  min-height: 520px;
+}
+
+.chart-fallback {
+  padding: 20px;
+  color: var(--ink-soft);
+}
+
+.chart-fallback table {
+  min-width: 0;
+  margin-block-start: 12px;
+  box-shadow: none;
+}
+
+.chart-fallback th,
+.chart-fallback td {
+  padding: 9px 10px;
+}
+
+.chart--fallback-active {
+  min-height: 0;
+  height: 1px;
+  overflow: hidden;
+}
+
+.chart--ranking.chart--fallback-active {
+  min-height: 0;
+}
+
+@media (max-width: 680px) {
+  .chart {
+    min-height: 360px;
+  }
+
+  .chart--ranking {
+    min-height: 460px;
+  }
+}

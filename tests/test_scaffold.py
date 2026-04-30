@@ -15,25 +15,47 @@ def test_required_scaffold_files_exist():
         "docs/workflow.md",
         "prompts/LECTURER_REVIEWER.md",
         "dashboard/index.html",
-        "dashboard/app.js",
+        "dashboard/styles/tokens.css",
+        "dashboard/styles/base.css",
+        "dashboard/styles/layout.css",
+        "dashboard/styles/components.css",
+        "dashboard/styles/visualizations.css",
+        "dashboard/scripts/main.js",
+        "dashboard/scripts/data-loader.js",
+        "dashboard/scripts/state.js",
+        "dashboard/scripts/formatters.js",
+        "dashboard/scripts/filters.js",
+        "dashboard/scripts/charts.js",
+        "dashboard/scripts/table.js",
+        "dashboard/scripts/narrative.js",
         "dashboard/data/dashboard-data.json",
     ]
     missing = [path for path in required if not (ROOT / path).exists()]
     assert not missing
 
 
-def test_dashboard_json_is_empty_state_not_fake_data():
+def test_dashboard_json_is_fase_6_real_data_contract():
     data = json.loads((ROOT / "dashboard/data/dashboard-data.json").read_text(encoding="utf-8"))
     assert data["summary"]["record_count"] == 2490
     assert data["summary"]["indicator_count"] == 4
     assert data["summary"]["region_count"] == 553
     assert data["summary"]["year_count"] == 3
-    assert data["charts"]["trend"] == []
-    assert data["charts"]["regional_comparison"] == []
-    assert "dummy" not in json.dumps(data, ensure_ascii=False).lower()
-    assert data["project"]["current_phase"] == "5 — Load Layer"
+    assert data["charts"]["trend"]
+    assert data["charts"]["regional_comparison"]
+    assert data["series"]["trend"]
+    assert data["rankings"]["top"]
+    assert data["rankings"]["bottom"]
+    assert data["rankings"]["change"]
+    assert len(data["table_rows"]) == 2490
+    serialized = json.dumps(data, ensure_ascii=False).lower()
+    assert "lorem" not in serialized
+    assert "placeholder chart" not in serialized
+    assert data["quality"]["no_dummy_data"] is True
+    assert data["project"]["current_phase"] == "6 — Dashboard"
     assert data["project"]["review"]["verdict"] == "APPROVED"
-    assert data["project"]["review"]["score"] == 92
+    assert data["project"]["review"]["score"] == 91
+    assert data["project"]["review"]["file"] == "docs/REVIEW_phase6_dashboard.md"
+    assert data["project"]["review"]["previous"]["score"] == 92
     assert data["design_metrics"]["valid_indicators"] == 4
     assert data["design_metrics"]["schema_validation_tests"] == 10
     assert data["design_metrics"]["extract_tests"] == 8
@@ -47,7 +69,9 @@ def test_dashboard_json_is_empty_state_not_fake_data():
     assert data["design_metrics"]["load_fact_rows"] == 2490
     assert data["design_metrics"]["load_dim_wilayah_rows"] == 553
     assert data["design_metrics"]["load_raw_snapshot_rows"] == 32
-    assert data["design_metrics"]["load_run_log_rows"] == 1
+    assert data["design_metrics"]["load_run_log_rows"] >= 1
+    assert data["design_metrics"]["dashboard_chart_series"] == 4
+    assert data["design_metrics"]["dashboard_table_rows"] == 2490
     assert data["schema"]["fact_grain"] == "var_id + kode_wilayah + th_id + turvar_id + turth_id + source_domain"
 
 
