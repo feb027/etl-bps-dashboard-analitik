@@ -5,5 +5,5 @@ Aturan:
 - Jangan mengarang angka.
 - Jika angka/gambar belum tersedia, pakai placeholder jelas.
 - Jangan terlalu AI-polished.
-- Cocokkan struktur dengan `docs/report-outline.md`.
+- Cocokkan struktur dengan `docs/project/report-outline.md`.
 - Write ONLY to the requested report file.

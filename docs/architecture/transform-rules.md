@@ -1,6 +1,6 @@
 # Transform Rules — Fase 2
 
-Status: **implemented in Fase 4**, see `docs/transform-layer.md` and `results/tables/transform/transform_manifest.json`.
+Status: **implemented in Fase 4**, see `docs/phases/transform-layer.md` and `results/tables/transform/transform_manifest.json`.
 
 ## Input Utama
 

@@ -45,4 +45,4 @@ Latest local result: `39 passed`.
 
 ## Review
 
-Codex lecturer/technical review: `92/100 — APPROVED` in `docs/REVIEW_phase5_load_layer.md`.
+Codex lecturer/technical review: `92/100 — APPROVED` in `docs/reviews/REVIEW_phase5_load_layer.md`.

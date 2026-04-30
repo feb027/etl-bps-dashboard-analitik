@@ -26,10 +26,10 @@ Temuan yang menjadi dasar desain:
 
 | Artifact | Fungsi |
 |---|---|
-| `docs/etl-architecture.md` | Desain alur ETL dan layer responsibilities. |
-| `docs/database-schema.md` | Penjelasan schema SQLite, key, FK, grain, dan audit trail. |
-| `docs/transform-rules.md` | Aturan decode, dimension extraction, fact construction, dan data quality gates. |
-| `docs/data-dictionary.md` | Data dictionary lengkap per tabel dan field. |
+| `docs/architecture/etl-architecture.md` | Desain alur ETL dan layer responsibilities. |
+| `docs/architecture/database-schema.md` | Penjelasan schema SQLite, key, FK, grain, dan audit trail. |
+| `docs/architecture/transform-rules.md` | Aturan decode, dimension extraction, fact construction, dan data quality gates. |
+| `docs/architecture/data-dictionary.md` | Data dictionary lengkap per tabel dan field. |
 | `src/bps_etl/load/schema.sql` | DDL SQLite untuk Fase 5 load layer. |
 | `src/bps_etl/load/models.py` | Metadata tabel dan schema path helper. |
 | `tests/test_schema.py` | Validasi executable schema di SQLite memory database. |

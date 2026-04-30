@@ -32,7 +32,7 @@ Fase 6 dashboard **implemented and approved**. Dashboard sekarang memakai data n
 - `dashboard/data/dashboard-data.json`
 - `dashboard/og-dashboard.png`
 - `results/figures/dashboard-phase6-full.png`
-- `docs/dashboard-design-system.md`
+- `docs/phases/dashboard-design-system.md`
 - `tests/test_dashboard_generator.py`
 
 ## Validation
@@ -48,7 +48,7 @@ git diff --check
 
 ## Review Gate
 
-Approved: `docs/REVIEW_phase6_dashboard.md`, skor 91/100.
+Approved: `docs/reviews/REVIEW_phase6_dashboard.md`, skor 91/100.
 
 ## Live Verification
 

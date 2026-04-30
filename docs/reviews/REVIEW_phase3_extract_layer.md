@@ -16,10 +16,10 @@ Fase 3 layak dilanjutkan. Implementasi extract layer sudah memenuhi batas fase: 
 | Extract orchestration | `src/bps_etl/extract/pipeline.py` |
 | CLI runner | `scripts/run_etl.py` |
 | Tests | `tests/test_extract_layer.py`, related scaffold/dynamic/schema tests |
-| Documentation | `docs/extract-layer.md`, `reports/progress-3-extract-layer.md` |
+| Documentation | `docs/phases/extract-layer.md`, `reports/progress-3-extract-layer.md` |
 | Manifest/artifacts | `results/api/extract/extract_manifest.json`, `results/api/extract/metadata/*.json`, `results/api/extract/data/*.json` |
 | Dashboard truthfulness | `dashboard/data/dashboard-data.json`, `dashboard/index.html`, `dashboard/app.js`, `dashboard/styles.css` |
-| Phase control | `docs/phase-gates.md`, `docs/project-control.md` |
+| Phase control | `docs/project/phase-gates.md`, `docs/project/project-control.md` |
 
 ## Validation Results
 
@@ -42,16 +42,16 @@ None.
 
 ## Important Improvements
 
-1. **Retry policy should avoid retrying permanent HTTP client errors.**  
+1. **Retry policy should avoid retrying permanent HTTP client errors.**
    `BPSClient.request()` currently catches `HTTPError` together with transient errors and retries every HTTP status. This is acceptable for Fase 3 proof, but before larger runs it should retry only transient server/rate-limit cases such as 429/5xx and fail fast for 400/401/403/404. This prevents repeated invalid-key or invalid-parameter calls and makes failures easier to diagnose.
 
-2. **Dashboard empty-state copy is slightly stale.**  
+2. **Dashboard empty-state copy is slightly stale.**
    `dashboard/data/dashboard-data.json` and Fase 3 metrics are updated honestly, but `dashboard/index.html` still says Fase 2 just finished and that graphs appear after Fase 3-5. Since Fase 3 extract is now implemented, revise that copy to say raw extract evidence exists and statistical charts remain blocked until transform/load finish.
 
-3. **Test placeholders still use secret-like strings in Fase 3 tests.**  
+3. **Test placeholders still use secret-like strings in Fase 3 tests.**
    `tests/test_extract_layer.py` uses values such as `"secret"` and `"local-secret"` only as dummy input to prove sanitation. That is not a committed real credential, and the artifact sanitation works, but replacing these with explicit placeholders such as `"test-api-key-placeholder"` would reduce false positives in future secret scans and align better with the project's no-secrets rule.
 
-4. **Add one negative test for missing `period_ids`.**  
+4. **Add one negative test for missing `period_ids`.**
    The target planner correctly raises `ValueError` when a selected indicator lacks a `th_id` for a target year, but the current tests only cover the successful path. A small negative test would lock the most important Fase 1-to-Fase 3 contract: `model=data` must use persisted `th_id`, not literal years.
 
 ## Nice-to-Have
@@ -59,7 +59,7 @@ None.
 1. Add a test that verifies `BPSClient` stops after retry exhaustion and reports the attempt count clearly.
 2. Include subdirectory context in manifest `artifact_path`, or add an explicit `artifact_group` field, so readers do not need to infer `metadata/` vs `data/` from `model`.
 3. Add a documented non-network dry-run or planning command for `scripts/run_etl.py` so target generation can be reproduced without a live BPS API key.
-4. After review fixes, update `docs/project-control.md` and `dashboard/data/dashboard-data.json` review metadata to point to this Fase 3 review.
+4. After review fixes, update `docs/project/project-control.md` and `dashboard/data/dashboard-data.json` review metadata to point to this Fase 3 review.
 
 ## Final Decision
 

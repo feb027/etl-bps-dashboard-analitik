@@ -31,12 +31,12 @@ REQUIRED_TABLES = (
 )
 
 ARTIFACTS = [
-    "docs/etl-architecture.md",
-    "docs/database-schema.md",
-    "docs/transform-rules.md",
-    "docs/data-dictionary.md",
-    "docs/dashboard-spec.md",
-    "docs/dashboard-design-system.md",
+    "docs/architecture/etl-architecture.md",
+    "docs/architecture/database-schema.md",
+    "docs/architecture/transform-rules.md",
+    "docs/architecture/data-dictionary.md",
+    "docs/phases/dashboard-spec.md",
+    "docs/phases/dashboard-design-system.md",
     "src/bps_etl/load/schema.sql",
     "results/api/extract/extract_manifest.json",
     "results/tables/transform/fact_statistik_preview.csv",
@@ -45,7 +45,7 @@ ARTIFACTS = [
     "results/tables/transform/transform_manifest.json",
     "results/database/load_metrics.json",
     "dashboard/data/dashboard-data.json",
-    "docs/REVIEW_phase6_1_data_expansion.md",
+    "docs/reviews/REVIEW_phase6_1_data_expansion.md",
     "reports/progress-6-dashboard.md",
     "reports/progress-6-1-data-expansion.md",
 ]
@@ -605,8 +605,8 @@ def build_dashboard_data(
                 "phase": "6.1",
                 "score": 92,
                 "verdict": "APPROVED",
-                "file": "docs/REVIEW_phase6_1_data_expansion.md",
-                "previous": {"phase": 6, "score": 91, "verdict": "APPROVED", "file": "docs/REVIEW_phase6_dashboard.md"},
+                "file": "docs/reviews/REVIEW_phase6_1_data_expansion.md",
+                "previous": {"phase": 6, "score": 91, "verdict": "APPROVED", "file": "docs/reviews/REVIEW_phase6_dashboard.md"},
             },
         },
         "summary": {
@@ -652,11 +652,11 @@ def build_dashboard_data(
             },
             "artifacts": ARTIFACTS,
             "review_references": [
-                "docs/REVIEW_phase1_api_research.md",
-                "docs/REVIEW_phase2_etl_design.md",
-                "docs/REVIEW_phase3_extract_layer.md",
-                "docs/REVIEW_phase4_transform_layer.md",
-                "docs/REVIEW_phase5_load_layer.md",
+                "docs/reviews/REVIEW_phase1_api_research.md",
+                "docs/reviews/REVIEW_phase2_etl_design.md",
+                "docs/reviews/REVIEW_phase3_extract_layer.md",
+                "docs/reviews/REVIEW_phase4_transform_layer.md",
+                "docs/reviews/REVIEW_phase5_load_layer.md",
             ],
         },
         "quality": {

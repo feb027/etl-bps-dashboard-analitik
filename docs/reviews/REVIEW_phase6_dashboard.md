@@ -1,7 +1,7 @@
 # Review Fase 6 Dashboard
 
-Tanggal review: 2026-04-30  
-Peran reviewer: dosen, reviewer teknis, reviewer UI/aksesibilitas  
+Tanggal review: 2026-04-30
+Peran reviewer: dosen, reviewer teknis, reviewer UI/aksesibilitas
 Scope: hanya staged/local repository state pada branch `phase-6-dashboard`
 
 ## Verdict

@@ -4,9 +4,9 @@
 
 Deliverables:
 - `AGENTS.md`
-- `docs/project-control.md`
-- `docs/phase-gates.md`
-- `docs/workflow.md`
+- `docs/project/project-control.md`
+- `docs/project/phase-gates.md`
+- `docs/project/workflow.md`
 - reviewer prompts
 
 Status: **Complete in scaffold**

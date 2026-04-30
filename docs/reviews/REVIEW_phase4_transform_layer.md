@@ -14,10 +14,10 @@ Fase 4 memenuhi gate transform layer. Implementasi mendecode `datacontent` BPS d
 | Transform pipeline | `src/bps_etl/transform/pipeline.py:119`, `scripts/run_etl.py` |
 | Transform API surface | `src/bps_etl/transform/__init__.py` |
 | Tests | `tests/test_transform_layer.py`, `tests/test_dynamic_data.py`, `tests/test_scaffold.py` |
-| Documentation | `docs/transform-rules.md`, `docs/transform-layer.md`, `reports/progress-4-transform-layer.md` |
+| Documentation | `docs/architecture/transform-rules.md`, `docs/phases/transform-layer.md`, `reports/progress-4-transform-layer.md` |
 | Artifacts | `results/tables/transform/transform_manifest.json`, `transform_quality_metrics.json`, `dimensions_preview.json`, `fact_statistik_preview.csv` |
 | Dashboard truthfulness | `dashboard/data/dashboard-data.json`, `dashboard/index.html`, `dashboard/app.js` |
-| Phase controls | `docs/phase-gates.md`, `docs/project-control.md` |
+| Phase controls | `docs/project/phase-gates.md`, `docs/project/project-control.md` |
 
 ## Validation Results
 
@@ -48,7 +48,7 @@ The only non-blocking observation is naming clarity: `null_value_count` also cov
 ## Nice-to-have
 
 1. Add one focused test that creates a duplicate fact grain across two synthetic snapshots in `run_transform()`, not only within a single payload, to lock the combined pipeline quality gate.
-2. Add an explicit sentence in `docs/transform-layer.md` that transform quick mode runs fully offline from committed Fase 3 artifacts and does not need a live BPS API key.
+2. Add an explicit sentence in `docs/phases/transform-layer.md` that transform quick mode runs fully offline from committed Fase 3 artifacts and does not need a live BPS API key.
 3. Consider documenting that `artifact_path` and `snapshot_id` in the fact preview are audit helper columns for Fase 4 evidence; Fase 5 can either ignore them for `fact_statistik` or map them through audit/load metadata.
 
 ## Final Decision

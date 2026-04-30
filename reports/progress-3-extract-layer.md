@@ -8,7 +8,7 @@ Fase 3 mengimplementasikan extract layer production untuk mengambil metadata dan
 
 - Selected indicators: `results/api/selected_indicators.json`
 - BPS API key: local `.env` / environment, tidak dikomit
-- Source design: `docs/etl-architecture.md`, `docs/transform-rules.md`, `docs/database-schema.md`
+- Source design: `docs/architecture/etl-architecture.md`, `docs/architecture/transform-rules.md`, `docs/architecture/database-schema.md`
 
 ## Implementasi
 
@@ -21,7 +21,7 @@ Fase 3 mengimplementasikan extract layer production untuk mengambil metadata dan
 | `scripts/run_etl.py` | CLI Fase 3: `--phase extract --mode quick`. |
 | `tests/test_extract_layer.py` | Unit tests dengan mocked/fake responses. |
 | `results/api/extract/` | Raw extract snapshots dan manifest. |
-| `docs/extract-layer.md` | Dokumentasi teknis extract layer. |
+| `docs/phases/extract-layer.md` | Dokumentasi teknis extract layer. |
 
 ## Run Evidence
 

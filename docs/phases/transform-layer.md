@@ -80,7 +80,7 @@ Fase 4 tidak mengklaim database load atau dashboard analitik selesai. Output ini
 
 ## Review Result
 
-Codex lecturer/technical review: **93/100 — APPROVED** (`docs/REVIEW_phase4_transform_layer.md`).
+Codex lecturer/technical review: **93/100 — APPROVED** (`docs/reviews/REVIEW_phase4_transform_layer.md`).
 
 Post-review improvements applied:
 

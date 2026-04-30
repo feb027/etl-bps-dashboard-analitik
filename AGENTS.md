@@ -4,7 +4,7 @@
 
 Judul: **Perancangan ETL Pipeline dan Dashboard Analitik Data Sosial Ekonomi Berbasis Web API Badan Pusat Statistik (BPS)**
 
-Mata kuliah: Rekayasa Data  
+Mata kuliah: Rekayasa Data
 Fokus: ETL pipeline, Web API, database, dashboard analitik, dokumentasi akademik.
 
 ## Non-Negotiable Rules
@@ -29,7 +29,7 @@ python3 -m json.tool dashboard/data/dashboard-data.json >/dev/null
 
 - APPROVED jika skor minimal 85 dan tidak ada critical issue.
 - Target kuat: skor minimal 90.
-- Reviewer harus menulis ke file review di `docs/` dan tidak mengubah source kecuali diminta.
+- Reviewer harus menulis ke file review di `docs/reviews/` dan tidak mengubah source kecuali diminta.
 
 ## Git Rules
 

@@ -55,7 +55,7 @@ python3 scripts/run_etl.py --phase load --mode quick
 
 `dashboard/data/dashboard-data.json` includes:
 
-- `project`: title, status, `current_phase = "6 — Dashboard"`, generated timestamp, and Fase 6 review status from `docs/REVIEW_phase6_dashboard.md`.
+- `project`: title, status, `current_phase = "6 — Dashboard"`, generated timestamp, and Fase 6 review status from `docs/reviews/REVIEW_phase6_dashboard.md`.
 - `summary`: indicator, region, year, fact row counts, and latest ETL run id.
 - `filters`: indicator choices, year choices, source domains, ranking modes.
 - `indicators`, `years`, `regions`: compact dimensions from SQLite.

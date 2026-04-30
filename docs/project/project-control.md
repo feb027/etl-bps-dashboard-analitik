@@ -23,9 +23,9 @@
 | Path | Purpose | Status |
 |---|---|---|
 | `AGENTS.md` | Operating rules | Created |
-| `docs/phase-gates.md` | Done criteria | Created |
-| `docs/roadmap.md` | Phase roadmap | Created |
-| `docs/api-research-plan.md` | Fase 1 plan | Created |
+| `docs/project/phase-gates.md` | Done criteria | Created |
+| `docs/project/roadmap.md` | Phase roadmap | Created |
+| `docs/phases/api-research-plan.md` | Fase 1 plan | Created |
 | `dashboard/data/dashboard-data.json` | Dashboard data scaffold | Created |
 | `tests/test_scaffold.py` | Scaffold smoke test | Created |
 | `results/api/bps_api_probe_summary.json` | Fase 1 API probe summary | Created |
@@ -34,28 +34,28 @@
 | `results/tables/bps_api_probe_results.csv` | Probe table per indicator/year | Created |
 | `results/tables/normalized_sample.csv` | Decoded tabular sample | Created |
 | `reports/progress-1-api-research.md` | Fase 1 progress report | Created |
-| `docs/etl-architecture.md` | Fase 2 ETL architecture design | Created |
-| `docs/database-schema.md` | Fase 2 SQLite schema explanation | Created |
-| `docs/transform-rules.md` | Fase 2 transform rules | Created |
+| `docs/architecture/etl-architecture.md` | Fase 2 ETL architecture design | Created |
+| `docs/architecture/database-schema.md` | Fase 2 SQLite schema explanation | Created |
+| `docs/architecture/transform-rules.md` | Fase 2 transform rules | Created |
 | `src/bps_etl/load/schema.sql` | SQLite DDL design | Created |
 | `tests/test_schema.py` | Executable schema validation | Created |
-| `docs/extract-layer.md` | Fase 3 extract layer technical documentation | Created |
+| `docs/phases/extract-layer.md` | Fase 3 extract layer technical documentation | Created |
 | `src/bps_etl/extract/pipeline.py` | Fase 3 extract orchestration | Created |
 | `src/bps_etl/extract/snapshot.py` | Commit-safe raw snapshot writer | Created |
 | `results/api/extract/extract_manifest.json` | Fase 3 extract run manifest | Created |
 | `reports/progress-3-extract-layer.md` | Fase 3 progress report | Created |
-| `docs/transform-layer.md` | Fase 4 transform technical documentation | Created |
+| `docs/phases/transform-layer.md` | Fase 4 transform technical documentation | Created |
 | `src/bps_etl/transform/pipeline.py` | Fase 4 transform orchestration | Created |
 | `results/tables/transform/transform_manifest.json` | Fase 4 transform run manifest | Created |
 | `results/tables/transform/fact_statistik_preview.csv` | Fase 4 normalized fact preview | Created |
 | `reports/progress-4-transform-layer.md` | Fase 4 progress report | Created |
-| `docs/load-layer.md` | Fase 5 load layer technical documentation | Created |
+| `docs/phases/load-layer.md` | Fase 5 load layer technical documentation | Created |
 | `src/bps_etl/load/database.py` | Fase 5 SQLite load implementation | Updated |
 | `results/database/load_metrics.json` | Fase 5 load metrics evidence | Created |
 | `reports/progress-5-load-layer.md` | Fase 5 progress report | Created |
 | `dashboard/styles/tokens.css` | Fase 6 design tokens | Created |
 | `dashboard/scripts/main.js` | Fase 6 dashboard JS entrypoint | Created |
-| `docs/dashboard-design-system.md` | Fase 6 UI Skills/design system notes | Created |
+| `docs/phases/dashboard-design-system.md` | Fase 6 UI Skills/design system notes | Created |
 | `reports/progress-6-dashboard.md` | Fase 6 progress report | Created |
 | `reports/progress-6-1-data-expansion.md` | Fase 6.1 data expansion progress report | Created |
 
@@ -63,14 +63,14 @@
 
 | Phase | Reviewer | Score | Verdict | File |
 |---|---|---:|---|---|
-| 0A/0B | Codex lecturer/technical reviewer | 88 | APPROVED | `docs/REVIEW_phase0b.md` |
-| 1 | Codex lecturer/technical reviewer | 90 | APPROVED | `docs/REVIEW_phase1_api_research.md` |
-| 2 | Codex lecturer/technical reviewer | 88 | APPROVED | `docs/REVIEW_phase2_etl_design.md` |
-| 3 | Codex lecturer/technical reviewer | 91 | APPROVED | `docs/REVIEW_phase3_extract_layer.md` |
-| 4 | Codex lecturer/technical reviewer | 93 | APPROVED | `docs/REVIEW_phase4_transform_layer.md` |
-| 5 | Codex lecturer/technical reviewer | 92 | APPROVED | `docs/REVIEW_phase5_load_layer.md` |
-| 6 | Codex lecturer/technical/UI reviewer | 91 | APPROVED | `docs/REVIEW_phase6_dashboard.md` |
-| 6.1 | Technical/data-quality reviewer | 92 | APPROVED | `docs/REVIEW_phase6_1_data_expansion.md` |
+| 0A/0B | Codex lecturer/technical reviewer | 88 | APPROVED | `docs/reviews/REVIEW_phase0b.md` |
+| 1 | Codex lecturer/technical reviewer | 90 | APPROVED | `docs/reviews/REVIEW_phase1_api_research.md` |
+| 2 | Codex lecturer/technical reviewer | 88 | APPROVED | `docs/reviews/REVIEW_phase2_etl_design.md` |
+| 3 | Codex lecturer/technical reviewer | 91 | APPROVED | `docs/reviews/REVIEW_phase3_extract_layer.md` |
+| 4 | Codex lecturer/technical reviewer | 93 | APPROVED | `docs/reviews/REVIEW_phase4_transform_layer.md` |
+| 5 | Codex lecturer/technical reviewer | 92 | APPROVED | `docs/reviews/REVIEW_phase5_load_layer.md` |
+| 6 | Codex lecturer/technical/UI reviewer | 91 | APPROVED | `docs/reviews/REVIEW_phase6_dashboard.md` |
+| 6.1 | Technical/data-quality reviewer | 92 | APPROVED | `docs/reviews/REVIEW_phase6_1_data_expansion.md` |
 
 ## Remote & Pages Verification
 
@@ -168,7 +168,7 @@ Local SQLite: `data/database/bps_etl.sqlite` (ignored, not committed).
 | Static dashboard stack | Vanilla HTML/CSS/JS + ECharts CDN |
 
 Dashboard data: `dashboard/data/dashboard-data.json`.
-Design system: `docs/dashboard-design-system.md`.
+Design system: `docs/phases/dashboard-design-system.md`.
 
 ## Fase 6.1 Snapshot
 

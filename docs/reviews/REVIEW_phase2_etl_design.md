@@ -1,8 +1,8 @@
 # Review Fase 2 - ETL Architecture & Schema
 
-Tanggal review: 2026-04-29  
-Reviewer role: Dosen Rekayasa Data dan technical reviewer  
-Branch: `phase-2-etl-architecture-schema`  
+Tanggal review: 2026-04-29
+Reviewer role: Dosen Rekayasa Data dan technical reviewer
+Branch: `phase-2-etl-architecture-schema`
 Scope: desain arsitektur ETL dan schema, bukan implementasi full extract/transform/load.
 
 ## Verdict
@@ -17,16 +17,16 @@ Tidak ada critical issue yang menghalangi kelulusan Fase 2. Desain sudah cukup k
 
 | Artifact | Status | Catatan |
 |---|---|---|
-| `docs/etl-architecture.md` | Ada | Alur ETL jelas dari extract, metadata probe, transform, load, sampai dashboard JSON. |
-| `docs/database-schema.md` | Ada | Menjelaskan tabel dimensi, fact, audit, grain, FK, dan idempotensi. |
-| `docs/transform-rules.md` | Ada | Menjelaskan decode `datacontent`, extraction dimensi, construction fact, dan quality gates. |
-| `docs/data-dictionary.md` | Ada | Field dictionary cukup lengkap dan konsisten dengan schema utama. |
+| `docs/architecture/etl-architecture.md` | Ada | Alur ETL jelas dari extract, metadata probe, transform, load, sampai dashboard JSON. |
+| `docs/architecture/database-schema.md` | Ada | Menjelaskan tabel dimensi, fact, audit, grain, FK, dan idempotensi. |
+| `docs/architecture/transform-rules.md` | Ada | Menjelaskan decode `datacontent`, extraction dimensi, construction fact, dan quality gates. |
+| `docs/architecture/data-dictionary.md` | Ada | Field dictionary cukup lengkap dan konsisten dengan schema utama. |
 | `src/bps_etl/load/schema.sql` | Ada | DDL SQLite dapat dieksekusi dan memuat dim/fact/audit tables. |
 | `src/bps_etl/load/models.py` | Ada | Helper metadata schema sederhana dan cukup untuk test Fase 2. |
 | `tests/test_schema.py` | Ada | Memvalidasi tabel, FK, unique grain, sample insert, dan duplicate grain rejection. |
 | `reports/progress-2-etl-design.md` | Ada | Ringkasan Fase 2 sesuai artifact. |
-| `docs/phase-gates.md` | Ada | Fase 2 tinggal review approval. |
-| `docs/project-control.md` | Ada | Snapshot Fase 2 tercatat. |
+| `docs/project/phase-gates.md` | Ada | Fase 2 tinggal review approval. |
+| `docs/project/project-control.md` | Ada | Snapshot Fase 2 tercatat. |
 
 ## Validation Evidence
 
@@ -44,7 +44,7 @@ Fase 1 evidence yang dirujuk masih tersedia dan valid: 4 indikator, 12 probe row
 
 ## Assessment
 
-Arsitektur ETL cocok untuk konteks Rekayasa Data. Dokumen `docs/etl-architecture.md` memisahkan responsibilities extract, transform, load, audit, dan dashboard generator dengan benar. Desain juga mengikuti temuan Fase 1 yang paling penting: `model=data` memakai `th_id` dari `model=th`, `datacontent` adalah dictionary composite-key, dan decoder tidak boleh memakai fixed slicing.
+Arsitektur ETL cocok untuk konteks Rekayasa Data. Dokumen `docs/architecture/etl-architecture.md` memisahkan responsibilities extract, transform, load, audit, dan dashboard generator dengan benar. Desain juga mengikuti temuan Fase 1 yang paling penting: `model=data` memakai `th_id` dari `model=th`, `datacontent` adalah dictionary composite-key, dan decoder tidak boleh memakai fixed slicing.
 
 Schema SQLite masuk akal untuk skala proyek ini. Tersedia 5 tabel dimensi (`dim_indikator`, `dim_wilayah`, `dim_waktu`, `dim_turvar`, `dim_turtahun`), 1 fact table (`fact_statistik`), dan 2 audit tables (`raw_api_snapshot`, `etl_run_log`). Grain fact table jelas: `var_id + kode_wilayah + th_id + turvar_id + turth_id + source_domain`. Unique constraint pada grain tersebut cukup untuk idempotent load, dan `data_key` juga dibuat unique sebagai bukti key asli BPS.
 
@@ -60,24 +60,24 @@ Tidak ada critical issue.
 
 ## Important Issues
 
-1. **`fact_statistik.indicator_key` belum dijaga konsisten dengan `dim_indikator.var_id`.**  
+1. **`fact_statistik.indicator_key` belum dijaga konsisten dengan `dim_indikator.var_id`.**
    Pada `src/bps_etl/load/schema.sql`, `fact_statistik` memiliki `indicator_key` dan `var_id`, tetapi FK hanya ada pada `var_id`. Ini memungkinkan row fact dengan `var_id=192` tetapi `indicator_key` yang salah, sementara dashboard kemungkinan memakai `indicator_key` sebagai filter/index. Sebelum Fase 5, pilih salah satu pendekatan: hapus `indicator_key` dari fact dan derive lewat join `dim_indikator`, atau tambahkan constraint/FK yang membuat pasangan `var_id` dan `indicator_key` konsisten.
 
-2. **Audit `run_id` belum memiliki foreign key ke `etl_run_log`.**  
+2. **Audit `run_id` belum memiliki foreign key ke `etl_run_log`.**
    `fact_statistik.run_id` dan `raw_api_snapshot.run_id` ada sebagai kolom audit, tetapi belum direlasikan ke `etl_run_log.run_id`. Untuk audit trail akademik, orphan facts/snapshots sebaiknya dicegah atau minimal didokumentasikan sebagai nullable staging behavior. Sebelum Fase 5, tambahkan FK atau jelaskan lifecycle ketika row boleh tidak memiliki run log.
 
 ## Minor Issues
 
-1. **Test belum mengeksekusi duplicate `data_key` rejection.**  
+1. **Test belum mengeksekusi duplicate `data_key` rejection.**
    `tests/test_schema.py` sudah mengecek unique index `data_key` ada dan duplicate grain ditolak. Untuk coverage yang lebih kuat, tambahkan test yang memasukkan `data_key` sama dengan grain berbeda dan memastikan `sqlite3.IntegrityError`.
 
-2. **Audit counters belum punya non-negative checks.**  
+2. **Audit counters belum punya non-negative checks.**
    Kolom seperti `raw_api_snapshot.row_count`, `etl_run_log.indicator_count`, `raw_snapshot_count`, dan `fact_row_count` bertipe integer tetapi belum diberi `CHECK (... >= 0)`. Ini bukan blocker Fase 2, tetapi akan memperkuat data quality.
 
-3. **Asumsi `dim_waktu.tahun UNIQUE` perlu dipertahankan sebagai scope decision.**  
+3. **Asumsi `dim_waktu.tahun UNIQUE` perlu dipertahankan sebagai scope decision.**
    Untuk 4 indikator Fase 1, mapping `th_id` ke tahun konsisten. Jika nanti scope melebar ke endpoint/subject lain dan BPS memberi `th_id` berbeda untuk tahun kalender yang sama, constraint ini bisa terlalu ketat. Catat asumsi ini atau revisi menjadi desain yang menyertakan domain/scope jika Fase 3 menemukan variasi.
 
-4. **Worktree Fase 2 belum clean saat review.**  
+4. **Worktree Fase 2 belum clean saat review.**
    Branch sudah benar, tetapi artifact Fase 2 masih tercatat sebagai modified/untracked pada saat review. Ini tidak mengubah penilaian desain, tetapi sebelum phase closure perubahan perlu di-commit sesuai aturan project.
 
 ## Recommendation

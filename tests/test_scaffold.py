@@ -10,9 +10,9 @@ def test_required_scaffold_files_exist():
         "README.md",
         ".gitignore",
         ".env.example",
-        "docs/project-control.md",
-        "docs/phase-gates.md",
-        "docs/workflow.md",
+        "docs/project/project-control.md",
+        "docs/project/phase-gates.md",
+        "docs/project/workflow.md",
         "prompts/LECTURER_REVIEWER.md",
         "dashboard/index.html",
         "dashboard/styles/tokens.css",
@@ -54,7 +54,7 @@ def test_dashboard_json_is_fase_6_real_data_contract():
     assert data["project"]["current_phase"] == "6.1 — Data Expansion"
     assert data["project"]["review"]["verdict"] == "APPROVED"
     assert data["project"]["review"]["score"] == 92
-    assert data["project"]["review"]["file"] == "docs/REVIEW_phase6_1_data_expansion.md"
+    assert data["project"]["review"]["file"] == "docs/reviews/REVIEW_phase6_1_data_expansion.md"
     assert data["project"]["review"]["previous"]["score"] == 91
     assert data["design_metrics"]["valid_indicators"] == 6
     assert data["design_metrics"]["api_probe_rows"] == 24
