@@ -1,0 +1,296 @@
+{
+  "captured_at": "2026-04-29T16:35:03Z",
+  "request": {
+    "model": "vervar",
+    "domain": "0000",
+    "params": {
+      "var": 543
+    }
+  },
+  "request_fingerprint": "c3c858a0730b1e3cc310474dd1931e7458d00d72754b2a420fab75a579ce08a4",
+  "row_count": 39,
+  "payload": {
+    "metadata": {
+      "page": 1,
+      "pages": 4,
+      "per_page": 10,
+      "count": 10,
+      "total": 39
+    },
+    "rows": [
+      {
+        "kode_ver_id": 1100,
+        "vervar": "ACEH",
+        "item_ver_id": 2,
+        "group_ver_id": 1,
+        "name_group_ver_id": "38 Provinsi"
+      },
+      {
+        "kode_ver_id": 1200,
+        "vervar": "SUMATERA UTARA",
+        "item_ver_id": 3,
+        "group_ver_id": 1,
+        "name_group_ver_id": "38 Provinsi"
+      },
+      {
+        "kode_ver_id": 1300,
+        "vervar": "SUMATERA BARAT",
+        "item_ver_id": 4,
+        "group_ver_id": 1,
+        "name_group_ver_id": "38 Provinsi"
+      },
+      {
+        "kode_ver_id": 1400,
+        "vervar": "RIAU",
+        "item_ver_id": 5,
+        "group_ver_id": 1,
+        "name_group_ver_id": "38 Provinsi"
+      },
+      {
+        "kode_ver_id": 1500,
+        "vervar": "JAMBI",
+        "item_ver_id": 6,
+        "group_ver_id": 1,
+        "name_group_ver_id": "38 Provinsi"
+      },
+      {
+        "kode_ver_id": 1600,
+        "vervar": "SUMATERA SELATAN",
+        "item_ver_id": 7,
+        "group_ver_id": 1,
+        "name_group_ver_id": "38 Provinsi"
+      },
+      {
+        "kode_ver_id": 1700,
+        "vervar": "BENGKULU",
+        "item_ver_id": 8,
+        "group_ver_id": 1,
+        "name_group_ver_id": "38 Provinsi"
+      },
+      {
+        "kode_ver_id": 1800,
+        "vervar": "LAMPUNG",
+        "item_ver_id": 9,
+        "group_ver_id": 1,
+        "name_group_ver_id": "38 Provinsi"
+      },
+      {
+        "kode_ver_id": 1900,
+        "vervar": "KEP. BANGKA BELITUNG",
+        "item_ver_id": 10,
+        "group_ver_id": 1,
+        "name_group_ver_id": "38 Provinsi"
+      },
+      {
+        "kode_ver_id": 2100,
+        "vervar": "KEP. RIAU",
+        "item_ver_id": 11,
+        "group_ver_id": 1,
+        "name_group_ver_id": "38 Provinsi"
+      },
+      {
+        "kode_ver_id": 3100,
+        "vervar": "DKI JAKARTA",
+        "item_ver_id": 12,
+        "group_ver_id": 1,
+        "name_group_ver_id": "38 Provinsi"
+      },
+      {
+        "kode_ver_id": 3200,
+        "vervar": "JAWA BARAT",
+        "item_ver_id": 13,
+        "group_ver_id": 1,
+        "name_group_ver_id": "38 Provinsi"
+      },
+      {
+        "kode_ver_id": 3300,
+        "vervar": "JAWA TENGAH",
+        "item_ver_id": 14,
+        "group_ver_id": 1,
+        "name_group_ver_id": "38 Provinsi"
+      },
+      {
+        "kode_ver_id": 3400,
+        "vervar": "DI YOGYAKARTA",
+        "item_ver_id": 15,
+        "group_ver_id": 1,
+        "name_group_ver_id": "38 Provinsi"
+      },
+      {
+        "kode_ver_id": 3500,
+        "vervar": "JAWA TIMUR",
+        "item_ver_id": 16,
+        "group_ver_id": 1,
+        "name_group_ver_id": "38 Provinsi"
+      },
+      {
+        "kode_ver_id": 3600,
+        "vervar": "BANTEN",
+        "item_ver_id": 17,
+        "group_ver_id": 1,
+        "name_group_ver_id": "38 Provinsi"
+      },
+      {
+        "kode_ver_id": 5100,
+        "vervar": "BALI",
+        "item_ver_id": 18,
+        "group_ver_id": 1,
+        "name_group_ver_id": "38 Provinsi"
+      },
+      {
+        "kode_ver_id": 5200,
+        "vervar": "NUSA TENGGARA BARAT",
+        "item_ver_id": 19,
+        "group_ver_id": 1,
+        "name_group_ver_id": "38 Provinsi"
+      },
+      {
+        "kode_ver_id": 5300,
+        "vervar": "NUSA TENGGARA TIMUR",
+        "item_ver_id": 20,
+        "group_ver_id": 1,
+        "name_group_ver_id": "38 Provinsi"
+      },
+      {
+        "kode_ver_id": 6100,
+        "vervar": "KALIMANTAN BARAT",
+        "item_ver_id": 21,
+        "group_ver_id": 1,
+        "name_group_ver_id": "38 Provinsi"
+      },
+      {
+        "kode_ver_id": 6200,
+        "vervar": "KALIMANTAN TENGAH",
+        "item_ver_id": 22,
+        "group_ver_id": 1,
+        "name_group_ver_id": "38 Provinsi"
+      },
+      {
+        "kode_ver_id": 6300,
+        "vervar": "KALIMANTAN SELATAN",
+        "item_ver_id": 23,
+        "group_ver_id": 1,
+        "name_group_ver_id": "38 Provinsi"
+      },
+      {
+        "kode_ver_id": 6400,
+        "vervar": "KALIMANTAN TIMUR",
+        "item_ver_id": 24,
+        "group_ver_id": 1,
+        "name_group_ver_id": "38 Provinsi"
+      },
+      {
+        "kode_ver_id": 6500,
+        "vervar": "KALIMANTAN UTARA",
+        "item_ver_id": 25,
+        "group_ver_id": 1,
+        "name_group_ver_id": "38 Provinsi"
+      },
+      {
+        "kode_ver_id": 7100,
+        "vervar": "SULAWESI UTARA",
+        "item_ver_id": 26,
+        "group_ver_id": 1,
+        "name_group_ver_id": "38 Provinsi"
+      },
+      {
+        "kode_ver_id": 7200,
+        "vervar": "SULAWESI TENGAH",
+        "item_ver_id": 27,
+        "group_ver_id": 1,
+        "name_group_ver_id": "38 Provinsi"
+      },
+      {
+        "kode_ver_id": 7300,
+        "vervar": "SULAWESI SELATAN",
+        "item_ver_id": 28,
+        "group_ver_id": 1,
+        "name_group_ver_id": "38 Provinsi"
+      },
+      {
+        "kode_ver_id": 7400,
+        "vervar": "SULAWESI TENGGARA",
+        "item_ver_id": 29,
+        "group_ver_id": 1,
+        "name_group_ver_id": "38 Provinsi"
+      },
+      {
+        "kode_ver_id": 7500,
+        "vervar": "GORONTALO",
+        "item_ver_id": 30,
+        "group_ver_id": 1,
+        "name_group_ver_id": "38 Provinsi"
+      },
+      {
+        "kode_ver_id": 7600,
+        "vervar": "SULAWESI BARAT",
+        "item_ver_id": 31,
+        "group_ver_id": 1,
+        "name_group_ver_id": "38 Provinsi"
+      },
+      {
+        "kode_ver_id": 8100,
+        "vervar": "MALUKU",
+        "item_ver_id": 32,
+        "group_ver_id": 1,
+        "name_group_ver_id": "38 Provinsi"
+      },
+      {
+        "kode_ver_id": 8200,
+        "vervar": "MALUKU UTARA",
+        "item_ver_id": 33,
+        "group_ver_id": 1,
+        "name_group_ver_id": "38 Provinsi"
+      },
+      {
+        "kode_ver_id": 9100,
+        "vervar": "PAPUA BARAT",
+        "item_ver_id": 34,
+        "group_ver_id": 1,
+        "name_group_ver_id": "38 Provinsi"
+      },
+      {
+        "kode_ver_id": 9200,
+        "vervar": "PAPUA BARAT DAYA",
+        "item_ver_id": 9003,
+        "group_ver_id": 1,
+        "name_group_ver_id": "38 Provinsi"
+      },
+      {
+        "kode_ver_id": 9400,
+        "vervar": "PAPUA",
+        "item_ver_id": 35,
+        "group_ver_id": 1,
+        "name_group_ver_id": "38 Provinsi"
+      },
+      {
+        "kode_ver_id": 9500,
+        "vervar": "PAPUA SELATAN",
+        "item_ver_id": 9004,
+        "group_ver_id": 1,
+        "name_group_ver_id": "38 Provinsi"
+      },
+      {
+        "kode_ver_id": 9600,
+        "vervar": "PAPUA TENGAH",
+        "item_ver_id": 9005,
+        "group_ver_id": 1,
+        "name_group_ver_id": "38 Provinsi"
+      },
+      {
+        "kode_ver_id": 9700,
+        "vervar": "PAPUA PEGUNUNGAN",
+        "item_ver_id": 9006,
+        "group_ver_id": 1,
+        "name_group_ver_id": "38 Provinsi"
+      },
+      {
+        "kode_ver_id": 9999,
+        "vervar": "INDONESIA",
+        "item_ver_id": 1,
+        "group_ver_id": 1,
+        "name_group_ver_id": "38 Provinsi"
+      }
+    ]
+  }
+}

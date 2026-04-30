@@ -1,0 +1,379 @@
+{
+  "captured_at": "2026-04-29T16:35:03Z",
+  "request": {
+    "model": "unit",
+    "domain": "0000",
+    "params": {
+      "var": 494
+    }
+  },
+  "request_fingerprint": "a9e5d76aff447fc049c5bf4f71bcd4df0be365b4ae79eb712b9a10a2fa07a37b",
+  "row_count": 89,
+  "payload": {
+    "metadata": {
+      "page": 1,
+      "pages": 9,
+      "per_page": 10,
+      "count": 10,
+      "total": 89
+    },
+    "rows": [
+      {
+        "unit_id": 0,
+        "unit": "Tidak Ada Satuan"
+      },
+      {
+        "unit_id": 1,
+        "unit": "Orang"
+      },
+      {
+        "unit_id": 2,
+        "unit": "Tahun"
+      },
+      {
+        "unit_id": 3,
+        "unit": "Rupiah"
+      },
+      {
+        "unit_id": 4,
+        "unit": "Ribu Rupiah"
+      },
+      {
+        "unit_id": 5,
+        "unit": "Juta Rupiah"
+      },
+      {
+        "unit_id": 6,
+        "unit": "Milyar Rupiah"
+      },
+      {
+        "unit_id": 7,
+        "unit": "Persen"
+      },
+      {
+        "unit_id": 8,
+        "unit": "Hektar"
+      },
+      {
+        "unit_id": 9,
+        "unit": "Kuintal/Hektar"
+      },
+      {
+        "unit_id": 10,
+        "unit": "Ton"
+      },
+      {
+        "unit_id": 11,
+        "unit": "KG"
+      },
+      {
+        "unit_id": 12,
+        "unit": "Ribu Jiwa"
+      },
+      {
+        "unit_id": 13,
+        "unit": "Tangkai"
+      },
+      {
+        "unit_id": 14,
+        "unit": "M2"
+      },
+      {
+        "unit_id": 15,
+        "unit": "km"
+      },
+      {
+        "unit_id": 16,
+        "unit": "SR"
+      },
+      {
+        "unit_id": 17,
+        "unit": "m3/det"
+      },
+      {
+        "unit_id": 18,
+        "unit": "Unit"
+      },
+      {
+        "unit_id": 19,
+        "unit": "MW"
+      },
+      {
+        "unit_id": 20,
+        "unit": "ribu MWh"
+      },
+      {
+        "unit_id": 21,
+        "unit": "Rupiah/Kuintal"
+      },
+      {
+        "unit_id": 22,
+        "unit": "M3"
+      },
+      {
+        "unit_id": 23,
+        "unit": "kilo liter"
+      },
+      {
+        "unit_id": 24,
+        "unit": "Barel"
+      },
+      {
+        "unit_id": 25,
+        "unit": "Gram"
+      },
+      {
+        "unit_id": 26,
+        "unit": "KKal"
+      },
+      {
+        "unit_id": 27,
+        "unit": "Ribu Orang"
+      },
+      {
+        "unit_id": 28,
+        "unit": "Ribu Ton"
+      },
+      {
+        "unit_id": 29,
+        "unit": "Rupiah/Kg"
+      },
+      {
+        "unit_id": 30,
+        "unit": "Perusahaan"
+      },
+      {
+        "unit_id": 31,
+        "unit": "Ribu Hektar"
+      },
+      {
+        "unit_id": 32,
+        "unit": "jiwa/km2"
+      },
+      {
+        "unit_id": 33,
+        "unit": "Rumah Tangga"
+      },
+      {
+        "unit_id": 34,
+        "unit": "Ribu Rumah Tangga"
+      },
+      {
+        "unit_id": 35,
+        "unit": "Pasangan Nikah"
+      },
+      {
+        "unit_id": 36,
+        "unit": "Juta Jiwa"
+      },
+      {
+        "unit_id": 37,
+        "unit": "Rupiah/kapita/bulan"
+      },
+      {
+        "unit_id": 38,
+        "unit": "US $"
+      },
+      {
+        "unit_id": 39,
+        "unit": "Juta US$"
+      },
+      {
+        "unit_id": 40,
+        "unit": "ribu ekor"
+      },
+      {
+        "unit_id": 41,
+        "unit": "Ekor"
+      },
+      {
+        "unit_id": 42,
+        "unit": "Kasus"
+      },
+      {
+        "unit_id": 43,
+        "unit": "Desa"
+      },
+      {
+        "unit_id": 44,
+        "unit": "Usaha"
+      },
+      {
+        "unit_id": 45,
+        "unit": "Hari orang"
+      },
+      {
+        "unit_id": 46,
+        "unit": "GWh"
+      },
+      {
+        "unit_id": 47,
+        "unit": "ribu m<sup>3</sup>"
+      },
+      {
+        "unit_id": 48,
+        "unit": "Malam"
+      },
+      {
+        "unit_id": 49,
+        "unit": "Ribu Metrik Ton"
+      },
+      {
+        "unit_id": 50,
+        "unit": "Hari"
+      },
+      {
+        "unit_id": 51,
+        "unit": "Ribu Rupiah/Orang/Tahun"
+      },
+      {
+        "unit_id": 52,
+        "unit": "Rupiah/Orang/Tahun"
+      },
+      {
+        "unit_id": 53,
+        "unit": "Miliar US $"
+      },
+      {
+        "unit_id": 54,
+        "unit": "Triliun Rupiah"
+      },
+      {
+        "unit_id": 55,
+        "unit": "Juta"
+      },
+      {
+        "unit_id": 56,
+        "unit": "MMSCF"
+      },
+      {
+        "unit_id": 57,
+        "unit": "liter per detik"
+      },
+      {
+        "unit_id": 58,
+        "unit": "Mega Watt"
+      },
+      {
+        "unit_id": 59,
+        "unit": "Kunjungan"
+      },
+      {
+        "unit_id": 60,
+        "unit": "MWH/Kapita"
+      },
+      {
+        "unit_id": 61,
+        "unit": "Juta Orang"
+      },
+      {
+        "unit_id": 62,
+        "unit": "Bandara"
+      },
+      {
+        "unit_id": 63,
+        "unit": "Pelabuhan"
+      },
+      {
+        "unit_id": 64,
+        "unit": "Daerah"
+      },
+      {
+        "unit_id": 65,
+        "unit": "Juta Hektar"
+      },
+      {
+        "unit_id": 66,
+        "unit": "Rupiah/Tenaga Kerja"
+      },
+      {
+        "unit_id": 67,
+        "unit": "Liter Per Kapita"
+      },
+      {
+        "unit_id": 68,
+        "unit": "Juta Perjalanan"
+      },
+      {
+        "unit_id": 69,
+        "unit": "Rupiah/Jam"
+      },
+      {
+        "unit_id": 70,
+        "unit": "Keluarga"
+      },
+      {
+        "unit_id": 71,
+        "unit": "Produk"
+      },
+      {
+        "unit_id": 72,
+        "unit": "Fasilitas Publik"
+      },
+      {
+        "unit_id": 73,
+        "unit": "Kelompok Usaha Bersama"
+      },
+      {
+        "unit_id": 74,
+        "unit": "Kawasan Konservasi"
+      },
+      {
+        "unit_id": 75,
+        "unit": "BOE/miliar Rp"
+      },
+      {
+        "unit_id": 76,
+        "unit": "Hari Per Minggu"
+      },
+      {
+        "unit_id": 77,
+        "unit": "Satuan Komoditas"
+      },
+      {
+        "unit_id": 78,
+        "unit": "Rupiah/Kapita/Minggu"
+      },
+      {
+        "unit_id": 79,
+        "unit": "orang hari"
+      },
+      {
+        "unit_id": 80,
+        "unit": "Perjalanan"
+      },
+      {
+        "unit_id": 81,
+        "unit": "Kg/Kapita/Minggu"
+      },
+      {
+        "unit_id": 83,
+        "unit": "Peta Joule"
+      },
+      {
+        "unit_id": 84,
+        "unit": "Ribu US$"
+      },
+      {
+        "unit_id": 85,
+        "unit": "Juta Barrel"
+      },
+      {
+        "unit_id": 86,
+        "unit": "BSCF"
+      },
+      {
+        "unit_id": 87,
+        "unit": "Juta Ton"
+      },
+      {
+        "unit_id": 88,
+        "unit": "Ribu Ton CO2"
+      },
+      {
+        "unit_id": 89,
+        "unit": "Magnitudo"
+      }
+    ]
+  }
+}

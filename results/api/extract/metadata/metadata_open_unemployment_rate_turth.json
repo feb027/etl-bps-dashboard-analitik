@@ -1,0 +1,41 @@
+{
+  "captured_at": "2026-04-29T16:35:03Z",
+  "request": {
+    "model": "turth",
+    "domain": "0000",
+    "params": {
+      "var": 543
+    }
+  },
+  "request_fingerprint": "0d01a702faad42e543cd4d64ec71ded9f38aa7a6eaa43911411ffb5c770da1be",
+  "row_count": 3,
+  "payload": {
+    "metadata": {
+      "page": 1,
+      "pages": 1,
+      "per_page": 10,
+      "count": 3,
+      "total": 3
+    },
+    "rows": [
+      {
+        "turth_id": 189,
+        "turth": "Februari",
+        "group_turth_id": 52,
+        "name_group_turth": "Semesteran [Sakernas]"
+      },
+      {
+        "turth_id": 190,
+        "turth": "Agustus",
+        "group_turth_id": 52,
+        "name_group_turth": "Semesteran [Sakernas]"
+      },
+      {
+        "turth_id": 191,
+        "turth": "Tahunan",
+        "group_turth_id": 52,
+        "name_group_turth": "Semesteran [Sakernas]"
+      }
+    ]
+  }
+}

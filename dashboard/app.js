@@ -51,6 +51,10 @@ function render(data) {
   setText('fact-tables', formatNumber(metrics.fact_tables));
   setText('audit-tables', formatNumber(metrics.audit_tables));
   setText('unmatched-keys', formatNumber(metrics.unmatched_datacontent_keys));
+  setText('extract-targets', formatNumber(metrics.extract_targets));
+  setText('metadata-snapshots', formatNumber(metrics.metadata_snapshots));
+  setText('dynamic-snapshots', formatNumber(metrics.dynamic_snapshots));
+  setText('total-raw-rows', formatNumber(metrics.total_raw_rows));
   setText('fact-grain', data.schema?.fact_grain || '-');
 
   renderPhaseProgress(data.phase_progress || []);

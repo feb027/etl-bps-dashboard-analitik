@@ -1,0 +1,16 @@
+{
+  "captured_at": "2026-04-29T16:35:03Z",
+  "request": {
+    "model": "turvar",
+    "domain": "0000",
+    "params": {
+      "var": 494
+    }
+  },
+  "request_fingerprint": "3bdbc7504dcf5c444dba736820303baf90ff30e2f39d059d86c0ae98589d83c7",
+  "row_count": 0,
+  "payload": {
+    "metadata": {},
+    "rows": []
+  }
+}

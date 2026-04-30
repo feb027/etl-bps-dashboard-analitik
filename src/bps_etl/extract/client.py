@@ -4,7 +4,9 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 import json
+import time
 from typing import Any
+from urllib.error import HTTPError, URLError
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
@@ -40,19 +42,49 @@ class BPSClient:
     transparent and easy to audit.
     """
 
-    def __init__(self, api_key: str, base_url: str = BPS_BASE_URL, timeout: int = 30) -> None:
+    def __init__(
+        self,
+        api_key: str,
+        base_url: str = BPS_BASE_URL,
+        timeout: int = 30,
+        retries: int = 2,
+        retry_backoff: float = 1.0,
+    ) -> None:
         if not api_key:
             raise ValueError("api_key is required")
         self.api_key = api_key
         self.base_url = base_url
         self.timeout = timeout
+        self.retries = retries
+        self.retry_backoff = retry_backoff
 
     def request(self, bps_request: BPSRequest) -> dict[str, Any]:
         params = build_query_params(bps_request, api_key=self.api_key)
         url = f"{self.base_url}?{urlencode(params)}"
         req = Request(url, headers={"User-Agent": "etl-bps-dashboard-analitik/0.1"})
-        with urlopen(req, timeout=self.timeout) as response:
-            return json.loads(response.read().decode("utf-8"))
+        last_error: Exception | None = None
+
+        for attempt in range(self.retries + 1):
+            try:
+                with urlopen(req, timeout=self.timeout) as response:
+                    return json.loads(response.read().decode("utf-8"))
+            except HTTPError as exc:
+                last_error = exc
+                retryable = exc.code == 429 or exc.code >= 500
+                if not retryable:
+                    raise RuntimeError(f"BPS request failed with permanent HTTP {exc.code}: {exc.reason}") from exc
+                if attempt >= self.retries:
+                    break
+                if self.retry_backoff > 0:
+                    time.sleep(self.retry_backoff * (2 ** attempt))
+            except (TimeoutError, URLError) as exc:
+                last_error = exc
+                if attempt >= self.retries:
+                    break
+                if self.retry_backoff > 0:
+                    time.sleep(self.retry_backoff * (2 ** attempt))
+
+        raise RuntimeError(f"BPS request failed after {self.retries + 1} attempts: {last_error}")
 
     def list_rows(
         self,
