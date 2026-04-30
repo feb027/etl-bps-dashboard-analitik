@@ -2,11 +2,11 @@
 
 ## Current Status
 
-- Current phase: **4 — Transform Layer**
+- Current phase: **5 — Load Layer**
 - Date initialized: 2026-04-29
 - Repository: `feb027/etl-bps-dashboard-analitik`
 - Dashboard URL target: `https://feb027.github.io/etl-bps-dashboard-analitik/`
-- Latest verified commit: `fe55aafdbb47cae6d72c821b49cf96579e3e831f`
+- Latest verified commit: `011f010be2f3cbe6568bac13887c553ec47225a2`
 
 ## Decisions
 
@@ -49,6 +49,10 @@
 | `results/tables/transform/transform_manifest.json` | Fase 4 transform run manifest | Created |
 | `results/tables/transform/fact_statistik_preview.csv` | Fase 4 normalized fact preview | Created |
 | `reports/progress-4-transform-layer.md` | Fase 4 progress report | Created |
+| `docs/load-layer.md` | Fase 5 load layer technical documentation | Created |
+| `src/bps_etl/load/database.py` | Fase 5 SQLite load implementation | Updated |
+| `results/database/load_metrics.json` | Fase 5 load metrics evidence | Created |
+| `reports/progress-5-load-layer.md` | Fase 5 progress report | Created |
 
 ## Review Status
 
@@ -59,17 +63,18 @@
 | 2 | Codex lecturer/technical reviewer | 88 | APPROVED | `docs/REVIEW_phase2_etl_design.md` |
 | 3 | Codex lecturer/technical reviewer | 91 | APPROVED | `docs/REVIEW_phase3_extract_layer.md` |
 | 4 | Codex lecturer/technical reviewer | 93 | APPROVED | `docs/REVIEW_phase4_transform_layer.md` |
+| 5 | Codex lecturer/technical reviewer | 92 | APPROVED | `docs/REVIEW_phase5_load_layer.md` |
 
 ## Remote & Pages Verification
 
 | Check | Result |
 |---|---|
 | GitHub repo | `https://github.com/feb027/etl-bps-dashboard-analitik` |
-| Remote main commit | `e7534586daa015f2522fd00aeec66fdb6a11cc6c` |
+| Remote main commit | `011f010be2f3cbe6568bac13887c553ec47225a2` |
 | GitHub Pages URL | `https://feb027.github.io/etl-bps-dashboard-analitik/` |
 | Page HTTP | 200 verified |
 | Dashboard JSON HTTP | 200 verified |
-| Dashboard JSON status | `Fase 3 complete` on live main; Fase 4 dashboard update pending PR merge |
+| Dashboard JSON status | `Fase 4 complete` on live main; Fase 5 dashboard update pending PR merge |
 
 ## Blockers
 
@@ -128,8 +133,25 @@ Extract manifest: `results/api/extract/extract_manifest.json`.
 
 Transform manifest: `results/tables/transform/transform_manifest.json`.
 
+## Fase 5 Snapshot
+
+| Metric | Value |
+|---|---:|
+| `dim_indikator` rows | 4 |
+| `dim_wilayah` rows | 553 |
+| `dim_waktu` rows | 3 |
+| `dim_turvar` rows | 4 |
+| `dim_turtahun` rows | 5 |
+| `fact_statistik` rows | 2490 |
+| `raw_api_snapshot` rows | 32 |
+| `etl_run_log` rows | 1 |
+| Load tests | 5 |
+
+Load metrics: `results/database/load_metrics.json`.
+Local SQLite: `data/database/bps_etl.sqlite` (ignored, not committed).
+
 ## Next Action
 
-1. Push branch `phase-4-transform-layer`.
-2. Open PR to `main`.
-3. Start Fase 5 — Load Layer after PR is reviewed/merged.
+1. Push branch and open PR to `main`.
+2. Merge after checks pass.
+3. Start Fase 6 — Dashboard from populated SQLite.

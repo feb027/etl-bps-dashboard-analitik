@@ -6,9 +6,9 @@ Repo ini adalah proyek mata kuliah Rekayasa Data untuk membangun pipeline **Extr
 
 ## Status
 
-- Fase saat ini: **0B — Repository Infrastructure**
-- Data statistik: belum diambil
-- Dashboard: scaffold awal, **tanpa dummy/fake chart**
+- Fase saat ini: **5 — Load Layer**
+- Data statistik: 2.490 fact rows sudah dimuat ke SQLite lokal dari artifact BPS asli
+- Dashboard: evidence ETL sudah diperbarui, grafik statistik menunggu Fase 6, **tanpa dummy/fake chart**
 - Prinsip utama: evidence-first, real-data-only, no hardcoded API key
 
 ## Arsitektur Target
@@ -55,12 +55,21 @@ cp .env.example .env
 # isi BPS_API_KEY di .env
 ```
 
-## Validasi Scaffold
+## Validasi Proyek
 
 ```bash
 python3 -m py_compile scripts/*.py
 python3 -m pytest -q
 python3 -m json.tool dashboard/data/dashboard-data.json >/dev/null
+python3 -m json.tool results/database/load_metrics.json >/dev/null
+```
+
+## Jalankan Load Layer
+
+```bash
+python3 scripts/run_etl.py --phase load --mode quick \
+  --database-path data/database/bps_etl.sqlite \
+  --metrics-path results/database/load_metrics.json
 ```
 
 ## Jalankan Dashboard Lokal
