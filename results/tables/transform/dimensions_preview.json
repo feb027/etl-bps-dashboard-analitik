@@ -1,0 +1,4565 @@
+{
+  "dim_indikator": [
+    {
+      "var_id": 192,
+      "indicator_key": "poverty_rate",
+      "nama_indikator": "Persentase Penduduk Miskin (P0) Menurut Provinsi dan Daerah",
+      "unit": "Persen",
+      "subject": "Kemiskinan dan Ketimpangan",
+      "theme": "Kemiskinan",
+      "definisi": "",
+      "catatan": "Data Provinsi Kalimantan Utara pada tahun 2013 dan 2014 masih bergabung dengan Provinsi Kalimantan TimurAngka Provinsi Papua Barat dan Papua sebelum tahun 2024 merupakan angka provinsi sebelum mengalami pemekaran Daerah Otonom Baru (DOB)",
+      "decimal_places": 2,
+      "source_model": "data.var"
+    },
+    {
+      "var_id": 415,
+      "indicator_key": "mean_years_schooling_new_method",
+      "nama_indikator": "[Metode Baru] Rata-rata Lama Sekolah",
+      "unit": "Tahun",
+      "subject": "Indeks Pembangunan Manusia",
+      "theme": "Pendidikan",
+      "definisi": "",
+      "catatan": "Untuk penjelasan lebih lanjut mengenai IPM metode baru silahkan klik link di bawah ini -Booklet IPM metode Baru -Bahan Sosialisasi IPM metode baru",
+      "decimal_places": 2,
+      "source_model": "data.var"
+    },
+    {
+      "var_id": 494,
+      "indicator_key": "human_development_index_new_method",
+      "nama_indikator": "[Metode Baru] Indeks Pembangunan Manusia (IPM) menurut Provinsi",
+      "unit": "",
+      "subject": "Indeks Pembangunan Manusia",
+      "theme": "Pembangunan Manusia",
+      "definisi": "",
+      "catatan": "Untuk penjelasan lebih lanjut mengenai IPM metode baru silahkan klik link di bawah ini -Booklet IPM metode Baru -Bahan Sosialisasi IPM metode baru",
+      "decimal_places": 2,
+      "source_model": "data.var"
+    },
+    {
+      "var_id": 543,
+      "indicator_key": "open_unemployment_rate",
+      "nama_indikator": "Tingkat Pengangguran Terbuka Menurut Provinsi",
+      "unit": "Persen",
+      "subject": "Tenaga Kerja",
+      "theme": "Ketenagakerjaan",
+      "definisi": "",
+      "catatan": "Data 2011-2013 menggunakan Backcast dari Penimbang Proyeksi Komponen Data 2018-2020 menggunakan Backcast dari Penimbang berbasis SUPAS 2015 1986-1998, penghitungan tanpa data Provinsi Timor Timor Pada tahun 1995, Sakernas tidak dilaksanakan Pada tahun 2000, tanpa Maluku Sumber: Survei Angkatan Kerja Nasional (Sakernas)",
+      "decimal_places": 2,
+      "source_model": "data.var"
+    }
+  ],
+  "dim_wilayah": [
+    {
+      "kode_wilayah": "1100",
+      "nama_wilayah": "ACEH",
+      "level_wilayah": "provinsi",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1101",
+      "nama_wilayah": "Simeulue",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1102",
+      "nama_wilayah": "Aceh Singkil",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1103",
+      "nama_wilayah": "Aceh Selatan",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1104",
+      "nama_wilayah": "Aceh Tenggara",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1105",
+      "nama_wilayah": "Aceh Timur",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1106",
+      "nama_wilayah": "Aceh Tengah",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1107",
+      "nama_wilayah": "Aceh Barat",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1108",
+      "nama_wilayah": "Aceh Besar",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1109",
+      "nama_wilayah": "Pidie",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1110",
+      "nama_wilayah": "Bireuen",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1111",
+      "nama_wilayah": "Aceh Utara",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1112",
+      "nama_wilayah": "Aceh Barat Daya",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1113",
+      "nama_wilayah": "Gayo Lues",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1114",
+      "nama_wilayah": "Aceh Tamiang",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1115",
+      "nama_wilayah": "Nagan Raya",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1116",
+      "nama_wilayah": "Aceh Jaya",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1117",
+      "nama_wilayah": "Bener Meriah",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1118",
+      "nama_wilayah": "Pidie Jaya",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1171",
+      "nama_wilayah": "Kota Banda Aceh",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1172",
+      "nama_wilayah": "Kota Sabang",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1173",
+      "nama_wilayah": "Kota Langsa",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1174",
+      "nama_wilayah": "Kota Lhokseumawe",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1175",
+      "nama_wilayah": "Kota Subulussalam",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1200",
+      "nama_wilayah": "SUMATERA UTARA",
+      "level_wilayah": "provinsi",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1201",
+      "nama_wilayah": "Nias",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1202",
+      "nama_wilayah": "Mandailing Natal",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1203",
+      "nama_wilayah": "Tapanuli Selatan",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1204",
+      "nama_wilayah": "Tapanuli Tengah",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1205",
+      "nama_wilayah": "Tapanuli Utara",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1206",
+      "nama_wilayah": "Toba Samosir / Toba",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1207",
+      "nama_wilayah": "Labuhan Batu",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1208",
+      "nama_wilayah": "Asahan",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1209",
+      "nama_wilayah": "Simalungun",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1210",
+      "nama_wilayah": "Dairi",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1211",
+      "nama_wilayah": "Karo",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1212",
+      "nama_wilayah": "Deli Serdang",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1213",
+      "nama_wilayah": "Langkat",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1214",
+      "nama_wilayah": "Nias Selatan",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1215",
+      "nama_wilayah": "Humbang Hasundutan",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1216",
+      "nama_wilayah": "Pakpak Bharat",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1217",
+      "nama_wilayah": "Samosir",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1218",
+      "nama_wilayah": "Serdang Bedagai",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1219",
+      "nama_wilayah": "Batu Bara",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1220",
+      "nama_wilayah": "Padang Lawas Utara",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1221",
+      "nama_wilayah": "Padang Lawas",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1222",
+      "nama_wilayah": "Labuhan Batu Selatan",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1223",
+      "nama_wilayah": "Labuhan Batu Utara",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1224",
+      "nama_wilayah": "Nias Utara",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1225",
+      "nama_wilayah": "Nias Barat",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1271",
+      "nama_wilayah": "Kota Sibolga",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1272",
+      "nama_wilayah": "Kota Tanjung Balai",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1273",
+      "nama_wilayah": "Kota Pematang Siantar",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1274",
+      "nama_wilayah": "Kota Tebing Tinggi",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1275",
+      "nama_wilayah": "Kota Medan",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1276",
+      "nama_wilayah": "Kota Binjai",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1277",
+      "nama_wilayah": "Kota Padangsidimpuan",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1278",
+      "nama_wilayah": "Kota Gunungsitoli",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1300",
+      "nama_wilayah": "SUMATERA BARAT",
+      "level_wilayah": "provinsi",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1301",
+      "nama_wilayah": "Kepulauan Mentawai",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1302",
+      "nama_wilayah": "Pesisir Selatan",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1303",
+      "nama_wilayah": "Solok",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1304",
+      "nama_wilayah": "Sijunjung",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1305",
+      "nama_wilayah": "Tanah Datar",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1306",
+      "nama_wilayah": "Padang Pariaman",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1307",
+      "nama_wilayah": "Agam",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1308",
+      "nama_wilayah": "Lima Puluh Kota",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1309",
+      "nama_wilayah": "Pasaman",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1310",
+      "nama_wilayah": "Solok Selatan",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1311",
+      "nama_wilayah": "Dharmasraya",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1312",
+      "nama_wilayah": "Pasaman Barat",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1371",
+      "nama_wilayah": "Kota Padang",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1372",
+      "nama_wilayah": "Kota Solok",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1373",
+      "nama_wilayah": "Kota Sawah Lunto",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1374",
+      "nama_wilayah": "Kota Padang Panjang",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1375",
+      "nama_wilayah": "Kota Bukittinggi",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1376",
+      "nama_wilayah": "Kota Payakumbuh",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1377",
+      "nama_wilayah": "Kota Pariaman",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1400",
+      "nama_wilayah": "RIAU",
+      "level_wilayah": "provinsi",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1401",
+      "nama_wilayah": "Kuantan Singingi",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1402",
+      "nama_wilayah": "Indragiri Hulu",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1403",
+      "nama_wilayah": "Indragiri Hilir",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1404",
+      "nama_wilayah": "Pelalawan",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1405",
+      "nama_wilayah": "Siak",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1406",
+      "nama_wilayah": "Kampar",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1407",
+      "nama_wilayah": "Rokan Hulu",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1408",
+      "nama_wilayah": "Bengkalis",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1409",
+      "nama_wilayah": "Rokan Hilir",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1410",
+      "nama_wilayah": "Kepulauan Meranti",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1471",
+      "nama_wilayah": "Kota Pekanbaru",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1473",
+      "nama_wilayah": "Kota Dumai",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1500",
+      "nama_wilayah": "JAMBI",
+      "level_wilayah": "provinsi",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1501",
+      "nama_wilayah": "Kerinci",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1502",
+      "nama_wilayah": "Merangin",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1503",
+      "nama_wilayah": "Sarolangun",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1504",
+      "nama_wilayah": "Batang Hari",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1505",
+      "nama_wilayah": "Muaro Jambi",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1506",
+      "nama_wilayah": "Tanjung Jabung Timur",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1507",
+      "nama_wilayah": "Tanjung Jabung Barat",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1508",
+      "nama_wilayah": "Tebo",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1509",
+      "nama_wilayah": "Bungo",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1571",
+      "nama_wilayah": "Kota Jambi",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1572",
+      "nama_wilayah": "Kota Sungai Penuh",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1600",
+      "nama_wilayah": "SUMATERA SELATAN",
+      "level_wilayah": "provinsi",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1601",
+      "nama_wilayah": "Ogan Komering Ulu",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1602",
+      "nama_wilayah": "Ogan Komering Ilir",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1603",
+      "nama_wilayah": "Muara Enim",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1604",
+      "nama_wilayah": "Lahat",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1605",
+      "nama_wilayah": "Musi Rawas",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1606",
+      "nama_wilayah": "Musi Banyuasin",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1607",
+      "nama_wilayah": "Banyu Asin",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1608",
+      "nama_wilayah": "Ogan Komering Ulu Selatan",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1609",
+      "nama_wilayah": "Ogan Komering Ulu Timur",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1610",
+      "nama_wilayah": "Ogan Ilir",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1611",
+      "nama_wilayah": "Empat Lawang",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1612",
+      "nama_wilayah": "Penukal Abab Lematang Ilir",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1613",
+      "nama_wilayah": "Musi Rawas Utara",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1671",
+      "nama_wilayah": "Kota Palembang",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1672",
+      "nama_wilayah": "Kota Prabumulih",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1673",
+      "nama_wilayah": "Kota Pagar Alam",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1674",
+      "nama_wilayah": "Kota Lubuklinggau",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1700",
+      "nama_wilayah": "BENGKULU",
+      "level_wilayah": "provinsi",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1701",
+      "nama_wilayah": "Bengkulu Selatan",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1702",
+      "nama_wilayah": "Rejang Lebong",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1703",
+      "nama_wilayah": "Bengkulu Utara",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1704",
+      "nama_wilayah": "Kaur",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1705",
+      "nama_wilayah": "Seluma",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1706",
+      "nama_wilayah": "Mukomuko",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1707",
+      "nama_wilayah": "Lebong",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1708",
+      "nama_wilayah": "Kepahiang",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1709",
+      "nama_wilayah": "Bengkulu Tengah",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1771",
+      "nama_wilayah": "Kota Bengkulu",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1800",
+      "nama_wilayah": "LAMPUNG",
+      "level_wilayah": "provinsi",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1801",
+      "nama_wilayah": "Lampung Barat",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1802",
+      "nama_wilayah": "Tanggamus",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1803",
+      "nama_wilayah": "Lampung Selatan",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1804",
+      "nama_wilayah": "Lampung Timur",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1805",
+      "nama_wilayah": "Lampung Tengah",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1806",
+      "nama_wilayah": "Lampung Utara",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1807",
+      "nama_wilayah": "Way Kanan",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1808",
+      "nama_wilayah": "Tulangbawang",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1809",
+      "nama_wilayah": "Pesawaran",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1810",
+      "nama_wilayah": "Pringsewu",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1811",
+      "nama_wilayah": "Mesuji",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1812",
+      "nama_wilayah": "Tulang Bawang Barat",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1813",
+      "nama_wilayah": "Pesisir Barat",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1871",
+      "nama_wilayah": "Kota Bandar Lampung",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1872",
+      "nama_wilayah": "Kota Metro",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1900",
+      "nama_wilayah": "KEP. BANGKA BELITUNG",
+      "level_wilayah": "provinsi",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1901",
+      "nama_wilayah": "Bangka",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1902",
+      "nama_wilayah": "Belitung",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1903",
+      "nama_wilayah": "Bangka Barat",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1904",
+      "nama_wilayah": "Bangka Tengah",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1905",
+      "nama_wilayah": "Bangka Selatan",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1906",
+      "nama_wilayah": "Belitung Timur",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "1971",
+      "nama_wilayah": "Kota Pangkal Pinang",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "2100",
+      "nama_wilayah": "KEP. RIAU",
+      "level_wilayah": "provinsi",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "2101",
+      "nama_wilayah": "Karimun",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "2102",
+      "nama_wilayah": "Bintan",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "2103",
+      "nama_wilayah": "Natuna",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "2104",
+      "nama_wilayah": "Lingga",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "2105",
+      "nama_wilayah": "Kepulauan Anambas",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "2171",
+      "nama_wilayah": "Kota Batam",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "2172",
+      "nama_wilayah": "Kota Tanjung Pinang",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3100",
+      "nama_wilayah": "DKI JAKARTA",
+      "level_wilayah": "provinsi",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3101",
+      "nama_wilayah": "Kep. Seribu",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3171",
+      "nama_wilayah": "Kota Jakarta Selatan",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3172",
+      "nama_wilayah": "Kota Jakarta Timur",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3173",
+      "nama_wilayah": "Kota Jakarta Pusat",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3174",
+      "nama_wilayah": "Kota Jakarta Barat",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3175",
+      "nama_wilayah": "Kota Jakarta Utara",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3200",
+      "nama_wilayah": "JAWA BARAT",
+      "level_wilayah": "provinsi",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3201",
+      "nama_wilayah": "Bogor",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3202",
+      "nama_wilayah": "Sukabumi",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3203",
+      "nama_wilayah": "Cianjur",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3204",
+      "nama_wilayah": "Bandung",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3205",
+      "nama_wilayah": "Garut",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3206",
+      "nama_wilayah": "Tasikmalaya",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3207",
+      "nama_wilayah": "Ciamis",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3208",
+      "nama_wilayah": "Kuningan",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3209",
+      "nama_wilayah": "Cirebon",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3210",
+      "nama_wilayah": "Majalengka",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3211",
+      "nama_wilayah": "Sumedang",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3212",
+      "nama_wilayah": "Indramayu",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3213",
+      "nama_wilayah": "Subang",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3214",
+      "nama_wilayah": "Purwakarta",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3215",
+      "nama_wilayah": "Karawang",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3216",
+      "nama_wilayah": "Bekasi",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3217",
+      "nama_wilayah": "Bandung Barat",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3218",
+      "nama_wilayah": "Pangandaran",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3271",
+      "nama_wilayah": "Kota Bogor",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3272",
+      "nama_wilayah": "Kota Sukabumi",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3273",
+      "nama_wilayah": "Kota Bandung",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3274",
+      "nama_wilayah": "Kota Cirebon",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3275",
+      "nama_wilayah": "Kota Bekasi",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3276",
+      "nama_wilayah": "Kota Depok",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3277",
+      "nama_wilayah": "Kota Cimahi",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3278",
+      "nama_wilayah": "Kota Tasikmalaya",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3279",
+      "nama_wilayah": "Kota Banjar",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3300",
+      "nama_wilayah": "JAWA TENGAH",
+      "level_wilayah": "provinsi",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3301",
+      "nama_wilayah": "Cilacap",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3302",
+      "nama_wilayah": "Banyumas",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3303",
+      "nama_wilayah": "Purbalingga",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3304",
+      "nama_wilayah": "Banjarnegara",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3305",
+      "nama_wilayah": "Kebumen",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3306",
+      "nama_wilayah": "Purworejo",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3307",
+      "nama_wilayah": "Wonosobo",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3308",
+      "nama_wilayah": "Magelang",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3309",
+      "nama_wilayah": "Boyolali",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3310",
+      "nama_wilayah": "Klaten",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3311",
+      "nama_wilayah": "Sukoharjo",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3312",
+      "nama_wilayah": "Wonogiri",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3313",
+      "nama_wilayah": "Karanganyar",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3314",
+      "nama_wilayah": "Sragen",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3315",
+      "nama_wilayah": "Grobogan",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3316",
+      "nama_wilayah": "Blora",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3317",
+      "nama_wilayah": "Rembang",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3318",
+      "nama_wilayah": "Pati",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3319",
+      "nama_wilayah": "Kudus",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3320",
+      "nama_wilayah": "Jepara",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3321",
+      "nama_wilayah": "Demak",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3322",
+      "nama_wilayah": "Semarang",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3323",
+      "nama_wilayah": "Temanggung",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3324",
+      "nama_wilayah": "Kendal",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3325",
+      "nama_wilayah": "Batang",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3326",
+      "nama_wilayah": "Pekalongan",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3327",
+      "nama_wilayah": "Pemalang",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3328",
+      "nama_wilayah": "Tegal",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3329",
+      "nama_wilayah": "Brebes",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3371",
+      "nama_wilayah": "Kota Magelang",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3372",
+      "nama_wilayah": "Kota Surakarta",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3373",
+      "nama_wilayah": "Kota Salatiga",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3374",
+      "nama_wilayah": "Kota Semarang",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3375",
+      "nama_wilayah": "Kota Pekalongan",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3376",
+      "nama_wilayah": "Kota Tegal",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3400",
+      "nama_wilayah": "DI YOGYAKARTA",
+      "level_wilayah": "provinsi",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3401",
+      "nama_wilayah": "Kulon Progo",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3402",
+      "nama_wilayah": "Bantul",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3403",
+      "nama_wilayah": "Gunung Kidul",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3404",
+      "nama_wilayah": "Sleman",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3471",
+      "nama_wilayah": "Kota Yogyakarta",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3500",
+      "nama_wilayah": "JAWA TIMUR",
+      "level_wilayah": "provinsi",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3501",
+      "nama_wilayah": "Pacitan",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3502",
+      "nama_wilayah": "Ponorogo",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3503",
+      "nama_wilayah": "Trenggalek",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3504",
+      "nama_wilayah": "Tulungagung",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3505",
+      "nama_wilayah": "Blitar",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3506",
+      "nama_wilayah": "Kediri",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3507",
+      "nama_wilayah": "Malang",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3508",
+      "nama_wilayah": "Lumajang",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3509",
+      "nama_wilayah": "Jember",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3510",
+      "nama_wilayah": "Banyuwangi",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3511",
+      "nama_wilayah": "Bondowoso",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3512",
+      "nama_wilayah": "Situbondo",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3513",
+      "nama_wilayah": "Probolinggo",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3514",
+      "nama_wilayah": "Pasuruan",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3515",
+      "nama_wilayah": "Sidoarjo",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3516",
+      "nama_wilayah": "Mojokerto",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3517",
+      "nama_wilayah": "Jombang",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3518",
+      "nama_wilayah": "Nganjuk",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3519",
+      "nama_wilayah": "Madiun",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3520",
+      "nama_wilayah": "Magetan",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3521",
+      "nama_wilayah": "Ngawi",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3522",
+      "nama_wilayah": "Bojonegoro",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3523",
+      "nama_wilayah": "Tuban",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3524",
+      "nama_wilayah": "Lamongan",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3525",
+      "nama_wilayah": "Gresik",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3526",
+      "nama_wilayah": "Bangkalan",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3527",
+      "nama_wilayah": "Sampang",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3528",
+      "nama_wilayah": "Pamekasan",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3529",
+      "nama_wilayah": "Sumenep",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3571",
+      "nama_wilayah": "Kota Kediri",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3572",
+      "nama_wilayah": "Kota Blitar",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3573",
+      "nama_wilayah": "Kota Malang",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3574",
+      "nama_wilayah": "Kota Probolinggo",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3575",
+      "nama_wilayah": "Kota Pasuruan",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3576",
+      "nama_wilayah": "Kota Mojokerto",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3577",
+      "nama_wilayah": "Kota Madiun",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3578",
+      "nama_wilayah": "Kota Surabaya",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3579",
+      "nama_wilayah": "Kota Batu",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3600",
+      "nama_wilayah": "BANTEN",
+      "level_wilayah": "provinsi",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3601",
+      "nama_wilayah": "Pandeglang",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3602",
+      "nama_wilayah": "Lebak",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3603",
+      "nama_wilayah": "Tangerang",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3604",
+      "nama_wilayah": "Serang",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3671",
+      "nama_wilayah": "Kota Tangerang",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3672",
+      "nama_wilayah": "Kota Cilegon",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3673",
+      "nama_wilayah": "Kota Serang",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "3674",
+      "nama_wilayah": "Kota Tangerang Selatan",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "5100",
+      "nama_wilayah": "BALI",
+      "level_wilayah": "provinsi",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "5101",
+      "nama_wilayah": "Jembrana",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "5102",
+      "nama_wilayah": "Tabanan",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "5103",
+      "nama_wilayah": "Badung",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "5104",
+      "nama_wilayah": "Gianyar",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "5105",
+      "nama_wilayah": "Klungkung",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "5106",
+      "nama_wilayah": "Bangli",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "5107",
+      "nama_wilayah": "Karangasem",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "5108",
+      "nama_wilayah": "Buleleng",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "5171",
+      "nama_wilayah": "Kota Denpasar",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "5200",
+      "nama_wilayah": "NUSA TENGGARA BARAT",
+      "level_wilayah": "provinsi",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "5201",
+      "nama_wilayah": "Lombok Barat",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "5202",
+      "nama_wilayah": "Lombok Tengah",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "5203",
+      "nama_wilayah": "Lombok Timur",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "5204",
+      "nama_wilayah": "Sumbawa",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "5205",
+      "nama_wilayah": "Dompu",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "5206",
+      "nama_wilayah": "Bima",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "5207",
+      "nama_wilayah": "Sumbawa Barat",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "5208",
+      "nama_wilayah": "Lombok Utara",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "5271",
+      "nama_wilayah": "Kota Mataram",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "5272",
+      "nama_wilayah": "Kota Bima",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "5300",
+      "nama_wilayah": "NUSA TENGGARA TIMUR",
+      "level_wilayah": "provinsi",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "5301",
+      "nama_wilayah": "Sumba Barat",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "5302",
+      "nama_wilayah": "Sumba Timur",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "5303",
+      "nama_wilayah": "Kupang",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "5304",
+      "nama_wilayah": "Timor Tengah Selatan",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "5305",
+      "nama_wilayah": "Timor Tengah Utara",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "5306",
+      "nama_wilayah": "Belu",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "5307",
+      "nama_wilayah": "Alor",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "5308",
+      "nama_wilayah": "Lembata",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "5309",
+      "nama_wilayah": "Flores Timur",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "5310",
+      "nama_wilayah": "Sikka",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "5311",
+      "nama_wilayah": "Ende",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "5312",
+      "nama_wilayah": "Ngada",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "5313",
+      "nama_wilayah": "Manggarai",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "5314",
+      "nama_wilayah": "Rote Ndao",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "5315",
+      "nama_wilayah": "Manggarai Barat",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "5316",
+      "nama_wilayah": "Sumba Tengah",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "5317",
+      "nama_wilayah": "Sumba Barat Daya",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "5318",
+      "nama_wilayah": "Nagekeo",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "5319",
+      "nama_wilayah": "Manggarai Timur",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "5320",
+      "nama_wilayah": "Sabu Raijua",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "5321",
+      "nama_wilayah": "Malaka",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "5371",
+      "nama_wilayah": "Kota Kupang",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6100",
+      "nama_wilayah": "KALIMANTAN BARAT",
+      "level_wilayah": "provinsi",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6101",
+      "nama_wilayah": "Sambas",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6102",
+      "nama_wilayah": "Bengkayang",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6103",
+      "nama_wilayah": "Landak",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6104",
+      "nama_wilayah": "Mempawah",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6105",
+      "nama_wilayah": "Sanggau",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6106",
+      "nama_wilayah": "Ketapang",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6107",
+      "nama_wilayah": "Sintang",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6108",
+      "nama_wilayah": "Kapuas Hulu",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6109",
+      "nama_wilayah": "Sekadau",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6110",
+      "nama_wilayah": "Melawi",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6111",
+      "nama_wilayah": "Kayong Utara",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6112",
+      "nama_wilayah": "Kubu Raya",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6171",
+      "nama_wilayah": "Kota Pontianak",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6172",
+      "nama_wilayah": "Kota Singkawang",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6200",
+      "nama_wilayah": "KALIMANTAN TENGAH",
+      "level_wilayah": "provinsi",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6201",
+      "nama_wilayah": "Kotawaringin Barat",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6202",
+      "nama_wilayah": "Kotawaringin Timur",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6203",
+      "nama_wilayah": "Kapuas",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6204",
+      "nama_wilayah": "Barito Selatan",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6205",
+      "nama_wilayah": "Barito Utara",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6206",
+      "nama_wilayah": "Sukamara",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6207",
+      "nama_wilayah": "Lamandau",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6208",
+      "nama_wilayah": "Seruyan",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6209",
+      "nama_wilayah": "Katingan",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6210",
+      "nama_wilayah": "Pulang Pisau",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6211",
+      "nama_wilayah": "Gunung Mas",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6212",
+      "nama_wilayah": "Barito Timur",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6213",
+      "nama_wilayah": "Murung Raya",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6271",
+      "nama_wilayah": "Kota Palangka Raya",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6300",
+      "nama_wilayah": "KALIMANTAN SELATAN",
+      "level_wilayah": "provinsi",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6301",
+      "nama_wilayah": "Tanah Laut",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6302",
+      "nama_wilayah": "Kotabaru",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6303",
+      "nama_wilayah": "Banjar",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6304",
+      "nama_wilayah": "Barito Kuala",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6305",
+      "nama_wilayah": "Tapin",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6306",
+      "nama_wilayah": "Hulu Sungai Selatan",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6307",
+      "nama_wilayah": "Hulu Sungai Tengah",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6308",
+      "nama_wilayah": "Hulu Sungai Utara",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6309",
+      "nama_wilayah": "Tabalong",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6310",
+      "nama_wilayah": "Tanah Bumbu",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6311",
+      "nama_wilayah": "Balangan",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6371",
+      "nama_wilayah": "Kota Banjarmasin",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6372",
+      "nama_wilayah": "Kota Banjar Baru",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6400",
+      "nama_wilayah": "KALIMANTAN TIMUR",
+      "level_wilayah": "provinsi",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6401",
+      "nama_wilayah": "Paser",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6402",
+      "nama_wilayah": "Kutai Barat",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6403",
+      "nama_wilayah": "Kutai Kartanegara",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6404",
+      "nama_wilayah": "Kutai Timur",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6405",
+      "nama_wilayah": "Berau",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6409",
+      "nama_wilayah": "Penajam Paser Utara",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6411",
+      "nama_wilayah": "Mahakam Ulu",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6471",
+      "nama_wilayah": "Kota Balikpapan",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6472",
+      "nama_wilayah": "Kota Samarinda",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6474",
+      "nama_wilayah": "Kota Bontang",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6500",
+      "nama_wilayah": "KALIMANTAN UTARA",
+      "level_wilayah": "provinsi",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6501",
+      "nama_wilayah": "Malinau",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6502",
+      "nama_wilayah": "Bulungan",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6503",
+      "nama_wilayah": "Tana Tidung",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6504",
+      "nama_wilayah": "Nunukan",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "6571",
+      "nama_wilayah": "Kota Tarakan",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7100",
+      "nama_wilayah": "SULAWESI UTARA",
+      "level_wilayah": "provinsi",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7101",
+      "nama_wilayah": "Bolaang Mongondow",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7102",
+      "nama_wilayah": "Minahasa",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7103",
+      "nama_wilayah": "Kepulauan Sangihe",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7104",
+      "nama_wilayah": "Kepulauan Talaud",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7105",
+      "nama_wilayah": "Minahasa Selatan",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7106",
+      "nama_wilayah": "Minahasa Utara",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7107",
+      "nama_wilayah": "Bolaang Mongondow Utara",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7108",
+      "nama_wilayah": "Siau Tagulandang Biaro",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7109",
+      "nama_wilayah": "Minahasa Tenggara",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7110",
+      "nama_wilayah": "Bolaang Mongondow Selatan",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7111",
+      "nama_wilayah": "Bolaang Mongondow Timur",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7171",
+      "nama_wilayah": "Kota Manado",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7172",
+      "nama_wilayah": "Kota Bitung",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7173",
+      "nama_wilayah": "Kota Tomohon",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7174",
+      "nama_wilayah": "Kota Kotamobagu",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7200",
+      "nama_wilayah": "SULAWESI TENGAH",
+      "level_wilayah": "provinsi",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7201",
+      "nama_wilayah": "Banggai Kepulauan",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7202",
+      "nama_wilayah": "Banggai",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7203",
+      "nama_wilayah": "Morowali",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7204",
+      "nama_wilayah": "Poso",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7205",
+      "nama_wilayah": "Donggala",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7206",
+      "nama_wilayah": "Toli-Toli",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7207",
+      "nama_wilayah": "Buol",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7208",
+      "nama_wilayah": "Parigi Moutong",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7209",
+      "nama_wilayah": "Tojo Una-Una",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7210",
+      "nama_wilayah": "Sigi",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7211",
+      "nama_wilayah": "Banggai Laut",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7212",
+      "nama_wilayah": "Morowali Utara",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7271",
+      "nama_wilayah": "Kota Palu",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7300",
+      "nama_wilayah": "SULAWESI SELATAN",
+      "level_wilayah": "provinsi",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7301",
+      "nama_wilayah": "Kepulauan Selayar",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7302",
+      "nama_wilayah": "Bulukumba",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7303",
+      "nama_wilayah": "Bantaeng",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7304",
+      "nama_wilayah": "Jeneponto",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7305",
+      "nama_wilayah": "Takalar",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7306",
+      "nama_wilayah": "Gowa",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7307",
+      "nama_wilayah": "Sinjai",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7308",
+      "nama_wilayah": "Maros",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7309",
+      "nama_wilayah": "Pangkajene dan Kepulauan",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7310",
+      "nama_wilayah": "Barru",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7311",
+      "nama_wilayah": "Bone",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7312",
+      "nama_wilayah": "Soppeng",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7313",
+      "nama_wilayah": "Wajo",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7314",
+      "nama_wilayah": "Sidenreng Rappang",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7315",
+      "nama_wilayah": "Pinrang",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7316",
+      "nama_wilayah": "Enrekang",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7317",
+      "nama_wilayah": "Luwu",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7318",
+      "nama_wilayah": "Tana Toraja",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7322",
+      "nama_wilayah": "Luwu Utara",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7325",
+      "nama_wilayah": "Luwu Timur",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7326",
+      "nama_wilayah": "Toraja Utara",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7371",
+      "nama_wilayah": "Kota Makasar",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7372",
+      "nama_wilayah": "Kota Parepare",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7373",
+      "nama_wilayah": "Kota Palopo",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7400",
+      "nama_wilayah": "SULAWESI TENGGARA",
+      "level_wilayah": "provinsi",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7401",
+      "nama_wilayah": "Buton",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7402",
+      "nama_wilayah": "Muna",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7403",
+      "nama_wilayah": "Konawe",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7404",
+      "nama_wilayah": "Kolaka",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7405",
+      "nama_wilayah": "Konawe Selatan",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7406",
+      "nama_wilayah": "Bombana",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7407",
+      "nama_wilayah": "Wakatobi",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7408",
+      "nama_wilayah": "Kolaka Utara",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7409",
+      "nama_wilayah": "Buton Utara",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7410",
+      "nama_wilayah": "Konawe Utara",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7411",
+      "nama_wilayah": "Kolaka Timur",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7412",
+      "nama_wilayah": "Konawe Kepulauan",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7413",
+      "nama_wilayah": "Muna Barat",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7414",
+      "nama_wilayah": "Buton Tengah",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7415",
+      "nama_wilayah": "Buton Selatan",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7471",
+      "nama_wilayah": "Kota Kendari",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7472",
+      "nama_wilayah": "Kota Baubau",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7500",
+      "nama_wilayah": "GORONTALO",
+      "level_wilayah": "provinsi",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7501",
+      "nama_wilayah": "Boalemo",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7502",
+      "nama_wilayah": "Gorontalo",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7503",
+      "nama_wilayah": "Pohuwato",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7504",
+      "nama_wilayah": "Bone Bolango",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7505",
+      "nama_wilayah": "Gorontalo Utara",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7571",
+      "nama_wilayah": "Kota Gorontalo",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7600",
+      "nama_wilayah": "SULAWESI BARAT",
+      "level_wilayah": "provinsi",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7601",
+      "nama_wilayah": "Majene",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7602",
+      "nama_wilayah": "Polewali Mandar",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7603",
+      "nama_wilayah": "Mamasa",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7604",
+      "nama_wilayah": "Mamuju",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7605",
+      "nama_wilayah": "Mamuju Utara / Pasangkayu",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "7606",
+      "nama_wilayah": "Mamuju Tengah",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "8100",
+      "nama_wilayah": "MALUKU",
+      "level_wilayah": "provinsi",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "8101",
+      "nama_wilayah": "Maluku Tenggara Barat / Kepulauan Tanimbar",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "8102",
+      "nama_wilayah": "Maluku Tenggara",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "8103",
+      "nama_wilayah": "Maluku Tengah",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "8104",
+      "nama_wilayah": "Buru",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "8105",
+      "nama_wilayah": "Kepulauan Aru",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "8106",
+      "nama_wilayah": "Seram Bagian Barat",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "8107",
+      "nama_wilayah": "Seram Bagian Timur",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "8108",
+      "nama_wilayah": "Maluku Barat Daya",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "8109",
+      "nama_wilayah": "Buru Selatan",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "8171",
+      "nama_wilayah": "Kota Ambon",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "8172",
+      "nama_wilayah": "Kota Tual",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "8200",
+      "nama_wilayah": "MALUKU UTARA",
+      "level_wilayah": "provinsi",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "8201",
+      "nama_wilayah": "Halmahera Barat",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "8202",
+      "nama_wilayah": "Halmahera Tengah",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "8203",
+      "nama_wilayah": "Kepulauan Sula",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "8204",
+      "nama_wilayah": "Halmahera Selatan",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "8205",
+      "nama_wilayah": "Halmahera Utara",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "8206",
+      "nama_wilayah": "Halmahera Timur",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "8207",
+      "nama_wilayah": "Pulau Morotai",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "8208",
+      "nama_wilayah": "Pulau Taliabu",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "8271",
+      "nama_wilayah": "Kota Ternate",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "8272",
+      "nama_wilayah": "Kota Tidore Kepulauan",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9100",
+      "nama_wilayah": "PAPUA BARAT",
+      "level_wilayah": "provinsi",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9101",
+      "nama_wilayah": "Fakfak",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9102",
+      "nama_wilayah": "Kaimana",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9103",
+      "nama_wilayah": "Teluk Wondama",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9104",
+      "nama_wilayah": "Teluk Bintuni",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9105",
+      "nama_wilayah": "Manokwari",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9106",
+      "nama_wilayah": "Sorong Selatan",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9107",
+      "nama_wilayah": "Sorong",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9108",
+      "nama_wilayah": "Raja Ampat",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9109",
+      "nama_wilayah": "Tambrauw",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9110",
+      "nama_wilayah": "Maybrat",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9111",
+      "nama_wilayah": "Manokwari Selatan",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9112",
+      "nama_wilayah": "Pegunungan Arfak",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9171",
+      "nama_wilayah": "Kota Sorong",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9200",
+      "nama_wilayah": "PAPUA BARAT DAYA",
+      "level_wilayah": "provinsi",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9400",
+      "nama_wilayah": "PAPUA",
+      "level_wilayah": "provinsi",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9401",
+      "nama_wilayah": "Merauke",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9402",
+      "nama_wilayah": "Jayawijaya",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9403",
+      "nama_wilayah": "Jayapura",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9404",
+      "nama_wilayah": "Nabire",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9408",
+      "nama_wilayah": "Kepulauan Yapen",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9409",
+      "nama_wilayah": "Biak Numfor",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9410",
+      "nama_wilayah": "Paniai",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9411",
+      "nama_wilayah": "Puncak Jaya",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9412",
+      "nama_wilayah": "Mimika",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9413",
+      "nama_wilayah": "Boven Digoel",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9414",
+      "nama_wilayah": "Mappi",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9415",
+      "nama_wilayah": "Asmat",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9416",
+      "nama_wilayah": "Yahukimo",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9417",
+      "nama_wilayah": "Pegunungan Bintang",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9418",
+      "nama_wilayah": "Tolikara",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9419",
+      "nama_wilayah": "Sarmi",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9420",
+      "nama_wilayah": "Keerom",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9426",
+      "nama_wilayah": "Waropen",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9427",
+      "nama_wilayah": "Supiori",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9428",
+      "nama_wilayah": "Mamberamo Raya",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9429",
+      "nama_wilayah": "Nduga",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9430",
+      "nama_wilayah": "Lanny Jaya",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9431",
+      "nama_wilayah": "Mamberamo Tengah",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9432",
+      "nama_wilayah": "Yalimo",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9433",
+      "nama_wilayah": "Puncak",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9434",
+      "nama_wilayah": "Dogiyai",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9435",
+      "nama_wilayah": "Intan Jaya",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9436",
+      "nama_wilayah": "Deiyai",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9471",
+      "nama_wilayah": "Kota Jayapura",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9500",
+      "nama_wilayah": "PAPUA SELATAN",
+      "level_wilayah": "provinsi",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9600",
+      "nama_wilayah": "PAPUA TENGAH",
+      "level_wilayah": "provinsi",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9700",
+      "nama_wilayah": "PAPUA PEGUNUNGAN",
+      "level_wilayah": "provinsi",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9999",
+      "nama_wilayah": "INDONESIA",
+      "level_wilayah": "nasional",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    }
+  ],
+  "dim_waktu": [
+    {
+      "th_id": 121,
+      "tahun": 2021,
+      "periode_label": "2021",
+      "source_model": "data.tahun"
+    },
+    {
+      "th_id": 122,
+      "tahun": 2022,
+      "periode_label": "2022",
+      "source_model": "data.tahun"
+    },
+    {
+      "th_id": 123,
+      "tahun": 2023,
+      "periode_label": "2023",
+      "source_model": "data.tahun"
+    }
+  ],
+  "dim_turvar": [
+    {
+      "turvar_id": "0",
+      "turvar_label": "Tidak ada",
+      "group_turvar_id": null,
+      "group_turvar_name": null,
+      "source_model": "data.turvar"
+    },
+    {
+      "turvar_id": "432",
+      "turvar_label": "Perkotaan",
+      "group_turvar_id": null,
+      "group_turvar_name": null,
+      "source_model": "data.turvar"
+    },
+    {
+      "turvar_id": "433",
+      "turvar_label": "Perdesaan",
+      "group_turvar_id": null,
+      "group_turvar_name": null,
+      "source_model": "data.turvar"
+    },
+    {
+      "turvar_id": "434",
+      "turvar_label": "Jumlah",
+      "group_turvar_id": null,
+      "group_turvar_name": null,
+      "source_model": "data.turvar"
+    }
+  ],
+  "dim_turtahun": [
+    {
+      "turth_id": "0",
+      "turth_label": "Tahun",
+      "group_turth_id": null,
+      "group_turth_name": null,
+      "source_model": "data.turtahun"
+    },
+    {
+      "turth_id": "189",
+      "turth_label": "Februari",
+      "group_turth_id": null,
+      "group_turth_name": null,
+      "source_model": "data.turtahun"
+    },
+    {
+      "turth_id": "190",
+      "turth_label": "Agustus",
+      "group_turth_id": null,
+      "group_turth_name": null,
+      "source_model": "data.turtahun"
+    },
+    {
+      "turth_id": "61",
+      "turth_label": "Semester 1 (Maret)",
+      "group_turth_id": null,
+      "group_turth_name": null,
+      "source_model": "data.turtahun"
+    },
+    {
+      "turth_id": "62",
+      "turth_label": "Semester 2 (September)",
+      "group_turth_id": null,
+      "group_turth_name": null,
+      "source_model": "data.turtahun"
+    }
+  ]
+}

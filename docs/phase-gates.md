@@ -66,12 +66,12 @@ A phase is not complete until:
 
 ## Fase 4 Done Criteria — Transform Layer
 
-- [ ] `datacontent` decoder implemented
-- [ ] normalized fact preview exists
-- [ ] data quality metrics exist
-- [ ] duplicate/missing checks implemented
-- [ ] tests pass
-- [ ] review approves
+- [x] `datacontent` decoder implemented
+- [x] normalized fact preview exists
+- [x] data quality metrics exist
+- [x] duplicate/missing checks implemented
+- [x] tests pass
+- [x] review approves
 
 ## Fase 5 Done Criteria — Load Layer
 
