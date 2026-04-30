@@ -41,22 +41,22 @@ def test_generator_builds_chart_rankings_table_from_sqlite(tmp_path: Path):
         load_metrics_path=LOAD_METRICS,
     )
 
-    assert data["project"]["current_phase"] == "6 — Dashboard"
+    assert data["project"]["current_phase"] == "6.1 — Data Expansion"
     assert data["quality"]["no_dummy_data"] is True
-    assert data["summary"]["indicator_count"] == 4
-    assert data["summary"]["region_count"] == 553
-    assert data["summary"]["year_count"] == 3
-    assert data["summary"]["record_count"] == 2490
+    assert data["summary"]["indicator_count"] == 6
+    assert data["summary"]["region_count"] == 579
+    assert data["summary"]["year_count"] == 4
+    assert data["summary"]["record_count"] == 4292
     assert data["summary"]["last_etl_run"].startswith("load-")
-    assert data["evidence"]["db_counts"]["fact_statistik"] == 2490
-    assert data["evidence"]["db_counts"]["dim_wilayah"] == 553
-    assert len(data["series"]["trend"]) == 4
+    assert data["evidence"]["db_counts"]["fact_statistik"] == 4292
+    assert data["evidence"]["db_counts"]["dim_wilayah"] == 579
+    assert len(data["series"]["trend"]) == 6
     assert all(series["points"] for series in data["series"]["trend"])
     assert data["rankings"]["top"]
     assert data["rankings"]["bottom"]
     assert data["rankings"]["change"]
     assert data["rankings"]["top"][0]["rows"][0]["value"] is not None
-    assert len(data["table_rows"]) == 2490
+    assert len(data["table_rows"]) == 4292
     assert data["table_rows"][0]["data_key"]
     assert data["narrative_seed"]["by_indicator"]
-    assert data["design_metrics"]["dashboard_table_rows"] == 2490
+    assert data["design_metrics"]["dashboard_table_rows"] == 4292

@@ -11,10 +11,10 @@
   "var": {
     "metadata": {
       "page": 1,
-      "pages": 158,
+      "pages": 159,
       "per_page": 10,
       "count": 10,
-      "total": 1572
+      "total": 1586
     },
     "sample_rows": [
       {
@@ -161,13 +161,13 @@
     "sample_row_count": 10
   },
   "th": {
-    "sample_var_id": 192,
+    "sample_var_id": 98,
     "metadata": {
       "page": 1,
-      "pages": 2,
+      "pages": 3,
       "per_page": 10,
       "count": 10,
-      "total": 19
+      "total": 21
     },
     "sample_rows": [
       {
@@ -214,7 +214,7 @@
     "sample_row_count": 10
   },
   "vervar": {
-    "sample_var_id": 192,
+    "sample_var_id": 98,
     "metadata": {
       "page": 1,
       "pages": 4,
@@ -297,7 +297,7 @@
     "sample_row_count": 10
   },
   "turvar": {
-    "sample_var_id": 192,
+    "sample_var_id": 98,
     "metadata": {
       "page": 1,
       "pages": 1,
@@ -307,28 +307,28 @@
     },
     "sample_rows": [
       {
-        "turvar_id": 432,
+        "turvar_id": 189,
         "turvar": "Perkotaan",
-        "group_turvar_id": 85,
-        "name_group_turvar": "Klasifikasi Perkotaan/Perdesaan"
+        "group_turvar_id": 36,
+        "name_group_turvar": "Klasifikasi Perkotaan/Perdesaan +"
       },
       {
-        "turvar_id": 433,
+        "turvar_id": 190,
         "turvar": "Perdesaan",
-        "group_turvar_id": 85,
-        "name_group_turvar": "Klasifikasi Perkotaan/Perdesaan"
+        "group_turvar_id": 36,
+        "name_group_turvar": "Klasifikasi Perkotaan/Perdesaan +"
       },
       {
-        "turvar_id": 434,
-        "turvar": "Jumlah",
-        "group_turvar_id": 85,
-        "name_group_turvar": "Klasifikasi Perkotaan/Perdesaan"
+        "turvar_id": 191,
+        "turvar": "Perkotaan+Perdesaan",
+        "group_turvar_id": 36,
+        "name_group_turvar": "Klasifikasi Perkotaan/Perdesaan +"
       }
     ],
     "sample_row_count": 3
   },
   "turth": {
-    "sample_var_id": 192,
+    "sample_var_id": 98,
     "metadata": {
       "page": 1,
       "pages": 1,

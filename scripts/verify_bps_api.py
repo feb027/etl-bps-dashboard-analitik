@@ -26,7 +26,7 @@ RESULTS_TABLES = ROOT / "results" / "tables"
 REPORTS = ROOT / "reports"
 SOURCE_LOG = ROOT / "references" / "source-log.md"
 
-TARGET_YEARS = ["2023", "2022", "2021"]
+TARGET_YEARS = ["2024", "2023", "2022", "2021"]
 TARGET_INDICATORS = [
     {
         "indicator_key": "poverty_rate",
@@ -51,6 +51,18 @@ TARGET_INDICATORS = [
         "var_id": 494,
         "theme": "Pembangunan Manusia",
         "reason": "IPM metode baru, indikator pembangunan sosial-ekonomi.",
+    },
+    {
+        "indicator_key": "gini_ratio",
+        "var_id": 98,
+        "theme": "Ketimpangan",
+        "reason": "Gini Ratio menambah dimensi ketimpangan sosial-ekonomi antarwilayah.",
+    },
+    {
+        "indicator_key": "regional_gdp_growth_constant_2010",
+        "var_id": 291,
+        "theme": "Ekonomi Regional",
+        "reason": "Laju pertumbuhan PDRB ADHK 2010 mewakili kinerja ekonomi regional.",
     },
 ]
 
@@ -82,7 +94,7 @@ def write_json(path: Path, data: Any) -> None:
 def write_csv(path: Path, rows: list[dict[str, Any]], fieldnames: list[str]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer = csv.DictWriter(f, fieldnames=fieldnames, lineterminator="\n")
         writer.writeheader()
         for row in rows:
             writer.writerow({name: row.get(name, "") for name in fieldnames})
@@ -284,7 +296,7 @@ def run_probe() -> dict[str, Any]:
         "key_findings": [
             "BPS model=data uses th_id values from model=th, not plain year strings such as 2021:2023.",
             "BPS datacontent keys are composite keys generated from vervar + var + turvar + tahun + turtahun metadata values.",
-            "The selected four indicators have real dynamic data for 2021, 2022, and 2023.",
+            "The selected six indicators have real dynamic data for 2021, 2022, 2023, and 2024.",
         ],
         "artifacts": {
             "selected_indicators": "results/api/selected_indicators.json",

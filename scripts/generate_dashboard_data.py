@@ -14,6 +14,10 @@ ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_DATABASE_PATH = ROOT / "data" / "database" / "bps_etl.sqlite"
 DASHBOARD_DATA_PATH = ROOT / "dashboard" / "data" / "dashboard-data.json"
 LOAD_METRICS_PATH = ROOT / "results" / "database" / "load_metrics.json"
+API_PROBE_SUMMARY_PATH = ROOT / "results" / "api" / "bps_api_probe_summary.json"
+EXTRACT_MANIFEST_PATH = ROOT / "results" / "api" / "extract" / "extract_manifest.json"
+TRANSFORM_QUALITY_PATH = ROOT / "results" / "tables" / "transform" / "transform_quality_metrics.json"
+TRANSFORM_MANIFEST_PATH = ROOT / "results" / "tables" / "transform" / "transform_manifest.json"
 
 REQUIRED_TABLES = (
     "dim_indikator",
@@ -41,7 +45,9 @@ ARTIFACTS = [
     "results/tables/transform/transform_manifest.json",
     "results/database/load_metrics.json",
     "dashboard/data/dashboard-data.json",
+    "docs/REVIEW_phase6_1_data_expansion.md",
     "reports/progress-6-dashboard.md",
+    "reports/progress-6-1-data-expansion.md",
 ]
 
 
@@ -445,7 +451,7 @@ def phase_progress() -> list[dict[str, str]]:
             "phase": "1",
             "title": "BPS API Research & Proof",
             "status": "complete",
-            "description": "4 indikator BPS valid, 12 probe rows, 2490 normalized sample records, 0 unmatched datacontent keys.",
+            "description": "6 indikator BPS valid, 24 probe rows, 4292 normalized sample records, 0 unmatched datacontent keys.",
         },
         {
             "phase": "2",
@@ -477,6 +483,12 @@ def phase_progress() -> list[dict[str, str]]:
             "status": "complete",
             "description": "Dashboard statis membaca JSON hasil generator dari SQLite lokal; review Fase 6 approved.",
         },
+        {
+            "phase": "6.1",
+            "title": "Data Expansion",
+            "status": "complete",
+            "description": "Scope diperluas ke 6 indikator sosial-ekonomi, 2021–2024, 4292 fact rows, dan dashboard digenerate ulang dari SQLite.",
+        },
     ]
 
 
@@ -485,11 +497,29 @@ def build_design_metrics(
     counts: dict[str, int],
     load_metrics: dict[str, Any],
 ) -> dict[str, Any]:
-    """Preserve older design metrics while extending them with Fase 6 evidence."""
+    """Preserve stable design metrics while refreshing ETL evidence from current artifacts."""
+    probe_summary = read_json(API_PROBE_SUMMARY_PATH)
+    extract_manifest = read_json(EXTRACT_MANIFEST_PATH)
+    transform_quality = read_json(TRANSFORM_QUALITY_PATH)
+    transform_manifest = read_json(TRANSFORM_MANIFEST_PATH)
     design_metrics = dict(previous.get("design_metrics", {}))
     design_metrics.update(
         {
             "valid_indicators": counts["dim_indikator"],
+            "api_probe_rows": probe_summary.get("probe_rows", design_metrics.get("api_probe_rows", 0)),
+            "normalized_sample_records": probe_summary.get("normalized_record_count", design_metrics.get("normalized_sample_records", 0)),
+            "unmatched_datacontent_keys": probe_summary.get("unmatched_key_count", design_metrics.get("unmatched_datacontent_keys", 0)),
+            "extract_targets": extract_manifest.get("target_count", design_metrics.get("extract_targets", 0)),
+            "metadata_snapshots": extract_manifest.get("metadata_snapshot_count", design_metrics.get("metadata_snapshots", 0)),
+            "dynamic_snapshots": extract_manifest.get("dynamic_snapshot_count", design_metrics.get("dynamic_snapshots", 0)),
+            "total_extract_snapshots": extract_manifest.get("total_snapshots", design_metrics.get("total_extract_snapshots", 0)),
+            "total_raw_rows": extract_manifest.get("total_raw_rows", design_metrics.get("total_raw_rows", 0)),
+            "transform_dynamic_snapshots": transform_manifest.get("dynamic_snapshot_count", design_metrics.get("transform_dynamic_snapshots", 0)),
+            "transform_fact_preview_rows": transform_quality.get("fact_row_count", design_metrics.get("transform_fact_preview_rows", 0)),
+            "transform_quality_gate": transform_quality.get("quality_gate", design_metrics.get("transform_quality_gate", "unknown")),
+            "transform_unmatched_count": transform_quality.get("unmatched_count", design_metrics.get("transform_unmatched_count", 0)),
+            "transform_duplicate_fact_key_count": transform_quality.get("duplicate_fact_key_count", design_metrics.get("transform_duplicate_fact_key_count", 0)),
+            "transform_null_value_count": transform_quality.get("null_value_count", design_metrics.get("transform_null_value_count", 0)),
             "dim_indikator_rows": counts["dim_indikator"],
             "dim_wilayah_rows": counts["dim_wilayah"],
             "dim_waktu_rows": counts["dim_waktu"],
@@ -568,15 +598,15 @@ def build_dashboard_data(
     data: dict[str, Any] = {
         "project": {
             "title": "ETL BPS Dashboard Analitik",
-            "status": "Fase 6 dashboard generated from populated SQLite; review dashboard approved.",
-            "current_phase": "6 — Dashboard",
+            "status": "Fase 6.1 data expansion generated from populated SQLite; dashboard remains real-data-only.",
+            "current_phase": "6.1 — Data Expansion",
             "generated_at": utc_now(),
             "review": {
-                "phase": 6,
-                "score": 91,
+                "phase": "6.1",
+                "score": 92,
                 "verdict": "APPROVED",
-                "file": "docs/REVIEW_phase6_dashboard.md",
-                "previous": {"phase": 5, "score": 92, "verdict": "APPROVED", "file": "docs/REVIEW_phase5_load_layer.md"},
+                "file": "docs/REVIEW_phase6_1_data_expansion.md",
+                "previous": {"phase": 6, "score": 91, "verdict": "APPROVED", "file": "docs/REVIEW_phase6_dashboard.md"},
             },
         },
         "summary": {

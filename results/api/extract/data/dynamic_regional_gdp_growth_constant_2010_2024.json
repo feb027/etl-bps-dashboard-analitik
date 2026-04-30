@@ -1,0 +1,254 @@
+{
+  "captured_at": "2026-04-30T06:01:21Z",
+  "request": {
+    "model": "data",
+    "domain": "0000",
+    "params": {
+      "var": 291,
+      "th": 124
+    }
+  },
+  "request_fingerprint": "72cb305a5ceb8b55c9683a2d4d6c62710e7cf34d0b6d49d324689ea61438c726",
+  "row_count": 39,
+  "payload": {
+    "status": "OK",
+    "data-availability": "available",
+    "last_update": "2026-02-19 10:27:07",
+    "subject": [
+      {
+        "val": 531,
+        "label": "Neraca Ekonomi"
+      }
+    ],
+    "var": [
+      {
+        "val": 291,
+        "label": "[Seri 2010] Laju Pertumbuhan Produk Domestik Regional Bruto Atas Dasar Harga Konstan 2010  Menurut Provinsi",
+        "unit": "Persen",
+        "subj": "Produk Domestik Regional Bruto (Lapangan Usaha)",
+        "def": "",
+        "decimal": 2,
+        "note": "<p><ul><li>Perbedaan antara jumlah PDRB 34 Provinsi dan PDB Indonesia antara lain disebabkan oleh diskrepansi statistik</li><li>Data 2024: Angka sementara</li><li>Data 2025: Angka sangat sementara</li></ul></p>"
+      }
+    ],
+    "turvar": [
+      {
+        "val": "0",
+        "label": "Tidak ada"
+      }
+    ],
+    "labelvervar": "38 Provinsi",
+    "vervar": [
+      {
+        "val": 1100,
+        "label": "ACEH"
+      },
+      {
+        "val": 1200,
+        "label": "SUMATERA UTARA"
+      },
+      {
+        "val": 1300,
+        "label": "SUMATERA BARAT"
+      },
+      {
+        "val": 1400,
+        "label": "RIAU"
+      },
+      {
+        "val": 1500,
+        "label": "JAMBI"
+      },
+      {
+        "val": 1600,
+        "label": "SUMATERA SELATAN"
+      },
+      {
+        "val": 1700,
+        "label": "BENGKULU"
+      },
+      {
+        "val": 1800,
+        "label": "LAMPUNG"
+      },
+      {
+        "val": 1900,
+        "label": "KEP. BANGKA BELITUNG"
+      },
+      {
+        "val": 2100,
+        "label": "KEP. RIAU"
+      },
+      {
+        "val": 3100,
+        "label": "DKI JAKARTA"
+      },
+      {
+        "val": 3200,
+        "label": "JAWA BARAT"
+      },
+      {
+        "val": 3300,
+        "label": "JAWA TENGAH"
+      },
+      {
+        "val": 3400,
+        "label": "DI YOGYAKARTA"
+      },
+      {
+        "val": 3500,
+        "label": "JAWA TIMUR"
+      },
+      {
+        "val": 3600,
+        "label": "BANTEN"
+      },
+      {
+        "val": 5100,
+        "label": "BALI"
+      },
+      {
+        "val": 5200,
+        "label": "NUSA TENGGARA BARAT"
+      },
+      {
+        "val": 5300,
+        "label": "NUSA TENGGARA TIMUR"
+      },
+      {
+        "val": 6100,
+        "label": "KALIMANTAN BARAT"
+      },
+      {
+        "val": 6200,
+        "label": "KALIMANTAN TENGAH"
+      },
+      {
+        "val": 6300,
+        "label": "KALIMANTAN SELATAN"
+      },
+      {
+        "val": 6400,
+        "label": "KALIMANTAN TIMUR"
+      },
+      {
+        "val": 6500,
+        "label": "KALIMANTAN UTARA"
+      },
+      {
+        "val": 7100,
+        "label": "SULAWESI UTARA"
+      },
+      {
+        "val": 7200,
+        "label": "SULAWESI TENGAH"
+      },
+      {
+        "val": 7300,
+        "label": "SULAWESI SELATAN"
+      },
+      {
+        "val": 7400,
+        "label": "SULAWESI TENGGARA"
+      },
+      {
+        "val": 7500,
+        "label": "GORONTALO"
+      },
+      {
+        "val": 7600,
+        "label": "SULAWESI BARAT"
+      },
+      {
+        "val": 8100,
+        "label": "MALUKU"
+      },
+      {
+        "val": 8200,
+        "label": "MALUKU UTARA"
+      },
+      {
+        "val": 9100,
+        "label": "PAPUA BARAT"
+      },
+      {
+        "val": 9200,
+        "label": "PAPUA BARAT DAYA"
+      },
+      {
+        "val": 9400,
+        "label": "PAPUA"
+      },
+      {
+        "val": 9500,
+        "label": "PAPUA SELATAN"
+      },
+      {
+        "val": 9600,
+        "label": "PAPUA TENGAH"
+      },
+      {
+        "val": 9700,
+        "label": "PAPUA PEGUNUNGAN"
+      },
+      {
+        "val": 9999,
+        "label": "INDONESIA"
+      }
+    ],
+    "tahun": [
+      {
+        "val": 124,
+        "label": "2024"
+      }
+    ],
+    "turtahun": [
+      {
+        "val": 0,
+        "label": "Tahun"
+      }
+    ],
+    "datacontent": {
+      "190029101240": 0.77,
+      "530029101240": 3.87,
+      "910029101240": 20.8,
+      "820029101240": 13.92,
+      "610029101240": 4.9,
+      "180029101240": 4.57,
+      "150029101240": 4.5,
+      "740029101240": 5.4,
+      "810029101240": 5.34,
+      "960029101240": 4.36,
+      "710029101240": 5.39,
+      "310029101240": 4.91,
+      "630029101240": 5.06,
+      "650029101240": 4.73,
+      "110029101240": 4.66,
+      "340029101240": 5.03,
+      "999929101240": 5.03,
+      "730029101240": 5.02,
+      "140029101240": 3.52,
+      "940029101240": 4.11,
+      "620029101240": 4.46,
+      "170029101240": 4.62,
+      "920029101240": 3.6,
+      "970029101240": 4.75,
+      "360029101240": 4.79,
+      "210029101240": 5.02,
+      "320029101240": 4.95,
+      "720029101240": 9.89,
+      "130029101240": 4.37,
+      "640029101240": 6.17,
+      "760029101240": 4.76,
+      "350029101240": 4.93,
+      "750029101240": 4.13,
+      "160029101240": 5.03,
+      "330029101240": 4.95,
+      "510029101240": 5.48,
+      "520029101240": 5.3,
+      "950029101240": 5.09,
+      "120029101240": 5.03
+    },
+    "related": []
+  }
+}

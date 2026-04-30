@@ -1,13 +1,25 @@
 indicator_key,theme,var_id,indicator_label,unit,subject,year,th_id,data_availability,record_count,decoded_count,unmatched_count,vervar_count,turvar_count,turth_count,last_update
+poverty_rate,Kemiskinan,192,Persentase Penduduk Miskin (P0) Menurut Provinsi dan Daerah,Persen,Kemiskinan dan Ketimpangan,2024,124,available,232,232,0,39,3,3,2026-02-05 13:03:51
 poverty_rate,Kemiskinan,192,Persentase Penduduk Miskin (P0) Menurut Provinsi dan Daerah,Persen,Kemiskinan dan Ketimpangan,2023,123,available,104,104,0,39,3,3,2026-02-05 13:03:51
 poverty_rate,Kemiskinan,192,Persentase Penduduk Miskin (P0) Menurut Provinsi dan Daerah,Persen,Kemiskinan dan Ketimpangan,2022,122,available,208,208,0,39,3,3,2026-02-05 13:03:51
 poverty_rate,Kemiskinan,192,Persentase Penduduk Miskin (P0) Menurut Provinsi dan Daerah,Persen,Kemiskinan dan Ketimpangan,2021,121,available,208,208,0,39,3,3,2026-02-05 13:03:51
+open_unemployment_rate,Ketenagakerjaan,543,Tingkat Pengangguran Terbuka Menurut Provinsi,Persen,Tenaga Kerja,2024,124,available,78,78,0,39,1,3,2025-11-07 14:01:46
 open_unemployment_rate,Ketenagakerjaan,543,Tingkat Pengangguran Terbuka Menurut Provinsi,Persen,Tenaga Kerja,2023,123,available,70,70,0,39,1,3,2025-11-07 14:01:46
 open_unemployment_rate,Ketenagakerjaan,543,Tingkat Pengangguran Terbuka Menurut Provinsi,Persen,Tenaga Kerja,2022,122,available,70,70,0,39,1,3,2025-11-07 14:01:46
 open_unemployment_rate,Ketenagakerjaan,543,Tingkat Pengangguran Terbuka Menurut Provinsi,Persen,Tenaga Kerja,2021,121,available,70,70,0,39,1,3,2025-11-07 14:01:46
-mean_years_schooling_new_method,Pendidikan,415,[Metode Baru] Rata-rata Lama Sekolah,Tahun,Indeks Pembangunan Manusia,2023,123,available,549,549,0,579,1,1,2025-11-05 12:00:46
-mean_years_schooling_new_method,Pendidikan,415,[Metode Baru] Rata-rata Lama Sekolah,Tahun,Indeks Pembangunan Manusia,2022,122,available,549,549,0,579,1,1,2025-11-05 12:00:46
-mean_years_schooling_new_method,Pendidikan,415,[Metode Baru] Rata-rata Lama Sekolah,Tahun,Indeks Pembangunan Manusia,2021,121,available,549,549,0,579,1,1,2025-11-05 12:00:46
+mean_years_schooling_new_method,Pendidikan,415,[Metode Baru] Rata-rata Lama Sekolah,Tahun,Tujuan Pembangunan Berkelanjutan Edisi I,2024,124,available,553,553,0,579,1,1,2025-11-05 12:00:46
+mean_years_schooling_new_method,Pendidikan,415,[Metode Baru] Rata-rata Lama Sekolah,Tahun,Tujuan Pembangunan Berkelanjutan Edisi I,2023,123,available,549,549,0,579,1,1,2025-11-05 12:00:46
+mean_years_schooling_new_method,Pendidikan,415,[Metode Baru] Rata-rata Lama Sekolah,Tahun,Tujuan Pembangunan Berkelanjutan Edisi I,2022,122,available,549,549,0,579,1,1,2025-11-05 12:00:46
+mean_years_schooling_new_method,Pendidikan,415,[Metode Baru] Rata-rata Lama Sekolah,Tahun,Tujuan Pembangunan Berkelanjutan Edisi I,2021,121,available,549,549,0,579,1,1,2025-11-05 12:00:46
+human_development_index_new_method,Pembangunan Manusia,494,[Metode Baru] Indeks Pembangunan Manusia (IPM) menurut Provinsi,,Indeks Pembangunan Manusia,2024,124,available,39,39,0,39,1,1,2025-05-15 15:16:29
 human_development_index_new_method,Pembangunan Manusia,494,[Metode Baru] Indeks Pembangunan Manusia (IPM) menurut Provinsi,,Indeks Pembangunan Manusia,2023,123,available,39,39,0,39,1,1,2025-05-15 15:16:29
 human_development_index_new_method,Pembangunan Manusia,494,[Metode Baru] Indeks Pembangunan Manusia (IPM) menurut Provinsi,,Indeks Pembangunan Manusia,2022,122,available,39,39,0,39,1,1,2025-05-15 15:16:29
 human_development_index_new_method,Pembangunan Manusia,494,[Metode Baru] Indeks Pembangunan Manusia (IPM) menurut Provinsi,,Indeks Pembangunan Manusia,2021,121,available,35,35,0,39,1,1,2025-05-15 15:16:29
+gini_ratio,Ketimpangan,98,Gini Ratio Menurut Provinsi dan Daerah,,Kemiskinan dan Ketimpangan,2024,124,available,232,232,0,39,3,3,2026-02-05 12:47:23
+gini_ratio,Ketimpangan,98,Gini Ratio Menurut Provinsi dan Daerah,,Kemiskinan dan Ketimpangan,2023,123,available,104,104,0,39,3,3,2026-02-05 12:47:23
+gini_ratio,Ketimpangan,98,Gini Ratio Menurut Provinsi dan Daerah,,Kemiskinan dan Ketimpangan,2022,122,available,208,208,0,39,3,3,2026-02-05 12:47:23
+gini_ratio,Ketimpangan,98,Gini Ratio Menurut Provinsi dan Daerah,,Kemiskinan dan Ketimpangan,2021,121,available,208,208,0,39,3,3,2026-02-05 12:47:23
+regional_gdp_growth_constant_2010,Ekonomi Regional,291,[Seri 2010] Laju Pertumbuhan Produk Domestik Regional Bruto Atas Dasar Harga Konstan 2010  Menurut Provinsi,Persen,Produk Domestik Regional Bruto (Lapangan Usaha),2024,124,available,39,39,0,39,1,1,2026-02-19 10:27:07
+regional_gdp_growth_constant_2010,Ekonomi Regional,291,[Seri 2010] Laju Pertumbuhan Produk Domestik Regional Bruto Atas Dasar Harga Konstan 2010  Menurut Provinsi,Persen,Produk Domestik Regional Bruto (Lapangan Usaha),2023,123,available,39,39,0,39,1,1,2026-02-19 10:27:07
+regional_gdp_growth_constant_2010,Ekonomi Regional,291,[Seri 2010] Laju Pertumbuhan Produk Domestik Regional Bruto Atas Dasar Harga Konstan 2010  Menurut Provinsi,Persen,Produk Domestik Regional Bruto (Lapangan Usaha),2022,122,available,35,35,0,39,1,1,2026-02-19 10:27:07
+regional_gdp_growth_constant_2010,Ekonomi Regional,291,[Seri 2010] Laju Pertumbuhan Produk Domestik Regional Bruto Atas Dasar Harga Konstan 2010  Menurut Provinsi,Persen,Produk Domestik Regional Bruto (Lapangan Usaha),2021,121,available,35,35,0,39,1,1,2026-02-19 10:27:07

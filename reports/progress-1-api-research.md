@@ -7,10 +7,10 @@ Fase 1 membuktikan perilaku dasar Web API BPS untuk dynamic data sebelum ETL pen
 ## Ringkasan Hasil
 
 - Status probe: **success**
-- Jumlah indikator valid: **4**
-- Tahun target: **2023, 2022, 2021**
-- Baris probe: **12**
-- Record normalized sample: **2490**
+- Jumlah indikator valid: **6**
+- Tahun target: **2024, 2023, 2022, 2021**
+- Baris probe: **24**
+- Record normalized sample: **4292**
 - Unmatched datacontent keys: **0**
 
 ## Temuan Penting API BPS
@@ -24,10 +24,12 @@ Fase 1 membuktikan perilaku dasar Web API BPS untuk dynamic data sebelum ETL pen
 
 | Key | var_id | Tema | Label | Tahun | Record Decoded |
 |---|---:|---|---|---|---:|
-| `poverty_rate` | 192 | Kemiskinan | Persentase Penduduk Miskin (P0) Menurut Provinsi dan Daerah | 2023, 2022, 2021 | 520 |
-| `open_unemployment_rate` | 543 | Ketenagakerjaan | Tingkat Pengangguran Terbuka Menurut Provinsi | 2023, 2022, 2021 | 210 |
-| `mean_years_schooling_new_method` | 415 | Pendidikan | [Metode Baru] Rata-rata Lama Sekolah | 2023, 2022, 2021 | 1647 |
-| `human_development_index_new_method` | 494 | Pembangunan Manusia | [Metode Baru] Indeks Pembangunan Manusia (IPM) menurut Provinsi | 2023, 2022, 2021 | 113 |
+| `poverty_rate` | 192 | Kemiskinan | Persentase Penduduk Miskin (P0) Menurut Provinsi dan Daerah | 2024, 2023, 2022, 2021 | 752 |
+| `open_unemployment_rate` | 543 | Ketenagakerjaan | Tingkat Pengangguran Terbuka Menurut Provinsi | 2024, 2023, 2022, 2021 | 288 |
+| `mean_years_schooling_new_method` | 415 | Pendidikan | [Metode Baru] Rata-rata Lama Sekolah | 2024, 2023, 2022, 2021 | 2200 |
+| `human_development_index_new_method` | 494 | Pembangunan Manusia | [Metode Baru] Indeks Pembangunan Manusia (IPM) menurut Provinsi | 2024, 2023, 2022, 2021 | 152 |
+| `gini_ratio` | 98 | Ketimpangan | Gini Ratio Menurut Provinsi dan Daerah | 2024, 2023, 2022, 2021 | 752 |
+| `regional_gdp_growth_constant_2010` | 291 | Ekonomi Regional | [Seri 2010] Laju Pertumbuhan Produk Domestik Regional Bruto Atas Dasar Harga Konstan 2010  Menurut Provinsi | 2024, 2023, 2022, 2021 | 148 |
 
 ## Artifact Evidence
 

@@ -2,11 +2,13 @@
   "poverty_rate": {
     "var_id": 192,
     "available_target_years": [
+      "2024",
       "2023",
       "2022",
       "2021"
     ],
     "period_ids": {
+      "2024": 124,
       "2023": 123,
       "2022": 122,
       "2021": 121
@@ -15,11 +17,13 @@
   "open_unemployment_rate": {
     "var_id": 543,
     "available_target_years": [
+      "2024",
       "2023",
       "2022",
       "2021"
     ],
     "period_ids": {
+      "2024": 124,
       "2023": 123,
       "2022": 122,
       "2021": 121
@@ -28,11 +32,13 @@
   "mean_years_schooling_new_method": {
     "var_id": 415,
     "available_target_years": [
+      "2024",
       "2023",
       "2022",
       "2021"
     ],
     "period_ids": {
+      "2024": 124,
       "2023": 123,
       "2022": 122,
       "2021": 121
@@ -41,11 +47,43 @@
   "human_development_index_new_method": {
     "var_id": 494,
     "available_target_years": [
+      "2024",
       "2023",
       "2022",
       "2021"
     ],
     "period_ids": {
+      "2024": 124,
+      "2023": 123,
+      "2022": 122,
+      "2021": 121
+    }
+  },
+  "gini_ratio": {
+    "var_id": 98,
+    "available_target_years": [
+      "2024",
+      "2023",
+      "2022",
+      "2021"
+    ],
+    "period_ids": {
+      "2024": 124,
+      "2023": 123,
+      "2022": 122,
+      "2021": 121
+    }
+  },
+  "regional_gdp_growth_constant_2010": {
+    "var_id": 291,
+    "available_target_years": [
+      "2024",
+      "2023",
+      "2022",
+      "2021"
+    ],
+    "period_ids": {
+      "2024": 124,
       "2023": 123,
       "2022": 122,
       "2021": 121

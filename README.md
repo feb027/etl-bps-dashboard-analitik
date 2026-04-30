@@ -6,8 +6,8 @@ Repo ini adalah proyek mata kuliah Rekayasa Data untuk membangun pipeline **Extr
 
 ## Status
 
-- Fase saat ini: **6 — Dashboard**
-- Data statistik: 2.490 fact rows sudah dimuat ke SQLite lokal dari artifact BPS asli
+- Fase saat ini: **6.1 — Data Expansion**
+- Data statistik: 4.292 fact rows dari 6 indikator sosial-ekonomi dan 4 tahun (2021–2024) sudah dimuat ke SQLite lokal dari artifact BPS asli
 - Dashboard: grafik, ranking, narasi, dan tabel detail sudah digenerate dari SQLite lokal, **tanpa dummy/fake chart**
 - Prinsip utama: evidence-first, real-data-only, no hardcoded API key
 
@@ -64,6 +64,16 @@ python3 -m json.tool dashboard/data/dashboard-data.json >/dev/null
 python3 -m json.tool results/database/load_metrics.json >/dev/null
 ```
 
+## Jalankan Pipeline Lengkap
+
+```bash
+python3 scripts/verify_bps_api.py
+python3 scripts/run_etl.py --phase extract --mode quick
+python3 scripts/run_etl.py --phase transform --mode quick
+python3 scripts/run_etl.py --phase load --mode quick
+python3 scripts/generate_dashboard_data.py
+```
+
 ## Jalankan Load Layer
 
 ```bash
@@ -106,5 +116,6 @@ python3 -m http.server 8000
 | 4 | Transform Layer | Normalized tables + validation |
 | 5 | Load Layer | SQLite + idempotent runner |
 | 6 | Dashboard | Static analytics from real JSON |
+| 6.1 | Data Expansion | 6 indikator, 2021–2024, 4.292 fact rows |
 | 7 | Report | Laporan akademik final |
 | 8 | Final Audit | Release siap submit |

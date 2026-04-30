@@ -91,6 +91,17 @@ A phase is not complete until:
 - [x] screenshots saved
 - [x] review approves
 
+## Fase 6.1 Done Criteria — Data Expansion
+
+- [x] indicator scope expanded beyond the original Fase 6 proof set
+- [x] target years expanded to 2021–2024 where all selected indicators are available
+- [x] BPS API probe rerun with 0 unmatched datacontent keys
+- [x] extract, transform, load, and dashboard generator rerun end-to-end
+- [x] dashboard JSON generated from expanded SQLite facts only
+- [x] tests/validations pass
+- [x] no tracked SQLite database or API key
+- [x] review approves
+
 ## Fase 7 Done Criteria — Report
 
 - [ ] final report complete

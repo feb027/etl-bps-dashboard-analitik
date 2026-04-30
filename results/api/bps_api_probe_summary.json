@@ -2,24 +2,27 @@
   "status": "success",
   "base_url": "https://webapi.bps.go.id/v1/api/list",
   "target_years": [
+    "2024",
     "2023",
     "2022",
     "2021"
   ],
-  "indicator_count": 4,
-  "probe_rows": 12,
-  "normalized_record_count": 2490,
+  "indicator_count": 6,
+  "probe_rows": 24,
+  "normalized_record_count": 4292,
   "unmatched_key_count": 0,
   "selected_indicator_keys": [
     "poverty_rate",
     "open_unemployment_rate",
     "mean_years_schooling_new_method",
-    "human_development_index_new_method"
+    "human_development_index_new_method",
+    "gini_ratio",
+    "regional_gdp_growth_constant_2010"
   ],
   "key_findings": [
     "BPS model=data uses th_id values from model=th, not plain year strings such as 2021:2023.",
     "BPS datacontent keys are composite keys generated from vervar + var + turvar + tahun + turtahun metadata values.",
-    "The selected four indicators have real dynamic data for 2021, 2022, and 2023."
+    "The selected six indicators have real dynamic data for 2021, 2022, 2023, and 2024."
   ],
   "artifacts": {
     "selected_indicators": "results/api/selected_indicators.json",

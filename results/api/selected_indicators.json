@@ -8,16 +8,18 @@
     "unit": "Persen",
     "subject": "Kemiskinan dan Ketimpangan",
     "target_years": [
+      "2024",
       "2023",
       "2022",
       "2021"
     ],
     "period_ids": {
+      "2024": 124,
       "2023": 123,
       "2022": 122,
       "2021": 121
     },
-    "decoded_records": 520,
+    "decoded_records": 752,
     "unmatched_keys": 0
   },
   {
@@ -29,16 +31,18 @@
     "unit": "Persen",
     "subject": "Tenaga Kerja",
     "target_years": [
+      "2024",
       "2023",
       "2022",
       "2021"
     ],
     "period_ids": {
+      "2024": 124,
       "2023": 123,
       "2022": 122,
       "2021": 121
     },
-    "decoded_records": 210,
+    "decoded_records": 288,
     "unmatched_keys": 0
   },
   {
@@ -48,18 +52,20 @@
     "reason": "Rata-rata lama sekolah metode baru, indikator pendidikan.",
     "indicator_label": "[Metode Baru] Rata-rata Lama Sekolah",
     "unit": "Tahun",
-    "subject": "Indeks Pembangunan Manusia",
+    "subject": "Tujuan Pembangunan Berkelanjutan Edisi I",
     "target_years": [
+      "2024",
       "2023",
       "2022",
       "2021"
     ],
     "period_ids": {
+      "2024": 124,
       "2023": 123,
       "2022": 122,
       "2021": 121
     },
-    "decoded_records": 1647,
+    "decoded_records": 2200,
     "unmatched_keys": 0
   },
   {
@@ -71,16 +77,64 @@
     "unit": "",
     "subject": "Indeks Pembangunan Manusia",
     "target_years": [
+      "2024",
       "2023",
       "2022",
       "2021"
     ],
     "period_ids": {
+      "2024": 124,
       "2023": 123,
       "2022": 122,
       "2021": 121
     },
-    "decoded_records": 113,
+    "decoded_records": 152,
+    "unmatched_keys": 0
+  },
+  {
+    "indicator_key": "gini_ratio",
+    "var_id": 98,
+    "theme": "Ketimpangan",
+    "reason": "Gini Ratio menambah dimensi ketimpangan sosial-ekonomi antarwilayah.",
+    "indicator_label": "Gini Ratio Menurut Provinsi dan Daerah",
+    "unit": "",
+    "subject": "Kemiskinan dan Ketimpangan",
+    "target_years": [
+      "2024",
+      "2023",
+      "2022",
+      "2021"
+    ],
+    "period_ids": {
+      "2024": 124,
+      "2023": 123,
+      "2022": 122,
+      "2021": 121
+    },
+    "decoded_records": 752,
+    "unmatched_keys": 0
+  },
+  {
+    "indicator_key": "regional_gdp_growth_constant_2010",
+    "var_id": 291,
+    "theme": "Ekonomi Regional",
+    "reason": "Laju pertumbuhan PDRB ADHK 2010 mewakili kinerja ekonomi regional.",
+    "indicator_label": "[Seri 2010] Laju Pertumbuhan Produk Domestik Regional Bruto Atas Dasar Harga Konstan 2010  Menurut Provinsi",
+    "unit": "Persen",
+    "subject": "Produk Domestik Regional Bruto (Lapangan Usaha)",
+    "target_years": [
+      "2024",
+      "2023",
+      "2022",
+      "2021"
+    ],
+    "period_ids": {
+      "2024": 124,
+      "2023": 123,
+      "2022": 122,
+      "2021": 121
+    },
+    "decoded_records": 148,
     "unmatched_keys": 0
   }
 ]

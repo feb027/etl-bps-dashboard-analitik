@@ -1,0 +1,92 @@
+{
+  "indicator_key": "gini_ratio",
+  "var_id": 98,
+  "var": [
+    {
+      "val": 98,
+      "label": "Gini Ratio Menurut Provinsi dan Daerah",
+      "unit": "",
+      "subj": "Kemiskinan dan Ketimpangan",
+      "def": "",
+      "decimal": 3,
+      "note": "- Sumber  : BPS, Susenas  \n<br>- Tahun 2002, Susenas Modul Konsumsi reguler\n<br>- Tahun 2005, Susenas Panel (Februari)\n<br>- Tahun 2006-2010, Susenas Panel (Maret)\n<br>- Tahun 2011-2016, Susenas Modul Konsumsi (Maret dan September)\n<br>- Angka Provinsi Papua Barat dan Papua sebelum tahun 2024 merupakan angka provinsi sebelum mengalami pemekaran Daerah Otonom Baru (DOB)"
+    }
+  ],
+  "vervar_sample": [
+    {
+      "val": 1100,
+      "label": "ACEH"
+    },
+    {
+      "val": 1200,
+      "label": "SUMATERA UTARA"
+    },
+    {
+      "val": 1300,
+      "label": "SUMATERA BARAT"
+    },
+    {
+      "val": 1400,
+      "label": "RIAU"
+    },
+    {
+      "val": 1500,
+      "label": "JAMBI"
+    },
+    {
+      "val": 1600,
+      "label": "SUMATERA SELATAN"
+    },
+    {
+      "val": 1700,
+      "label": "BENGKULU"
+    },
+    {
+      "val": 1800,
+      "label": "LAMPUNG"
+    },
+    {
+      "val": 1900,
+      "label": "KEP. BANGKA BELITUNG"
+    },
+    {
+      "val": 2100,
+      "label": "KEP. RIAU"
+    }
+  ],
+  "turvar": [
+    {
+      "val": 189,
+      "label": "Perkotaan"
+    },
+    {
+      "val": 190,
+      "label": "Perdesaan"
+    },
+    {
+      "val": 191,
+      "label": "Perkotaan+Perdesaan"
+    }
+  ],
+  "tahun": [
+    {
+      "val": 124,
+      "label": "2024"
+    }
+  ],
+  "turtahun": [
+    {
+      "val": 61,
+      "label": "Semester 1 (Maret)"
+    },
+    {
+      "val": 62,
+      "label": "Semester 2 (September)"
+    },
+    {
+      "val": 63,
+      "label": "Tahunan"
+    }
+  ],
+  "datacontent_key_rule": "vervar.val + var.val + turvar.val + tahun.val + turtahun.val"
+}

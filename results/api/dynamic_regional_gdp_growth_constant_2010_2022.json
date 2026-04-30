@@ -1,0 +1,246 @@
+{
+  "indicator_key": "regional_gdp_growth_constant_2010",
+  "var_id": 291,
+  "year": "2022",
+  "th_id": 122,
+  "payload": {
+    "status": "OK",
+    "data-availability": "available",
+    "last_update": "2026-02-19 10:27:07",
+    "subject": [
+      {
+        "val": 531,
+        "label": "Neraca Ekonomi"
+      }
+    ],
+    "var": [
+      {
+        "val": 291,
+        "label": "[Seri 2010] Laju Pertumbuhan Produk Domestik Regional Bruto Atas Dasar Harga Konstan 2010  Menurut Provinsi",
+        "unit": "Persen",
+        "subj": "Produk Domestik Regional Bruto (Lapangan Usaha)",
+        "def": "",
+        "decimal": 2,
+        "note": "<p><ul><li>Perbedaan antara jumlah PDRB 34 Provinsi dan PDB Indonesia antara lain disebabkan oleh diskrepansi statistik</li><li>Data 2024: Angka sementara</li><li>Data 2025: Angka sangat sementara</li></ul></p>"
+      }
+    ],
+    "turvar": [
+      {
+        "val": "0",
+        "label": "Tidak ada"
+      }
+    ],
+    "labelvervar": "38 Provinsi",
+    "vervar": [
+      {
+        "val": 1100,
+        "label": "ACEH"
+      },
+      {
+        "val": 1200,
+        "label": "SUMATERA UTARA"
+      },
+      {
+        "val": 1300,
+        "label": "SUMATERA BARAT"
+      },
+      {
+        "val": 1400,
+        "label": "RIAU"
+      },
+      {
+        "val": 1500,
+        "label": "JAMBI"
+      },
+      {
+        "val": 1600,
+        "label": "SUMATERA SELATAN"
+      },
+      {
+        "val": 1700,
+        "label": "BENGKULU"
+      },
+      {
+        "val": 1800,
+        "label": "LAMPUNG"
+      },
+      {
+        "val": 1900,
+        "label": "KEP. BANGKA BELITUNG"
+      },
+      {
+        "val": 2100,
+        "label": "KEP. RIAU"
+      },
+      {
+        "val": 3100,
+        "label": "DKI JAKARTA"
+      },
+      {
+        "val": 3200,
+        "label": "JAWA BARAT"
+      },
+      {
+        "val": 3300,
+        "label": "JAWA TENGAH"
+      },
+      {
+        "val": 3400,
+        "label": "DI YOGYAKARTA"
+      },
+      {
+        "val": 3500,
+        "label": "JAWA TIMUR"
+      },
+      {
+        "val": 3600,
+        "label": "BANTEN"
+      },
+      {
+        "val": 5100,
+        "label": "BALI"
+      },
+      {
+        "val": 5200,
+        "label": "NUSA TENGGARA BARAT"
+      },
+      {
+        "val": 5300,
+        "label": "NUSA TENGGARA TIMUR"
+      },
+      {
+        "val": 6100,
+        "label": "KALIMANTAN BARAT"
+      },
+      {
+        "val": 6200,
+        "label": "KALIMANTAN TENGAH"
+      },
+      {
+        "val": 6300,
+        "label": "KALIMANTAN SELATAN"
+      },
+      {
+        "val": 6400,
+        "label": "KALIMANTAN TIMUR"
+      },
+      {
+        "val": 6500,
+        "label": "KALIMANTAN UTARA"
+      },
+      {
+        "val": 7100,
+        "label": "SULAWESI UTARA"
+      },
+      {
+        "val": 7200,
+        "label": "SULAWESI TENGAH"
+      },
+      {
+        "val": 7300,
+        "label": "SULAWESI SELATAN"
+      },
+      {
+        "val": 7400,
+        "label": "SULAWESI TENGGARA"
+      },
+      {
+        "val": 7500,
+        "label": "GORONTALO"
+      },
+      {
+        "val": 7600,
+        "label": "SULAWESI BARAT"
+      },
+      {
+        "val": 8100,
+        "label": "MALUKU"
+      },
+      {
+        "val": 8200,
+        "label": "MALUKU UTARA"
+      },
+      {
+        "val": 9100,
+        "label": "PAPUA BARAT"
+      },
+      {
+        "val": 9200,
+        "label": "PAPUA BARAT DAYA"
+      },
+      {
+        "val": 9400,
+        "label": "PAPUA"
+      },
+      {
+        "val": 9500,
+        "label": "PAPUA SELATAN"
+      },
+      {
+        "val": 9600,
+        "label": "PAPUA TENGAH"
+      },
+      {
+        "val": 9700,
+        "label": "PAPUA PEGUNUNGAN"
+      },
+      {
+        "val": 9999,
+        "label": "INDONESIA"
+      }
+    ],
+    "tahun": [
+      {
+        "val": 122,
+        "label": "2022"
+      }
+    ],
+    "turtahun": [
+      {
+        "val": 0,
+        "label": "Tahun"
+      }
+    ],
+    "datacontent": {
+      "750029101220": 4.03,
+      "190029101220": 4.4,
+      "130029101220": 4.36,
+      "999929101220": 5.31,
+      "180029101220": 4.28,
+      "170029101220": 4.31,
+      "360029101220": 5.03,
+      "140029101220": 4.55,
+      "730029101220": 5.1,
+      "330029101220": 5.31,
+      "520029101220": 6.95,
+      "320029101220": 5.45,
+      "650029101220": 5.32,
+      "510029101220": 4.84,
+      "530029101220": 3.08,
+      "740029101220": 5.53,
+      "720029101220": 15.22,
+      "820029101220": 22.94,
+      "110029101220": 4.21,
+      "760029101220": 2.26,
+      "150029101220": 5.12,
+      "810029101220": 5.31,
+      "160029101220": 5.24,
+      "120029101220": 4.73,
+      "310029101220": 5.25,
+      "210029101220": 5.06,
+      "620029101220": 6.45,
+      "640029101220": 4.48,
+      "350029101220": 5.34,
+      "610029101220": 5.07,
+      "910029101220": 2.03,
+      "940029101220": 8.97,
+      "340029101220": 5.15,
+      "710029101220": 5.42,
+      "630029101220": 5.11
+    },
+    "related": []
+  },
+  "decoded_count": 35,
+  "unmatched_keys": [],
+  "unmatched_count": 0
+}

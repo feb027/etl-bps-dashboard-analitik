@@ -51,16 +51,16 @@ def test_run_load_populates_sqlite_tables_and_run_log(tmp_path: Path):
     assert summary["status"] == "success"
     assert summary["phase"] == "5 — Load Layer"
     assert summary["database_path"].endswith("bps.sqlite")
-    assert summary["fact_row_count"] == 2490
-    assert summary["raw_snapshot_count"] == 32
-    assert summary["table_counts"]["fact_statistik"] == 2490
-    assert counts["dim_indikator"] == 4
-    assert counts["dim_wilayah"] == 553
-    assert counts["dim_waktu"] == 3
-    assert counts["dim_turvar"] == 4
+    assert summary["fact_row_count"] == 4292
+    assert summary["raw_snapshot_count"] == 54
+    assert summary["table_counts"]["fact_statistik"] == 4292
+    assert counts["dim_indikator"] == 6
+    assert counts["dim_wilayah"] == 579
+    assert counts["dim_waktu"] == 4
+    assert counts["dim_turvar"] == 7
     assert counts["dim_turtahun"] == 5
-    assert counts["fact_statistik"] == 2490
-    assert counts["raw_api_snapshot"] == 32
+    assert counts["fact_statistik"] == 4292
+    assert counts["raw_api_snapshot"] == 54
     assert counts["etl_run_log"] == 1
 
     conn = sqlite3.connect(db_path)
@@ -69,8 +69,8 @@ def test_run_load_populates_sqlite_tables_and_run_log(tmp_path: Path):
         row = conn.execute("SELECT status, fact_row_count, raw_snapshot_count, source_git_commit FROM etl_run_log").fetchone()
         assert dict(row) == {
             "status": "success",
-            "fact_row_count": 2490,
-            "raw_snapshot_count": 32,
+            "fact_row_count": 4292,
+            "raw_snapshot_count": 54,
             "source_git_commit": "test-commit",
         }
         sample = conn.execute(
@@ -92,10 +92,10 @@ def test_run_load_is_idempotent_for_fact_and_dimension_tables(tmp_path: Path):
     first = run_load(database_path=db_path, transform_dir=TRANSFORM_DIR, extract_manifest_path=EXTRACT_MANIFEST, metrics_path=None)
     second = run_load(database_path=db_path, transform_dir=TRANSFORM_DIR, extract_manifest_path=EXTRACT_MANIFEST, metrics_path=None)
 
-    assert first["table_counts"]["fact_statistik"] == 2490
-    assert second["table_counts"]["fact_statistik"] == 2490
-    assert second["table_counts"]["dim_wilayah"] == 553
-    assert second["table_counts"]["raw_api_snapshot"] == 32
+    assert first["table_counts"]["fact_statistik"] == 4292
+    assert second["table_counts"]["fact_statistik"] == 4292
+    assert second["table_counts"]["dim_wilayah"] == 579
+    assert second["table_counts"]["raw_api_snapshot"] == 54
     assert second["table_counts"]["etl_run_log"] == 2
 
 
@@ -112,8 +112,8 @@ def test_run_load_writes_commit_safe_metrics_artifact(tmp_path: Path):
 
     metrics = json.loads(metrics_path.read_text(encoding="utf-8"))
     assert metrics["status"] == "success"
-    assert metrics["fact_row_count"] == summary["fact_row_count"] == 2490
-    assert metrics["table_counts"]["fact_statistik"] == 2490
+    assert metrics["fact_row_count"] == summary["fact_row_count"] == 4292
+    assert metrics["table_counts"]["fact_statistik"] == 4292
     assert "BPS_API_KEY" not in json.dumps(metrics)
 
 

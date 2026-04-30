@@ -1,0 +1,76 @@
+{
+  "indicator_key": "regional_gdp_growth_constant_2010",
+  "var_id": 291,
+  "var": [
+    {
+      "val": 291,
+      "label": "[Seri 2010] Laju Pertumbuhan Produk Domestik Regional Bruto Atas Dasar Harga Konstan 2010  Menurut Provinsi",
+      "unit": "Persen",
+      "subj": "Produk Domestik Regional Bruto (Lapangan Usaha)",
+      "def": "",
+      "decimal": 2,
+      "note": "<p><ul><li>Perbedaan antara jumlah PDRB 34 Provinsi dan PDB Indonesia antara lain disebabkan oleh diskrepansi statistik</li><li>Data 2024: Angka sementara</li><li>Data 2025: Angka sangat sementara</li></ul></p>"
+    }
+  ],
+  "vervar_sample": [
+    {
+      "val": 1100,
+      "label": "ACEH"
+    },
+    {
+      "val": 1200,
+      "label": "SUMATERA UTARA"
+    },
+    {
+      "val": 1300,
+      "label": "SUMATERA BARAT"
+    },
+    {
+      "val": 1400,
+      "label": "RIAU"
+    },
+    {
+      "val": 1500,
+      "label": "JAMBI"
+    },
+    {
+      "val": 1600,
+      "label": "SUMATERA SELATAN"
+    },
+    {
+      "val": 1700,
+      "label": "BENGKULU"
+    },
+    {
+      "val": 1800,
+      "label": "LAMPUNG"
+    },
+    {
+      "val": 1900,
+      "label": "KEP. BANGKA BELITUNG"
+    },
+    {
+      "val": 2100,
+      "label": "KEP. RIAU"
+    }
+  ],
+  "turvar": [
+    {
+      "val": "0",
+      "label": "Tidak ada"
+    }
+  ],
+  "tahun": [
+    {
+      "val": 124,
+      "label": "2024"
+    }
+  ],
+  "turtahun": [
+    {
+      "val": 0,
+      "label": "Tahun"
+    }
+  ],
+  "datacontent_key_rule": "vervar.val + var.val + turvar.val + tahun.val + turtahun.val"
+}

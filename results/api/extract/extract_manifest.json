@@ -1,12 +1,12 @@
 {
   "status": "success",
   "phase": "3 — Extract Layer",
-  "captured_at": "2026-04-29T16:35:03Z",
-  "target_count": 12,
-  "metadata_snapshot_count": 20,
-  "dynamic_snapshot_count": 12,
-  "total_snapshots": 32,
-  "total_raw_rows": 3642,
+  "captured_at": "2026-04-30T06:01:21Z",
+  "target_count": 24,
+  "metadata_snapshot_count": 30,
+  "dynamic_snapshot_count": 24,
+  "total_snapshots": 54,
+  "total_raw_rows": 5744,
   "output_dir": "results/api/extract",
   "snapshots": [
     {
@@ -18,9 +18,9 @@
         "var": 192
       },
       "artifact_path": "metadata_poverty_rate_th.json",
-      "artifact_sha256": "bff02dd82ba309a32f7a6c15e1656bbe27f56590421aab185c71d196d0cdf45e",
+      "artifact_sha256": "5dc4d16a46031e1a17133d39aecc2232c030ca2052543791ed603231d671fc9e",
       "row_count": 19,
-      "captured_at": "2026-04-29T16:35:03Z",
+      "captured_at": "2026-04-30T06:01:21Z",
       "request_fingerprint": "3e91eed7811c0755b1578da90bea4294854805f8ac398da0a23e7cacf70e2169"
     },
     {
@@ -32,9 +32,9 @@
         "var": 192
       },
       "artifact_path": "metadata_poverty_rate_vervar.json",
-      "artifact_sha256": "be90dfe370fd066f60d69effb4ef4384e5a42dd4f7ef8b4308e930f259aefa79",
+      "artifact_sha256": "2e9fea0b4e0b77fb0337b5c85d7508cc07c4aac60e0f75a67c164e812a1ff23f",
       "row_count": 39,
-      "captured_at": "2026-04-29T16:35:03Z",
+      "captured_at": "2026-04-30T06:01:21Z",
       "request_fingerprint": "f3e2145a44625696eb38336951c4aa318c9392492608eb6375fdc0430ca993bd"
     },
     {
@@ -46,9 +46,9 @@
         "var": 192
       },
       "artifact_path": "metadata_poverty_rate_turvar.json",
-      "artifact_sha256": "7c781127e29e491c620261d37352fd3a3c2c8aada0382573c074967f896b82ae",
+      "artifact_sha256": "ba3675c56cb3b0c9672d2f5454a8fb9c7242c8ccdfc6a4425f06c9dc7868061e",
       "row_count": 3,
-      "captured_at": "2026-04-29T16:35:03Z",
+      "captured_at": "2026-04-30T06:01:21Z",
       "request_fingerprint": "8053674d8ef478f32040bd82a88f8d4d249bd362439d45b5135182d5d91a0852"
     },
     {
@@ -60,9 +60,9 @@
         "var": 192
       },
       "artifact_path": "metadata_poverty_rate_turth.json",
-      "artifact_sha256": "3a37ff19397601046b4e913ad485f6811dfdc78c1db08efd3d7713c6af5e3b3e",
+      "artifact_sha256": "480d77129cc21fe763b7027c9da25f3e202d389b7b5728b4fe7420214278e09e",
       "row_count": 3,
-      "captured_at": "2026-04-29T16:35:03Z",
+      "captured_at": "2026-04-30T06:01:21Z",
       "request_fingerprint": "e4554971c640f32a93b6e4bdb37c85ed7613446db62bcdc2ff96c6c7fec75d6e"
     },
     {
@@ -74,9 +74,9 @@
         "var": 192
       },
       "artifact_path": "metadata_poverty_rate_unit.json",
-      "artifact_sha256": "241d6edb6761ee171e97796b44a492806e95e034fc0de9a359e247829fae84eb",
+      "artifact_sha256": "923ed2687f9bc81f3a4e0e19064213b0e125724274586eb306210a51b9f00996",
       "row_count": 89,
-      "captured_at": "2026-04-29T16:35:03Z",
+      "captured_at": "2026-04-30T06:01:21Z",
       "request_fingerprint": "61882ac788c580508e129f439290cb101939d36bc8bf0baf518cdaf904866d07"
     },
     {
@@ -88,9 +88,9 @@
         "var": 543
       },
       "artifact_path": "metadata_open_unemployment_rate_th.json",
-      "artifact_sha256": "c85c50060182e1f1619f517a4c9b4066a73bc091fbb071be6e4183c58a2a2092",
+      "artifact_sha256": "f126453e1d4722c17fdcd39ddcf813a6f4633b06e6d8211832c98738e2671b40",
       "row_count": 39,
-      "captured_at": "2026-04-29T16:35:03Z",
+      "captured_at": "2026-04-30T06:01:21Z",
       "request_fingerprint": "e4f0c15e9095a6162b3b3d4419f7587b09266054d604bde0b94bc0ffda7ea2af"
     },
     {
@@ -102,9 +102,9 @@
         "var": 543
       },
       "artifact_path": "metadata_open_unemployment_rate_vervar.json",
-      "artifact_sha256": "b429e614e6525983efc96b37c76778f6da227fe93393d0eab30a74d21f395944",
+      "artifact_sha256": "8e22c1db111ee28f93196e1f74c80d36dcf6c4be00f6345cc76209087d0c146b",
       "row_count": 39,
-      "captured_at": "2026-04-29T16:35:03Z",
+      "captured_at": "2026-04-30T06:01:21Z",
       "request_fingerprint": "c3c858a0730b1e3cc310474dd1931e7458d00d72754b2a420fab75a579ce08a4"
     },
     {
@@ -116,9 +116,9 @@
         "var": 543
       },
       "artifact_path": "metadata_open_unemployment_rate_turvar.json",
-      "artifact_sha256": "8a8d97e4ece643bf953e8b1da0d68ff3c52fc88006ffc12844373c658901c5ba",
+      "artifact_sha256": "0774e831b3afb8992359080c4216e9946d3d0d1c3cc05fd324d96e62c079ae4c",
       "row_count": 0,
-      "captured_at": "2026-04-29T16:35:03Z",
+      "captured_at": "2026-04-30T06:01:21Z",
       "request_fingerprint": "ed727671e43fe1adfdc861a07a933862c511294041d84bd2afdb4ce54c0cb9f4"
     },
     {
@@ -130,9 +130,9 @@
         "var": 543
       },
       "artifact_path": "metadata_open_unemployment_rate_turth.json",
-      "artifact_sha256": "754936485b1dbed9fadfe6da1b964e5688d613cc9cb7ac34509a004a549405df",
+      "artifact_sha256": "1d42d682d8882f625bfbe5ca27e13ac07eebd2d56e7c17dda3085f4f50556502",
       "row_count": 3,
-      "captured_at": "2026-04-29T16:35:03Z",
+      "captured_at": "2026-04-30T06:01:21Z",
       "request_fingerprint": "0d01a702faad42e543cd4d64ec71ded9f38aa7a6eaa43911411ffb5c770da1be"
     },
     {
@@ -144,9 +144,9 @@
         "var": 543
       },
       "artifact_path": "metadata_open_unemployment_rate_unit.json",
-      "artifact_sha256": "1c1f923c3d1c53af28f98760a3325ee69673c21b28a42e6c693eb1242a93cd84",
+      "artifact_sha256": "bc939b035b89fe25eff4276d15aebd6c39e8977ec1f47a1e5d85872d2d96c317",
       "row_count": 89,
-      "captured_at": "2026-04-29T16:35:03Z",
+      "captured_at": "2026-04-30T06:01:21Z",
       "request_fingerprint": "9ab958ae33380ebab19f339d947b4248d9b06cc4f1dfcf5f7871296c801a21c0"
     },
     {
@@ -158,9 +158,9 @@
         "var": 415
       },
       "artifact_path": "metadata_mean_years_schooling_new_method_th.json",
-      "artifact_sha256": "8b06e4a75f3e4114642e2f391b6298f9141e8c075f308d295db6e1222de3c393",
+      "artifact_sha256": "de8de9de31cf93f358d6f1b11741923d0e38a5330c3cee26b005f7ffa87844e2",
       "row_count": 16,
-      "captured_at": "2026-04-29T16:35:03Z",
+      "captured_at": "2026-04-30T06:01:21Z",
       "request_fingerprint": "7e00c73fc60774df06509c3eb1115d4decd3cf51fd69b43421c4cb8e4e9b50e9"
     },
     {
@@ -172,9 +172,9 @@
         "var": 415
       },
       "artifact_path": "metadata_mean_years_schooling_new_method_vervar.json",
-      "artifact_sha256": "e2ef96fefc38ee2ff97a18f2bdcc7bbd1995493be48a28ce94d0d769e90442d1",
+      "artifact_sha256": "839de1aa84908b6b5e6743516b1a3f2230dcca0fad1b5008f3d554e71192eebb",
       "row_count": 579,
-      "captured_at": "2026-04-29T16:35:03Z",
+      "captured_at": "2026-04-30T06:01:21Z",
       "request_fingerprint": "f365dc1501f6ec897c865a11bbe4dcc3864be22ef9a8c393c786bfcd263d92c1"
     },
     {
@@ -186,9 +186,9 @@
         "var": 415
       },
       "artifact_path": "metadata_mean_years_schooling_new_method_turvar.json",
-      "artifact_sha256": "b8a37a88267ed50378bc512dbe19d8a166cd24d13775a91d97fa1d5d9eed72f4",
+      "artifact_sha256": "94ccb0ae2cdf0d6f7e6aff8bb0bee83a8b9dce32f09cdb642a227da5e2620ade",
       "row_count": 0,
-      "captured_at": "2026-04-29T16:35:03Z",
+      "captured_at": "2026-04-30T06:01:21Z",
       "request_fingerprint": "a43fa3a130b07817345b03ab19be66a3da52b77895bbd863f6c370962204fa99"
     },
     {
@@ -200,9 +200,9 @@
         "var": 415
       },
       "artifact_path": "metadata_mean_years_schooling_new_method_turth.json",
-      "artifact_sha256": "37eebe8d29db8db5d172c495f8c7f001caa70ff09cf1bdd09ae09e6e599f17aa",
+      "artifact_sha256": "c5b66f092143702d1e0f74285c17a866289c2331266ad731f4c6b7c8b8d04715",
       "row_count": 1,
-      "captured_at": "2026-04-29T16:35:03Z",
+      "captured_at": "2026-04-30T06:01:21Z",
       "request_fingerprint": "b6edb05ae77040d411ebf56aa2a8a10c587f1227bb9d617316d3469a5323ba54"
     },
     {
@@ -214,9 +214,9 @@
         "var": 415
       },
       "artifact_path": "metadata_mean_years_schooling_new_method_unit.json",
-      "artifact_sha256": "9d0dd94228345ac3271dfbd1c3c5d069f08a99bb9f07830455034169de64a146",
+      "artifact_sha256": "44ea748ddeeb1e2da1bdfb618f68b67694f148112750225fc06ee0064007703a",
       "row_count": 89,
-      "captured_at": "2026-04-29T16:35:03Z",
+      "captured_at": "2026-04-30T06:01:21Z",
       "request_fingerprint": "0b12eaa777cd9932edf24cf3bfa4a608644d990ff5cf7546e86dbf7fa7ee0cae"
     },
     {
@@ -228,9 +228,9 @@
         "var": 494
       },
       "artifact_path": "metadata_human_development_index_new_method_th.json",
-      "artifact_sha256": "075ce65f21596af7980e8db20ca1c79c5ecc8ed0b4dc63cf7e872e4a68b37876",
+      "artifact_sha256": "97ba89c810ada81b2c46a98fda7954700dd6df11f96668dd73347b2f0b10ae0a",
       "row_count": 15,
-      "captured_at": "2026-04-29T16:35:03Z",
+      "captured_at": "2026-04-30T06:01:21Z",
       "request_fingerprint": "a243341a8c614a85ed3fac0994472a90b3b5a8bc197af4011832b12202dc923c"
     },
     {
@@ -242,9 +242,9 @@
         "var": 494
       },
       "artifact_path": "metadata_human_development_index_new_method_vervar.json",
-      "artifact_sha256": "25e958fe79fe6cc9eb0c0942cc4a6365361ae2da3aef79783bdb448852047fdd",
+      "artifact_sha256": "2080aa584d1af1711e34eb98622741794345841ba6e92c709ddfd55464297591",
       "row_count": 39,
-      "captured_at": "2026-04-29T16:35:03Z",
+      "captured_at": "2026-04-30T06:01:21Z",
       "request_fingerprint": "5381bb47064c31e46c7d72879ab0d5ee141ad949d74ec07617f91ff312b4f006"
     },
     {
@@ -256,9 +256,9 @@
         "var": 494
       },
       "artifact_path": "metadata_human_development_index_new_method_turvar.json",
-      "artifact_sha256": "6d0d6be48ed3e4d008a9b06f2b45c889b271bbd24b1dfb86c7977e6507daa036",
+      "artifact_sha256": "408ea72c40f5ace7fe39bccc345048040885f00b378acc49369544b79e8a7906",
       "row_count": 0,
-      "captured_at": "2026-04-29T16:35:03Z",
+      "captured_at": "2026-04-30T06:01:21Z",
       "request_fingerprint": "3bdbc7504dcf5c444dba736820303baf90ff30e2f39d059d86c0ae98589d83c7"
     },
     {
@@ -270,9 +270,9 @@
         "var": 494
       },
       "artifact_path": "metadata_human_development_index_new_method_turth.json",
-      "artifact_sha256": "fc7825136a13703df53be8403fda19f41b7803c6821c3c8a4475fd4fb71674e0",
+      "artifact_sha256": "49160aa5f843fc006caed7658b4889253b8f446ea502875d0f7e92e65d57308b",
       "row_count": 1,
-      "captured_at": "2026-04-29T16:35:03Z",
+      "captured_at": "2026-04-30T06:01:21Z",
       "request_fingerprint": "943ab7b03a270f8daf9e5dc4246bbc5804df845505f2b6053d3c7118ea3e25a5"
     },
     {
@@ -284,10 +284,165 @@
         "var": 494
       },
       "artifact_path": "metadata_human_development_index_new_method_unit.json",
-      "artifact_sha256": "7bd847098fb70639315812f4db648bf6eb7e4c9424434d79d51fa0b4a39e51ce",
+      "artifact_sha256": "18fed69fbab3036fa23066e73c3ba81b887e7ecc126b94329cd0d5ebce528c38",
       "row_count": 89,
-      "captured_at": "2026-04-29T16:35:03Z",
+      "captured_at": "2026-04-30T06:01:21Z",
       "request_fingerprint": "a9e5d76aff447fc049c5bf4f71bcd4df0be365b4ae79eb712b9a10a2fa07a37b"
+    },
+    {
+      "snapshot_id": "bps-th-adb86649328ef35c",
+      "model": "th",
+      "artifact_group": "metadata",
+      "domain": "0000",
+      "params": {
+        "var": 98
+      },
+      "artifact_path": "metadata_gini_ratio_th.json",
+      "artifact_sha256": "7efc672535dd1a3018d7193893e6b8c538c9fd1d2d2ee8dc83bb7e435a0f30a1",
+      "row_count": 21,
+      "captured_at": "2026-04-30T06:01:21Z",
+      "request_fingerprint": "adb86649328ef35ca40fee068c7a29187305dbee87b8237e81e2d64512cc8276"
+    },
+    {
+      "snapshot_id": "bps-vervar-7c701cc205e3c2e1",
+      "model": "vervar",
+      "artifact_group": "metadata",
+      "domain": "0000",
+      "params": {
+        "var": 98
+      },
+      "artifact_path": "metadata_gini_ratio_vervar.json",
+      "artifact_sha256": "4525cc5d1e030b287f198e84926a7d98d0b4c2581be019ccdfca017df32cdc30",
+      "row_count": 39,
+      "captured_at": "2026-04-30T06:01:21Z",
+      "request_fingerprint": "7c701cc205e3c2e13c2c6528004bd5e72459f0880230a1f72c3b2e84fee373e6"
+    },
+    {
+      "snapshot_id": "bps-turvar-f9f8dbdf1cf315f6",
+      "model": "turvar",
+      "artifact_group": "metadata",
+      "domain": "0000",
+      "params": {
+        "var": 98
+      },
+      "artifact_path": "metadata_gini_ratio_turvar.json",
+      "artifact_sha256": "3b5727fc682aba58ea9c8107c8ea9a54838cca9f9b67e8252d2b1ee43d5e2a59",
+      "row_count": 3,
+      "captured_at": "2026-04-30T06:01:21Z",
+      "request_fingerprint": "f9f8dbdf1cf315f687aed38bb7111093dee911e207e29fbc96d0a8c92d17c3bd"
+    },
+    {
+      "snapshot_id": "bps-turth-96ad1b8cf2091f47",
+      "model": "turth",
+      "artifact_group": "metadata",
+      "domain": "0000",
+      "params": {
+        "var": 98
+      },
+      "artifact_path": "metadata_gini_ratio_turth.json",
+      "artifact_sha256": "57f06e4a4fab67ea844cf585d51d3e472af0fed244855be766ba6506e5816c0f",
+      "row_count": 3,
+      "captured_at": "2026-04-30T06:01:21Z",
+      "request_fingerprint": "96ad1b8cf2091f47953fdeafd02e89fb80cb4c8806f8602ad86a91d29edbb4d1"
+    },
+    {
+      "snapshot_id": "bps-unit-85e2dcc52d9a711e",
+      "model": "unit",
+      "artifact_group": "metadata",
+      "domain": "0000",
+      "params": {
+        "var": 98
+      },
+      "artifact_path": "metadata_gini_ratio_unit.json",
+      "artifact_sha256": "7ee99e9f9e772497494056677ce4498499e7c5f2b490dbdba1975217263fd04c",
+      "row_count": 89,
+      "captured_at": "2026-04-30T06:01:21Z",
+      "request_fingerprint": "85e2dcc52d9a711ee06ffd514b20fde027ad6018093e5c01e4a4dcea5f732fdb"
+    },
+    {
+      "snapshot_id": "bps-th-67185fa29fd3ca2b",
+      "model": "th",
+      "artifact_group": "metadata",
+      "domain": "0000",
+      "params": {
+        "var": 291
+      },
+      "artifact_path": "metadata_regional_gdp_growth_constant_2010_th.json",
+      "artifact_sha256": "0d5d8fa249d63126a929e321c5fc2bd26f8ca638f4a2a0fc63eaea9b7655c30a",
+      "row_count": 16,
+      "captured_at": "2026-04-30T06:01:21Z",
+      "request_fingerprint": "67185fa29fd3ca2bfa918b8f150731780e6a496172a9c33e5508c8cb1e45aa3e"
+    },
+    {
+      "snapshot_id": "bps-vervar-e293a31107377876",
+      "model": "vervar",
+      "artifact_group": "metadata",
+      "domain": "0000",
+      "params": {
+        "var": 291
+      },
+      "artifact_path": "metadata_regional_gdp_growth_constant_2010_vervar.json",
+      "artifact_sha256": "7a479430982f2c97a467347fc1b73fb173cf7d2063055b525da8371ac68544bd",
+      "row_count": 39,
+      "captured_at": "2026-04-30T06:01:21Z",
+      "request_fingerprint": "e293a31107377876a42501881e8c188cef5763a8c87a165819ee08a256c9dfa6"
+    },
+    {
+      "snapshot_id": "bps-turvar-0d950344b83835ae",
+      "model": "turvar",
+      "artifact_group": "metadata",
+      "domain": "0000",
+      "params": {
+        "var": 291
+      },
+      "artifact_path": "metadata_regional_gdp_growth_constant_2010_turvar.json",
+      "artifact_sha256": "dadf8b58c7dc81e6f51c38f9d0cded5922be878359e808a338299d8f3abef7a0",
+      "row_count": 0,
+      "captured_at": "2026-04-30T06:01:21Z",
+      "request_fingerprint": "0d950344b83835ae3297f42afddcb467add2b087484214a95d655cb73ab0da51"
+    },
+    {
+      "snapshot_id": "bps-turth-705b0d0a889fce1a",
+      "model": "turth",
+      "artifact_group": "metadata",
+      "domain": "0000",
+      "params": {
+        "var": 291
+      },
+      "artifact_path": "metadata_regional_gdp_growth_constant_2010_turth.json",
+      "artifact_sha256": "c223914b3a564152a09660193fe259bad968181a375774e0a8392260dd058df3",
+      "row_count": 1,
+      "captured_at": "2026-04-30T06:01:21Z",
+      "request_fingerprint": "705b0d0a889fce1a56f2416d396050495c5c7b2ba1d5cfb1ea7ea7194c811a6d"
+    },
+    {
+      "snapshot_id": "bps-unit-74eaa281e5a9fea4",
+      "model": "unit",
+      "artifact_group": "metadata",
+      "domain": "0000",
+      "params": {
+        "var": 291
+      },
+      "artifact_path": "metadata_regional_gdp_growth_constant_2010_unit.json",
+      "artifact_sha256": "cbe4653f1ab0d9e106f9b14c41e4d451374941abcc2c7dc9373bf4cbe8453eee",
+      "row_count": 89,
+      "captured_at": "2026-04-30T06:01:21Z",
+      "request_fingerprint": "74eaa281e5a9fea46f7ce7527c8a0cb3998e08918fdd544ec8905a096822dce4"
+    },
+    {
+      "snapshot_id": "bps-data-8c5cb32173251389",
+      "model": "data",
+      "artifact_group": "data",
+      "domain": "0000",
+      "params": {
+        "var": 192,
+        "th": 124
+      },
+      "artifact_path": "dynamic_poverty_rate_2024.json",
+      "artifact_sha256": "59516aaad2cff030bfe309b55fcfd3dfd1999aac822b34d81da3d7505aa4d708",
+      "row_count": 232,
+      "captured_at": "2026-04-30T06:01:21Z",
+      "request_fingerprint": "8c5cb32173251389a1f365344d7d32854adb6108bae605f1a82bedeb147addcc"
     },
     {
       "snapshot_id": "bps-data-d8ab23f832cb7cbe",
@@ -299,9 +454,9 @@
         "th": 123
       },
       "artifact_path": "dynamic_poverty_rate_2023.json",
-      "artifact_sha256": "9abc23735732d05d28350887dc8a971554add27d4121557c21d94618230f188d",
+      "artifact_sha256": "82f6eada6c2c5fb4dde601bfcb89ddbce64ad606cb34aaa651d40a9932c4fcf6",
       "row_count": 104,
-      "captured_at": "2026-04-29T16:35:03Z",
+      "captured_at": "2026-04-30T06:01:21Z",
       "request_fingerprint": "d8ab23f832cb7cbe59f7e6b6d419a2d5978d525b92a9e2b848ad37a4d52631ee"
     },
     {
@@ -314,9 +469,9 @@
         "th": 122
       },
       "artifact_path": "dynamic_poverty_rate_2022.json",
-      "artifact_sha256": "ebe3a6775afb6a51f90c0146bf70d92aaeac9caa9a895919b81b47fe3f676de4",
+      "artifact_sha256": "2dd6a0def1b6c1dff6ec256b6d1b1e4b64fba69b536e4d347a01c0e26e236b18",
       "row_count": 208,
-      "captured_at": "2026-04-29T16:35:03Z",
+      "captured_at": "2026-04-30T06:01:21Z",
       "request_fingerprint": "e46aa53d43b00c96530f5927c6aa40973026645ad5e70e58ebf26cefd552a6cb"
     },
     {
@@ -329,10 +484,25 @@
         "th": 121
       },
       "artifact_path": "dynamic_poverty_rate_2021.json",
-      "artifact_sha256": "6949e7b7c5ed6c822a9676d0dad1d8e968ff7dcfcd2b61a9470d469e25a30615",
+      "artifact_sha256": "0a0fef8cb0d06c036f8e5a45cbd8d968b2fa2885f12971bdcd5543b127b83fd9",
       "row_count": 208,
-      "captured_at": "2026-04-29T16:35:03Z",
+      "captured_at": "2026-04-30T06:01:21Z",
       "request_fingerprint": "389fbfd995754e0ea0d17e118be0bb0a3647a805b697018c371fae9533feee3c"
+    },
+    {
+      "snapshot_id": "bps-data-4a75b5e420bcb1f0",
+      "model": "data",
+      "artifact_group": "data",
+      "domain": "0000",
+      "params": {
+        "var": 543,
+        "th": 124
+      },
+      "artifact_path": "dynamic_open_unemployment_rate_2024.json",
+      "artifact_sha256": "8bc37bfad909f38d48a6f3435240292a7a90ee5bca10fd2e4772c9935388fd4d",
+      "row_count": 78,
+      "captured_at": "2026-04-30T06:01:21Z",
+      "request_fingerprint": "4a75b5e420bcb1f0ef39898778914056cac5ba0debf857061bfb97348d4c4d8f"
     },
     {
       "snapshot_id": "bps-data-62754ad3d7162cdb",
@@ -344,9 +514,9 @@
         "th": 123
       },
       "artifact_path": "dynamic_open_unemployment_rate_2023.json",
-      "artifact_sha256": "f417c61637b502f92a23dd71e8d337ab76241dab0a0922069f0bd36a9ca6ec9f",
+      "artifact_sha256": "ed5714579f4cd961e0017c8461131d599eb44860b09f2171a7553cf135100bd2",
       "row_count": 70,
-      "captured_at": "2026-04-29T16:35:03Z",
+      "captured_at": "2026-04-30T06:01:21Z",
       "request_fingerprint": "62754ad3d7162cdbe53edee480b74003d1582cc038c74c4c35d5a666f2b35967"
     },
     {
@@ -359,9 +529,9 @@
         "th": 122
       },
       "artifact_path": "dynamic_open_unemployment_rate_2022.json",
-      "artifact_sha256": "81ad8670ce978b8bdad215c9f0628753b538ceabfd3f62cd2e53e93645d6dce4",
+      "artifact_sha256": "0dfafed221d6f1876033f2a2bb5249a53aec5fd05082dfaba939d7375f4a2dad",
       "row_count": 70,
-      "captured_at": "2026-04-29T16:35:03Z",
+      "captured_at": "2026-04-30T06:01:21Z",
       "request_fingerprint": "25c77974050bc4ce26f6d067f364bfa4aa812dc6f11b66e0b91a756a4e9f7716"
     },
     {
@@ -374,10 +544,25 @@
         "th": 121
       },
       "artifact_path": "dynamic_open_unemployment_rate_2021.json",
-      "artifact_sha256": "fae449fbb90e92eb8cddbc7cbbe0764486d405395271f394b1bcf42b031d8474",
+      "artifact_sha256": "4fe4fd8e72a2669f8b6aeb0e372e245477edec9dc9e0169f9c04279bd14e4962",
       "row_count": 70,
-      "captured_at": "2026-04-29T16:35:03Z",
+      "captured_at": "2026-04-30T06:01:21Z",
       "request_fingerprint": "af2a3a40c3e00958cf15dbea9fbb7d51077464bbe8323d1e8dff9f984167d712"
+    },
+    {
+      "snapshot_id": "bps-data-fa22b966ff2b1e98",
+      "model": "data",
+      "artifact_group": "data",
+      "domain": "0000",
+      "params": {
+        "var": 415,
+        "th": 124
+      },
+      "artifact_path": "dynamic_mean_years_schooling_new_method_2024.json",
+      "artifact_sha256": "68b198912f7868e36438ffedbb95d354869e5ac4093525f2e0843244d2eb445d",
+      "row_count": 553,
+      "captured_at": "2026-04-30T06:01:21Z",
+      "request_fingerprint": "fa22b966ff2b1e98d2ff8e0de96cb40f037e980f906a1fb2310f04e697396de4"
     },
     {
       "snapshot_id": "bps-data-6b97f25855ece024",
@@ -389,9 +574,9 @@
         "th": 123
       },
       "artifact_path": "dynamic_mean_years_schooling_new_method_2023.json",
-      "artifact_sha256": "15a144b3c0365f5df63606aa69787623c8db5b80af272287b1357a6cf92954eb",
+      "artifact_sha256": "ac085c3de01447d7142e5229e810880b0fff788743a6f1d641d45c773ccb02b8",
       "row_count": 549,
-      "captured_at": "2026-04-29T16:35:03Z",
+      "captured_at": "2026-04-30T06:01:21Z",
       "request_fingerprint": "6b97f25855ece02489556201051ed79af0d08d788d3026734348696818c6852f"
     },
     {
@@ -404,9 +589,9 @@
         "th": 122
       },
       "artifact_path": "dynamic_mean_years_schooling_new_method_2022.json",
-      "artifact_sha256": "cb8d2fa1deb410538dc4eb6dbf8a7a06fbfdf086a593b87a48122b1c59225af6",
+      "artifact_sha256": "e097fd9371f9698a5d32f2a659696907d555c04d27fd786befcddb81fdc15689",
       "row_count": 549,
-      "captured_at": "2026-04-29T16:35:03Z",
+      "captured_at": "2026-04-30T06:01:21Z",
       "request_fingerprint": "cfe0654330afe1eb968b04d49e5fd8422d830b6a6265b4a4fbddfa7127298f0b"
     },
     {
@@ -419,10 +604,25 @@
         "th": 121
       },
       "artifact_path": "dynamic_mean_years_schooling_new_method_2021.json",
-      "artifact_sha256": "7c179caf00655d99d66fc2a872c93262165f8a9feb8ef44254da30e6954b8af4",
+      "artifact_sha256": "b6cd64835a63a536416fb11488dd8af6142ebe81fe57c9a973f13d339fc1c730",
       "row_count": 549,
-      "captured_at": "2026-04-29T16:35:03Z",
+      "captured_at": "2026-04-30T06:01:21Z",
       "request_fingerprint": "0c5c8c6bbcc24cd9f353925f3556ef4a826360294498c5a84c7008b00879df88"
+    },
+    {
+      "snapshot_id": "bps-data-e0ad82b1d5a81327",
+      "model": "data",
+      "artifact_group": "data",
+      "domain": "0000",
+      "params": {
+        "var": 494,
+        "th": 124
+      },
+      "artifact_path": "dynamic_human_development_index_new_method_2024.json",
+      "artifact_sha256": "882abe8e6ef05c1412b3c7031d83efdebeef11efcfa54e0d8f50042a8bfbc50d",
+      "row_count": 39,
+      "captured_at": "2026-04-30T06:01:21Z",
+      "request_fingerprint": "e0ad82b1d5a813278a6af582904a33a2c6acc0722263f9cc82a4873c8db87641"
     },
     {
       "snapshot_id": "bps-data-7bf9f5188b2cf8ef",
@@ -434,9 +634,9 @@
         "th": 123
       },
       "artifact_path": "dynamic_human_development_index_new_method_2023.json",
-      "artifact_sha256": "74ed36a9ee5d9b11f05eca4ba9f766b58f79309f2cac2b2e6b5a1dd650eb5835",
+      "artifact_sha256": "c0b7747b4345fb50cbdcbf692e99ca03449fc1d2e1e95078c7bf63269e336929",
       "row_count": 39,
-      "captured_at": "2026-04-29T16:35:03Z",
+      "captured_at": "2026-04-30T06:01:21Z",
       "request_fingerprint": "7bf9f5188b2cf8efc5a2b196d53019b0ff07389a2b09ce6f778b1636de821104"
     },
     {
@@ -449,9 +649,9 @@
         "th": 122
       },
       "artifact_path": "dynamic_human_development_index_new_method_2022.json",
-      "artifact_sha256": "5f423709e6668362b4022cbc0be0a22ee7461c56f782ea057ca6ace425a871d7",
+      "artifact_sha256": "d67f25e5e6da47e21889c1abd1b24abba24a39136e63879d71e01fdf42e3afcc",
       "row_count": 39,
-      "captured_at": "2026-04-29T16:35:03Z",
+      "captured_at": "2026-04-30T06:01:21Z",
       "request_fingerprint": "7a69ef5df090a8e4d6fc93c431d724e312495dc8fcd8272d64f886d809d8e74a"
     },
     {
@@ -464,10 +664,130 @@
         "th": 121
       },
       "artifact_path": "dynamic_human_development_index_new_method_2021.json",
-      "artifact_sha256": "0d4f57b4b488e8dd33e7491a1671a701d77f339acd8fd8f16b02d9a127259b2a",
+      "artifact_sha256": "43434890678cbfc77e9ef373ecd4efda0605991308b08deda836be8da1dd8da9",
       "row_count": 35,
-      "captured_at": "2026-04-29T16:35:03Z",
+      "captured_at": "2026-04-30T06:01:21Z",
       "request_fingerprint": "2e21f45cc30dd18f1c0e0809f740bd7bbcefb9eb047c6154d82ef6375f6e9f67"
+    },
+    {
+      "snapshot_id": "bps-data-90d8bf078408a541",
+      "model": "data",
+      "artifact_group": "data",
+      "domain": "0000",
+      "params": {
+        "var": 98,
+        "th": 124
+      },
+      "artifact_path": "dynamic_gini_ratio_2024.json",
+      "artifact_sha256": "bdaf09b6f7919ae1e749d09367363b9c819b176b0da831b458b2ce752879991b",
+      "row_count": 232,
+      "captured_at": "2026-04-30T06:01:21Z",
+      "request_fingerprint": "90d8bf078408a541b3aedfdcd4ad75ef5fc37577c746c1c6c6141d605339d035"
+    },
+    {
+      "snapshot_id": "bps-data-d0293e64d7909798",
+      "model": "data",
+      "artifact_group": "data",
+      "domain": "0000",
+      "params": {
+        "var": 98,
+        "th": 123
+      },
+      "artifact_path": "dynamic_gini_ratio_2023.json",
+      "artifact_sha256": "e2015f913f263c35b281815f4d5b19a086f1270a5c47fe63b60a8f365cdb3dd7",
+      "row_count": 104,
+      "captured_at": "2026-04-30T06:01:21Z",
+      "request_fingerprint": "d0293e64d79097983d7bbb033e690aecbfc600007ee8f429ad9ed9b577d9cd93"
+    },
+    {
+      "snapshot_id": "bps-data-c15d2f3becf317e7",
+      "model": "data",
+      "artifact_group": "data",
+      "domain": "0000",
+      "params": {
+        "var": 98,
+        "th": 122
+      },
+      "artifact_path": "dynamic_gini_ratio_2022.json",
+      "artifact_sha256": "412c8402a896facc5f6c92785f71b63cf0144a04e26dcdd88b6b813e3f7756c8",
+      "row_count": 208,
+      "captured_at": "2026-04-30T06:01:21Z",
+      "request_fingerprint": "c15d2f3becf317e719e7284653d84cbf94fbe44acf05a1fbf6f0b72cd107c555"
+    },
+    {
+      "snapshot_id": "bps-data-9889aae21500e945",
+      "model": "data",
+      "artifact_group": "data",
+      "domain": "0000",
+      "params": {
+        "var": 98,
+        "th": 121
+      },
+      "artifact_path": "dynamic_gini_ratio_2021.json",
+      "artifact_sha256": "94271ca397f599dd3ffe7d8e8a967f6d55c3fd7399baa90c52689e5ceca0b32c",
+      "row_count": 208,
+      "captured_at": "2026-04-30T06:01:21Z",
+      "request_fingerprint": "9889aae21500e94567577159e5f6b1ea4a25327c665ef2486d675ac4b44d4f3a"
+    },
+    {
+      "snapshot_id": "bps-data-72cb305a5ceb8b55",
+      "model": "data",
+      "artifact_group": "data",
+      "domain": "0000",
+      "params": {
+        "var": 291,
+        "th": 124
+      },
+      "artifact_path": "dynamic_regional_gdp_growth_constant_2010_2024.json",
+      "artifact_sha256": "04a9f6227853f6972a27b19b1529f121312b8e124d6328e19519626c1702b902",
+      "row_count": 39,
+      "captured_at": "2026-04-30T06:01:21Z",
+      "request_fingerprint": "72cb305a5ceb8b55c9683a2d4d6c62710e7cf34d0b6d49d324689ea61438c726"
+    },
+    {
+      "snapshot_id": "bps-data-0b39d247e8bff8b6",
+      "model": "data",
+      "artifact_group": "data",
+      "domain": "0000",
+      "params": {
+        "var": 291,
+        "th": 123
+      },
+      "artifact_path": "dynamic_regional_gdp_growth_constant_2010_2023.json",
+      "artifact_sha256": "adf53d617ba0d7658d703363083838ee324cc415db54703230351e0a07519b78",
+      "row_count": 39,
+      "captured_at": "2026-04-30T06:01:21Z",
+      "request_fingerprint": "0b39d247e8bff8b6218c8548f5df2d5d074d7dbfe7a43f0dc3b0a5b66bda9373"
+    },
+    {
+      "snapshot_id": "bps-data-f2910978e6d118d6",
+      "model": "data",
+      "artifact_group": "data",
+      "domain": "0000",
+      "params": {
+        "var": 291,
+        "th": 122
+      },
+      "artifact_path": "dynamic_regional_gdp_growth_constant_2010_2022.json",
+      "artifact_sha256": "a9e26b416305ad79d06423c633333514c5ba44ee2021973e48bde216ed0eacbf",
+      "row_count": 35,
+      "captured_at": "2026-04-30T06:01:21Z",
+      "request_fingerprint": "f2910978e6d118d6a01f8633c5c92dd56a42d181f4b69d977c6e643bcc6d4e81"
+    },
+    {
+      "snapshot_id": "bps-data-47670095f60f0d79",
+      "model": "data",
+      "artifact_group": "data",
+      "domain": "0000",
+      "params": {
+        "var": 291,
+        "th": 121
+      },
+      "artifact_path": "dynamic_regional_gdp_growth_constant_2010_2021.json",
+      "artifact_sha256": "15899aab1f985e6f15d3ee749dd47a41ef826ef30a9469a05ff64539f18a132a",
+      "row_count": 35,
+      "captured_at": "2026-04-30T06:01:21Z",
+      "request_fingerprint": "47670095f60f0d79b65c13f64a78a617e5e77e18e8ae3e38db88cf5fb0f55aa6"
     }
   ]
 }

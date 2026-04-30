@@ -85,15 +85,15 @@ def test_run_transform_writes_normalized_artifacts_from_phase3_extract(tmp_path:
 
     assert summary["status"] == "success"
     assert summary["phase"] == "4 — Transform Layer"
-    assert summary["dynamic_snapshot_count"] == 12
-    assert summary["fact_row_count"] == 2490
+    assert summary["dynamic_snapshot_count"] == 24
+    assert summary["fact_row_count"] == 4292
     assert summary["unmatched_count"] == 0
     assert summary["duplicate_fact_key_count"] == 0
     assert summary["null_value_count"] == 0
     assert summary["quality_gate"] == "passed"
-    assert summary["dimension_counts"]["dim_indikator"] == 4
+    assert summary["dimension_counts"]["dim_indikator"] == 6
     assert summary["dimension_counts"]["dim_wilayah"] >= 34
-    assert summary["dimension_counts"]["dim_waktu"] == 3
+    assert summary["dimension_counts"]["dim_waktu"] == 4
 
     fact_path = tmp_path / "fact_statistik_preview.csv"
     quality_path = tmp_path / "transform_quality_metrics.json"
@@ -106,12 +106,14 @@ def test_run_transform_writes_normalized_artifacts_from_phase3_extract(tmp_path:
     assert manifest_path.exists()
 
     rows = list(csv.DictReader(fact_path.open(encoding="utf-8")))
-    assert len(rows) == 2490
+    assert len(rows) == 4292
     assert {row["indicator_key"] for row in rows} == {
         "poverty_rate",
         "open_unemployment_rate",
         "mean_years_schooling_new_method",
         "human_development_index_new_method",
+        "gini_ratio",
+        "regional_gdp_growth_constant_2010",
     }
     assert json.loads(quality_path.read_text(encoding="utf-8"))["quality_gate"] == "passed"
 

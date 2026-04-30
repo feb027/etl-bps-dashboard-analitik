@@ -2,7 +2,7 @@
 
 ## Current Status
 
-- Current phase: **6 — Dashboard**
+- Current phase: **6.1 — Data Expansion**
 - Date initialized: 2026-04-29
 - Repository: `feb027/etl-bps-dashboard-analitik`
 - Dashboard URL target: `https://feb027.github.io/etl-bps-dashboard-analitik/`
@@ -57,6 +57,7 @@
 | `dashboard/scripts/main.js` | Fase 6 dashboard JS entrypoint | Created |
 | `docs/dashboard-design-system.md` | Fase 6 UI Skills/design system notes | Created |
 | `reports/progress-6-dashboard.md` | Fase 6 progress report | Created |
+| `reports/progress-6-1-data-expansion.md` | Fase 6.1 data expansion progress report | Created |
 
 ## Review Status
 
@@ -69,6 +70,7 @@
 | 4 | Codex lecturer/technical reviewer | 93 | APPROVED | `docs/REVIEW_phase4_transform_layer.md` |
 | 5 | Codex lecturer/technical reviewer | 92 | APPROVED | `docs/REVIEW_phase5_load_layer.md` |
 | 6 | Codex lecturer/technical/UI reviewer | 91 | APPROVED | `docs/REVIEW_phase6_dashboard.md` |
+| 6.1 | Technical/data-quality reviewer | 92 | APPROVED | `docs/REVIEW_phase6_1_data_expansion.md` |
 
 ## Remote & Pages Verification
 
@@ -79,7 +81,7 @@
 | GitHub Pages URL | `https://feb027.github.io/etl-bps-dashboard-analitik/` |
 | Page HTTP | 200 verified |
 | Dashboard JSON HTTP | 200 verified |
-| Dashboard JSON status | Fase 6 dashboard approved and live JSON verified with `current_phase = 6 — Dashboard` |
+| Dashboard JSON status | Fase 6.1 data expansion generated locally; live verification pending until the Fase 6.1 commit is published |
 
 ## Blockers
 
@@ -90,9 +92,9 @@
 
 | Metric | Value |
 |---|---:|
-| Valid indicators | 4 |
-| Probe rows | 12 |
-| Normalized sample records | 2490 |
+| Valid indicators | 6 |
+| Probe rows | 24 |
+| Normalized sample records | 4292 |
 | Unmatched datacontent keys | 0 |
 
 Key finding: `model=data` requires `th_id` from `model=th`; BPS `datacontent` keys decode as `vervar.val + var.val + turvar.val + tahun.val + turtahun.val`.
@@ -112,11 +114,11 @@ Schema grain: `var_id + kode_wilayah + th_id + turvar_id + turth_id + source_dom
 
 | Metric | Value |
 |---|---:|
-| Extract targets | 12 |
-| Metadata snapshots | 20 |
-| Dynamic snapshots | 12 |
-| Total snapshots | 32 |
-| Total raw rows/keys | 3642 |
+| Extract targets | 24 |
+| Metadata snapshots | 30 |
+| Dynamic snapshots | 24 |
+| Total snapshots | 54 |
+| Total raw rows/keys | 5744 |
 | Extract tests | 8 |
 
 Extract manifest: `results/api/extract/extract_manifest.json`.
@@ -125,11 +127,11 @@ Extract manifest: `results/api/extract/extract_manifest.json`.
 
 | Metric | Value |
 |---|---:|
-| Dynamic snapshots transformed | 12 |
-| Fact preview rows | 2490 |
-| Dimension indikator rows | 4 |
-| Dimension wilayah rows | 553 |
-| Dimension waktu rows | 3 |
+| Dynamic snapshots transformed | 24 |
+| Fact preview rows | 4292 |
+| Dimension indikator rows | 6 |
+| Dimension wilayah rows | 579 |
+| Dimension waktu rows | 4 |
 | Unmatched keys | 0 |
 | Duplicate fact grains | 0 |
 | Null/non-numeric values | 0 |
@@ -142,13 +144,13 @@ Transform manifest: `results/tables/transform/transform_manifest.json`.
 
 | Metric | Value |
 |---|---:|
-| `dim_indikator` rows | 4 |
-| `dim_wilayah` rows | 553 |
-| `dim_waktu` rows | 3 |
-| `dim_turvar` rows | 4 |
+| `dim_indikator` rows | 6 |
+| `dim_wilayah` rows | 579 |
+| `dim_waktu` rows | 4 |
+| `dim_turvar` rows | 7 |
 | `dim_turtahun` rows | 5 |
-| `fact_statistik` rows | 2490 |
-| `raw_api_snapshot` rows | 32 |
+| `fact_statistik` rows | 4292 |
+| `raw_api_snapshot` rows | 54 |
 | `etl_run_log` rows | 1 |
 | Load tests | 5 |
 
@@ -159,17 +161,30 @@ Local SQLite: `data/database/bps_etl.sqlite` (ignored, not committed).
 
 | Metric | Value |
 |---|---:|
-| Dashboard source fact rows | 2490 |
-| Trend series | 4 |
-| Table rows | 2490 |
+| Dashboard source fact rows | 4292 |
+| Trend series | 6 |
+| Table rows | 4292 |
 | Ranking modes | 3 |
 | Static dashboard stack | Vanilla HTML/CSS/JS + ECharts CDN |
 
 Dashboard data: `dashboard/data/dashboard-data.json`.
 Design system: `docs/dashboard-design-system.md`.
 
+## Fase 6.1 Snapshot
+
+| Metric | Value |
+|---|---:|
+| Indicators | 6 |
+| Years | 4 |
+| Regions | 579 |
+| Fact rows | 4292 |
+| Raw snapshot audit rows | 54 |
+| Review score | 92 |
+
+Progress report: `reports/progress-6-1-data-expansion.md`.
+
 ## Next Action
 
-1. Start Fase 7 — final academic report from the approved ETL/dashboard artifacts.
+1. Start Fase 7 — final academic report from the approved expanded ETL/dashboard artifacts.
 2. Use `results/figures/dashboard-phase6-full.png` as dashboard evidence.
 3. Keep SQLite database ignored; regenerate dashboard JSON only from local load output.

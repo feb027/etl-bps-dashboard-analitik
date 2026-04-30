@@ -13,11 +13,23 @@
       "source_model": "data.var"
     },
     {
+      "var_id": 291,
+      "indicator_key": "regional_gdp_growth_constant_2010",
+      "nama_indikator": "[Seri 2010] Laju Pertumbuhan Produk Domestik Regional Bruto Atas Dasar Harga Konstan 2010 Menurut Provinsi",
+      "unit": "Persen",
+      "subject": "Produk Domestik Regional Bruto (Lapangan Usaha)",
+      "theme": "Ekonomi Regional",
+      "definisi": "",
+      "catatan": "Perbedaan antara jumlah PDRB 34 Provinsi dan PDB Indonesia antara lain disebabkan oleh diskrepansi statistikData 2024: Angka sementaraData 2025: Angka sangat sementara",
+      "decimal_places": 2,
+      "source_model": "data.var"
+    },
+    {
       "var_id": 415,
       "indicator_key": "mean_years_schooling_new_method",
       "nama_indikator": "[Metode Baru] Rata-rata Lama Sekolah",
       "unit": "Tahun",
-      "subject": "Indeks Pembangunan Manusia",
+      "subject": "Tujuan Pembangunan Berkelanjutan Edisi I",
       "theme": "Pendidikan",
       "definisi": "",
       "catatan": "Untuk penjelasan lebih lanjut mengenai IPM metode baru silahkan klik link di bawah ini -Booklet IPM metode Baru -Bahan Sosialisasi IPM metode baru",
@@ -46,6 +58,18 @@
       "definisi": "",
       "catatan": "Data 2011-2013 menggunakan Backcast dari Penimbang Proyeksi Komponen Data 2018-2020 menggunakan Backcast dari Penimbang berbasis SUPAS 2015 1986-1998, penghitungan tanpa data Provinsi Timor Timor Pada tahun 1995, Sakernas tidak dilaksanakan Pada tahun 2000, tanpa Maluku Sumber: Survei Angkatan Kerja Nasional (Sakernas)",
       "decimal_places": 2,
+      "source_model": "data.var"
+    },
+    {
+      "var_id": 98,
+      "indicator_key": "gini_ratio",
+      "nama_indikator": "Gini Ratio Menurut Provinsi dan Daerah",
+      "unit": "",
+      "subject": "Kemiskinan dan Ketimpangan",
+      "theme": "Ketimpangan",
+      "definisi": "",
+      "catatan": "- Sumber : BPS, Susenas - Tahun 2002, Susenas Modul Konsumsi reguler - Tahun 2005, Susenas Panel (Februari) - Tahun 2006-2010, Susenas Panel (Maret) - Tahun 2011-2016, Susenas Modul Konsumsi (Maret dan September) - Angka Provinsi Papua Barat dan Papua sebelum tahun 2024 merupakan angka provinsi sebelum mengalami pemekaran Daerah Otonom Baru (DOB)",
+      "decimal_places": 3,
       "source_model": "data.var"
     }
   ],
@@ -4203,6 +4227,54 @@
       "source_model": "data.vervar"
     },
     {
+      "kode_wilayah": "9201",
+      "nama_wilayah": "Raja Ampat",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9202",
+      "nama_wilayah": "Sorong",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9203",
+      "nama_wilayah": "Sorong Selatan",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9204",
+      "nama_wilayah": "Maybrat",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9205",
+      "nama_wilayah": "Tambrauw",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9271",
+      "nama_wilayah": "Kota Sorong",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
       "kode_wilayah": "9400",
       "nama_wilayah": "PAPUA",
       "level_wilayah": "provinsi",
@@ -4451,6 +4523,38 @@
       "source_model": "data.vervar"
     },
     {
+      "kode_wilayah": "9501",
+      "nama_wilayah": "Merauke",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9502",
+      "nama_wilayah": "Boven Digoel",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9503",
+      "nama_wilayah": "Mappi",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9504",
+      "nama_wilayah": "Asmat",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
       "kode_wilayah": "9600",
       "nama_wilayah": "PAPUA TENGAH",
       "level_wilayah": "provinsi",
@@ -4459,9 +4563,137 @@
       "source_model": "data.vervar"
     },
     {
+      "kode_wilayah": "9601",
+      "nama_wilayah": "Mimika",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9602",
+      "nama_wilayah": "Dogiyai",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9603",
+      "nama_wilayah": "Deiyai",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9604",
+      "nama_wilayah": "Nabire",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9605",
+      "nama_wilayah": "Paniai",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9606",
+      "nama_wilayah": "Intan Jaya",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9607",
+      "nama_wilayah": "Puncak",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9608",
+      "nama_wilayah": "Puncak Jaya",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
       "kode_wilayah": "9700",
       "nama_wilayah": "PAPUA PEGUNUNGAN",
       "level_wilayah": "provinsi",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9701",
+      "nama_wilayah": "Nduga",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9702",
+      "nama_wilayah": "Jayawijaya",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9703",
+      "nama_wilayah": "Lanny Jaya",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9704",
+      "nama_wilayah": "Tolikara",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9705",
+      "nama_wilayah": "Mamberamo Tengah",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9706",
+      "nama_wilayah": "Yalimo",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9707",
+      "nama_wilayah": "Yahukimo",
+      "level_wilayah": "kabupaten_kota",
+      "group_ver_id": null,
+      "group_ver_name": null,
+      "source_model": "data.vervar"
+    },
+    {
+      "kode_wilayah": "9708",
+      "nama_wilayah": "Pegunungan Bintang",
+      "level_wilayah": "kabupaten_kota",
       "group_ver_id": null,
       "group_ver_name": null,
       "source_model": "data.vervar"
@@ -4493,12 +4725,39 @@
       "tahun": 2023,
       "periode_label": "2023",
       "source_model": "data.tahun"
+    },
+    {
+      "th_id": 124,
+      "tahun": 2024,
+      "periode_label": "2024",
+      "source_model": "data.tahun"
     }
   ],
   "dim_turvar": [
     {
       "turvar_id": "0",
       "turvar_label": "Tidak ada",
+      "group_turvar_id": null,
+      "group_turvar_name": null,
+      "source_model": "data.turvar"
+    },
+    {
+      "turvar_id": "189",
+      "turvar_label": "Perkotaan",
+      "group_turvar_id": null,
+      "group_turvar_name": null,
+      "source_model": "data.turvar"
+    },
+    {
+      "turvar_id": "190",
+      "turvar_label": "Perdesaan",
+      "group_turvar_id": null,
+      "group_turvar_name": null,
+      "source_model": "data.turvar"
+    },
+    {
+      "turvar_id": "191",
+      "turvar_label": "Perkotaan+Perdesaan",
       "group_turvar_id": null,
       "group_turvar_name": null,
       "source_model": "data.turvar"
