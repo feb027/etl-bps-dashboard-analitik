@@ -151,10 +151,21 @@ Penelitian ini menggunakan enam model endpoint API, yaitu lima model metadata (t
 
 ### P1.5 Tambahkan tabel evidence artifact
 
-- Lokasi laporan: akhir Metode atau awal Hasil.
+- Lokasi laporan yang paling tepat: **bagian `IV.E Evaluasi Pipeline`, tepat setelah `TABEL IV.4 Hasil Evaluasi Kinerja Pipeline` dan sebelum paragraf yang diawali "Dari sisi kelengkapan ekstraksi..."**.
+- Jangan taruh di Metode jika laporan sudah selesai, karena tabel ini membuktikan hasil aktual, bukan menjelaskan rancangan metode.
 - Masalah: klaim hasil belum dipetakan eksplisit ke artifact.
-- Alasan: proyek ini evidence-first; tabel ini membuat sidang lebih aman.
-- Tindakan perbaikan:
+- Alasan: proyek ini evidence-first; tabel ini membuat sidang lebih aman karena setiap angka penting punya sumber file yang jelas.
+- Tindakan perbaikan: setelah Tabel IV.4, tambahkan satu paragraf pengantar, lalu tabel evidence artifact, lalu satu paragraf penutup. Jangan masukkan tabel saja tanpa narasi.
+
+Contoh sisipan lengkap:
+
+```text
+Selain evaluasi berdasarkan metrik pipeline, penelitian ini juga menelusuri setiap klaim hasil ke artifact proyek yang dihasilkan selama proses pengembangan. Penelusuran ini diperlukan agar angka-angka yang digunakan dalam laporan tidak hanya bersifat naratif, tetapi dapat diverifikasi kembali melalui berkas hasil ekstraksi, transformasi, pemuatan, dan dashboard. Ringkasan keterkaitan antara klaim hasil dan artifact proyek ditunjukkan pada Tabel IV.5.
+```
+
+```text
+TABEL IV.5 Keterlacakan Klaim Hasil terhadap Artifact Proyek
+```
 
 | Klaim | Nilai | Artifact |
 |---|---:|---|
@@ -167,25 +178,59 @@ Penelitian ini menggunakan enam model endpoint API, yaitu lima model metadata (t
 | Dashboard no dummy data | true | `dashboard/data/dashboard-data.json` |
 | Test baseline | 41 passed | output `python3 -m pytest -q` |
 
-- Estimasi effort: 20-30 menit.
+Contoh paragraf setelah tabel:
+
+```text
+Berdasarkan Tabel IV.5, seluruh klaim kuantitatif utama pada laporan memiliki rujukan artifact yang dapat diperiksa ulang. Artifact extract_manifest.json digunakan untuk memverifikasi jumlah snapshot dan total baris mentah hasil ekstraksi. Artifact transform_quality_metrics.json digunakan untuk memverifikasi keberhasilan decoding datacontent dan status quality gate. Artifact load_metrics.json digunakan untuk memverifikasi jumlah baris pada tabel SQLite, sedangkan dashboard-data.json digunakan untuk memastikan bahwa dashboard menggunakan data hasil ETL dan bukan data dummy. Dengan demikian, evaluasi pipeline tidak hanya didasarkan pada tampilan dashboard, tetapi juga pada evidence teknis yang tersimpan di repository.
+```
+
+Catatan penomoran:
+
+- Jika tidak ada tabel baru setelah Tabel IV.4, pakai `TABEL IV.5`.
+- Jika nanti ada tabel lain sebelum bagian ini, sesuaikan nomor tabel secara berurutan.
+- Jika ruang halaman mepet, tabel evidence bisa dibuat ringkas dengan 6 baris saja: snapshot, raw rows, fact rows, quality gate, SQLite load, dashboard no dummy.
+
+- Estimasi effort: 25-35 menit.
 
 ### P1.6 Tambahkan subsection reproducibility
 
-- Lokasi laporan: `III.F Validasi dan Evaluasi` atau setelah Tabel IV.4.
+- Lokasi laporan yang paling tepat: **masih di `IV.E Evaluasi Pipeline`, setelah Tabel IV.5 evidence artifact dari P1.5 dan sebelum paragraf keterbatasan yang diawali "Meskipun pipeline dan dashboard berhasil dikembangkan..."**.
+- Alternatif jika tidak ingin membuat subjudul baru: jadikan dua paragraf tambahan sebelum paragraf keterbatasan.
 - Masalah: belum ada command re-run dan test baseline.
-- Alasan: Rekayasa Data menilai reproducibility, bukan hanya screenshot.
-- Tindakan perbaikan:
+- Alasan: Rekayasa Data menilai reproducibility, bukan hanya screenshot. Penguji perlu tahu pipeline bisa divalidasi ulang dengan command yang jelas.
+- Tindakan perbaikan: tambahkan subparagraf/subsubsection berjudul `Reproducibility` atau `Validasi Reproducibility`.
+
+Contoh sisipan lengkap:
 
 ```text
-Validasi reproducibility dilakukan dengan menjalankan command:
-1. python3 -m py_compile scripts/*.py
-2. python3 -m pytest -q
-3. python3 -m json.tool dashboard/data/dashboard-data.json >/dev/null
-
-Hasil baseline pengujian menunjukkan 41 test passed, sehingga kode ETL, schema, transform, load, dan dashboard data generator dapat dijalankan tanpa error pada lingkungan pengujian proyek.
+Selain validasi berbasis artifact, reproducibility pipeline juga diuji melalui beberapa perintah validasi pada lingkungan proyek. Validasi dilakukan dengan memeriksa sintaks skrip Python, menjalankan test suite otomatis, serta memastikan file JSON dashboard valid secara struktur. Perintah yang digunakan adalah sebagai berikut.
 ```
 
-- Estimasi effort: 15 menit.
+```bash
+python3 -m py_compile scripts/*.py
+python3 -m pytest -q
+python3 -m json.tool dashboard/data/dashboard-data.json >/dev/null
+```
+
+Contoh paragraf setelah command:
+
+```text
+Hasil pengujian menunjukkan bahwa seluruh test suite berhasil dijalankan dengan status 41 passed. Hasil ini menunjukkan bahwa komponen utama proyek, mulai dari konfigurasi target indikator, client API, decoder datacontent, transform quality gate, schema SQLite, proses load, hingga kontrak data dashboard, dapat diverifikasi secara otomatis. Dengan adanya command validasi dan artifact hasil pipeline, proses ETL tidak hanya dapat dijalankan satu kali, tetapi juga dapat diperiksa ulang oleh pengembang atau penguji lain pada repository yang sama.
+```
+
+Jika ingin dibuat lebih akademik dan tidak terlalu seperti catatan teknis, gunakan versi paragraf ini:
+
+```text
+Pengujian reproducibility dilakukan untuk memastikan bahwa pipeline dapat diverifikasi ulang secara konsisten. Validasi mencakup pemeriksaan sintaks skrip, pengujian otomatis terhadap modul ETL, serta validasi struktur file JSON dashboard. Berdasarkan hasil eksekusi test suite, seluruh 41 pengujian berhasil dijalankan tanpa kegagalan. Hal ini menunjukkan bahwa proses ekstraksi, transformasi, pemuatan, dan pembangkitan data dashboard telah memiliki mekanisme verifikasi otomatis yang mendukung keterulangan hasil penelitian.
+```
+
+Catatan penting:
+
+- Jangan taruh command ini di Kajian Literatur.
+- Jangan taruh terlalu awal di Metode jika laporan sudah punya bagian Evaluasi, karena hasil `41 passed` adalah hasil evaluasi aktual.
+- Jika dosen tidak suka command dalam body paper, command bisa ditaruh di paragraf naratif saja, lalu detail command ditaruh di lampiran/repository.
+
+- Estimasi effort: 15-25 menit.
 
 ### P1.7 Kurangi klaim performa yang tidak punya metrik presisi
 
