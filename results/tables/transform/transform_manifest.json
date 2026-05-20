@@ -1,8 +1,8 @@
 {
   "status": "success",
   "phase": "4 — Transform Layer",
-  "captured_at": "2026-04-30T06:09:38Z",
-  "source_extract_manifest": "results/api/extract/extract_manifest.json",
+  "captured_at": "2026-05-01T06:45:23Z",
+  "source_extract_manifest": "results\\api\\extract\\extract_manifest.json",
   "dynamic_snapshot_count": 24,
   "fact_row_count": 4292,
   "dimension_counts": {
@@ -18,17 +18,17 @@
   "duplicate_fact_key_count": 0,
   "null_value_count": 0,
   "quality_gate": "passed",
-  "output_dir": "results/tables/transform",
+  "output_dir": "results\\tables\\transform",
   "artifacts": {
-    "fact_preview": "results/tables/transform/fact_statistik_preview.csv",
-    "quality_metrics": "results/tables/transform/transform_quality_metrics.json",
-    "dimensions_preview": "results/tables/transform/dimensions_preview.json",
-    "unmatched_keys": "results/tables/transform/unmatched_datacontent_keys.json"
+    "fact_preview": "results\\tables\\transform\\fact_statistik_preview.csv",
+    "quality_metrics": "results\\tables\\transform\\transform_quality_metrics.json",
+    "dimensions_preview": "results\\tables\\transform\\dimensions_preview.json",
+    "unmatched_keys": "results\\tables\\transform\\unmatched_datacontent_keys.json"
   },
   "snapshots": [
     {
       "snapshot_id": "bps-data-8c5cb32173251389",
-      "artifact_path": "results/api/extract/data/dynamic_poverty_rate_2024.json",
+      "artifact_path": "results\\api\\extract\\data\\dynamic_poverty_rate_2024.json",
       "indicator_key": "poverty_rate",
       "var_id": 192,
       "raw_datacontent_count": 232,
@@ -41,7 +41,7 @@
     },
     {
       "snapshot_id": "bps-data-d8ab23f832cb7cbe",
-      "artifact_path": "results/api/extract/data/dynamic_poverty_rate_2023.json",
+      "artifact_path": "results\\api\\extract\\data\\dynamic_poverty_rate_2023.json",
       "indicator_key": "poverty_rate",
       "var_id": 192,
       "raw_datacontent_count": 104,
@@ -54,7 +54,7 @@
     },
     {
       "snapshot_id": "bps-data-e46aa53d43b00c96",
-      "artifact_path": "results/api/extract/data/dynamic_poverty_rate_2022.json",
+      "artifact_path": "results\\api\\extract\\data\\dynamic_poverty_rate_2022.json",
       "indicator_key": "poverty_rate",
       "var_id": 192,
       "raw_datacontent_count": 208,
@@ -67,7 +67,7 @@
     },
     {
       "snapshot_id": "bps-data-389fbfd995754e0e",
-      "artifact_path": "results/api/extract/data/dynamic_poverty_rate_2021.json",
+      "artifact_path": "results\\api\\extract\\data\\dynamic_poverty_rate_2021.json",
       "indicator_key": "poverty_rate",
       "var_id": 192,
       "raw_datacontent_count": 208,
@@ -80,7 +80,7 @@
     },
     {
       "snapshot_id": "bps-data-4a75b5e420bcb1f0",
-      "artifact_path": "results/api/extract/data/dynamic_open_unemployment_rate_2024.json",
+      "artifact_path": "results\\api\\extract\\data\\dynamic_open_unemployment_rate_2024.json",
       "indicator_key": "open_unemployment_rate",
       "var_id": 543,
       "raw_datacontent_count": 78,
@@ -93,7 +93,7 @@
     },
     {
       "snapshot_id": "bps-data-62754ad3d7162cdb",
-      "artifact_path": "results/api/extract/data/dynamic_open_unemployment_rate_2023.json",
+      "artifact_path": "results\\api\\extract\\data\\dynamic_open_unemployment_rate_2023.json",
       "indicator_key": "open_unemployment_rate",
       "var_id": 543,
       "raw_datacontent_count": 70,
@@ -106,7 +106,7 @@
     },
     {
       "snapshot_id": "bps-data-25c77974050bc4ce",
-      "artifact_path": "results/api/extract/data/dynamic_open_unemployment_rate_2022.json",
+      "artifact_path": "results\\api\\extract\\data\\dynamic_open_unemployment_rate_2022.json",
       "indicator_key": "open_unemployment_rate",
       "var_id": 543,
       "raw_datacontent_count": 70,
@@ -119,7 +119,7 @@
     },
     {
       "snapshot_id": "bps-data-af2a3a40c3e00958",
-      "artifact_path": "results/api/extract/data/dynamic_open_unemployment_rate_2021.json",
+      "artifact_path": "results\\api\\extract\\data\\dynamic_open_unemployment_rate_2021.json",
       "indicator_key": "open_unemployment_rate",
       "var_id": 543,
       "raw_datacontent_count": 70,
@@ -132,7 +132,7 @@
     },
     {
       "snapshot_id": "bps-data-fa22b966ff2b1e98",
-      "artifact_path": "results/api/extract/data/dynamic_mean_years_schooling_new_method_2024.json",
+      "artifact_path": "results\\api\\extract\\data\\dynamic_mean_years_schooling_new_method_2024.json",
       "indicator_key": "mean_years_schooling_new_method",
       "var_id": 415,
       "raw_datacontent_count": 553,
@@ -145,7 +145,7 @@
     },
     {
       "snapshot_id": "bps-data-6b97f25855ece024",
-      "artifact_path": "results/api/extract/data/dynamic_mean_years_schooling_new_method_2023.json",
+      "artifact_path": "results\\api\\extract\\data\\dynamic_mean_years_schooling_new_method_2023.json",
       "indicator_key": "mean_years_schooling_new_method",
       "var_id": 415,
       "raw_datacontent_count": 549,
@@ -158,7 +158,7 @@
     },
     {
       "snapshot_id": "bps-data-cfe0654330afe1eb",
-      "artifact_path": "results/api/extract/data/dynamic_mean_years_schooling_new_method_2022.json",
+      "artifact_path": "results\\api\\extract\\data\\dynamic_mean_years_schooling_new_method_2022.json",
       "indicator_key": "mean_years_schooling_new_method",
       "var_id": 415,
       "raw_datacontent_count": 549,
@@ -171,7 +171,7 @@
     },
     {
       "snapshot_id": "bps-data-0c5c8c6bbcc24cd9",
-      "artifact_path": "results/api/extract/data/dynamic_mean_years_schooling_new_method_2021.json",
+      "artifact_path": "results\\api\\extract\\data\\dynamic_mean_years_schooling_new_method_2021.json",
       "indicator_key": "mean_years_schooling_new_method",
       "var_id": 415,
       "raw_datacontent_count": 549,
@@ -184,7 +184,7 @@
     },
     {
       "snapshot_id": "bps-data-e0ad82b1d5a81327",
-      "artifact_path": "results/api/extract/data/dynamic_human_development_index_new_method_2024.json",
+      "artifact_path": "results\\api\\extract\\data\\dynamic_human_development_index_new_method_2024.json",
       "indicator_key": "human_development_index_new_method",
       "var_id": 494,
       "raw_datacontent_count": 39,
@@ -197,7 +197,7 @@
     },
     {
       "snapshot_id": "bps-data-7bf9f5188b2cf8ef",
-      "artifact_path": "results/api/extract/data/dynamic_human_development_index_new_method_2023.json",
+      "artifact_path": "results\\api\\extract\\data\\dynamic_human_development_index_new_method_2023.json",
       "indicator_key": "human_development_index_new_method",
       "var_id": 494,
       "raw_datacontent_count": 39,
@@ -210,7 +210,7 @@
     },
     {
       "snapshot_id": "bps-data-7a69ef5df090a8e4",
-      "artifact_path": "results/api/extract/data/dynamic_human_development_index_new_method_2022.json",
+      "artifact_path": "results\\api\\extract\\data\\dynamic_human_development_index_new_method_2022.json",
       "indicator_key": "human_development_index_new_method",
       "var_id": 494,
       "raw_datacontent_count": 39,
@@ -223,7 +223,7 @@
     },
     {
       "snapshot_id": "bps-data-2e21f45cc30dd18f",
-      "artifact_path": "results/api/extract/data/dynamic_human_development_index_new_method_2021.json",
+      "artifact_path": "results\\api\\extract\\data\\dynamic_human_development_index_new_method_2021.json",
       "indicator_key": "human_development_index_new_method",
       "var_id": 494,
       "raw_datacontent_count": 35,
@@ -236,7 +236,7 @@
     },
     {
       "snapshot_id": "bps-data-90d8bf078408a541",
-      "artifact_path": "results/api/extract/data/dynamic_gini_ratio_2024.json",
+      "artifact_path": "results\\api\\extract\\data\\dynamic_gini_ratio_2024.json",
       "indicator_key": "gini_ratio",
       "var_id": 98,
       "raw_datacontent_count": 232,
@@ -249,7 +249,7 @@
     },
     {
       "snapshot_id": "bps-data-d0293e64d7909798",
-      "artifact_path": "results/api/extract/data/dynamic_gini_ratio_2023.json",
+      "artifact_path": "results\\api\\extract\\data\\dynamic_gini_ratio_2023.json",
       "indicator_key": "gini_ratio",
       "var_id": 98,
       "raw_datacontent_count": 104,
@@ -262,7 +262,7 @@
     },
     {
       "snapshot_id": "bps-data-c15d2f3becf317e7",
-      "artifact_path": "results/api/extract/data/dynamic_gini_ratio_2022.json",
+      "artifact_path": "results\\api\\extract\\data\\dynamic_gini_ratio_2022.json",
       "indicator_key": "gini_ratio",
       "var_id": 98,
       "raw_datacontent_count": 208,
@@ -275,7 +275,7 @@
     },
     {
       "snapshot_id": "bps-data-9889aae21500e945",
-      "artifact_path": "results/api/extract/data/dynamic_gini_ratio_2021.json",
+      "artifact_path": "results\\api\\extract\\data\\dynamic_gini_ratio_2021.json",
       "indicator_key": "gini_ratio",
       "var_id": 98,
       "raw_datacontent_count": 208,
@@ -288,7 +288,7 @@
     },
     {
       "snapshot_id": "bps-data-72cb305a5ceb8b55",
-      "artifact_path": "results/api/extract/data/dynamic_regional_gdp_growth_constant_2010_2024.json",
+      "artifact_path": "results\\api\\extract\\data\\dynamic_regional_gdp_growth_constant_2010_2024.json",
       "indicator_key": "regional_gdp_growth_constant_2010",
       "var_id": 291,
       "raw_datacontent_count": 39,
@@ -301,7 +301,7 @@
     },
     {
       "snapshot_id": "bps-data-0b39d247e8bff8b6",
-      "artifact_path": "results/api/extract/data/dynamic_regional_gdp_growth_constant_2010_2023.json",
+      "artifact_path": "results\\api\\extract\\data\\dynamic_regional_gdp_growth_constant_2010_2023.json",
       "indicator_key": "regional_gdp_growth_constant_2010",
       "var_id": 291,
       "raw_datacontent_count": 39,
@@ -314,7 +314,7 @@
     },
     {
       "snapshot_id": "bps-data-f2910978e6d118d6",
-      "artifact_path": "results/api/extract/data/dynamic_regional_gdp_growth_constant_2010_2022.json",
+      "artifact_path": "results\\api\\extract\\data\\dynamic_regional_gdp_growth_constant_2010_2022.json",
       "indicator_key": "regional_gdp_growth_constant_2010",
       "var_id": 291,
       "raw_datacontent_count": 35,
@@ -327,7 +327,7 @@
     },
     {
       "snapshot_id": "bps-data-47670095f60f0d79",
-      "artifact_path": "results/api/extract/data/dynamic_regional_gdp_growth_constant_2010_2021.json",
+      "artifact_path": "results\\api\\extract\\data\\dynamic_regional_gdp_growth_constant_2010_2021.json",
       "indicator_key": "regional_gdp_growth_constant_2010",
       "var_id": 291,
       "raw_datacontent_count": 35,

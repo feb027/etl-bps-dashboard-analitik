@@ -77,6 +77,8 @@ function bindControls() {
     control.addEventListener('change', (event) => {
       state = updateState(state, { rankingMode: event.target.value });
       renderDynamicSections();
+      const rankingSection = document.querySelector('.atlas-section--ranking');
+      rankingSection?.scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
   });
   bindTableSorting((sortKey) => {

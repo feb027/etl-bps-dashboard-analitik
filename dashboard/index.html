@@ -29,59 +29,82 @@
   <a class="skip-link" href="#content">Lewati ke konten utama</a>
   <header class="atlas-hero" aria-labelledby="page-title">
     <div class="atlas-hero__inner">
-      <p class="kicker">Rekayasa Data · Web API BPS · SQLite Evidence</p>
+      <div class="atlas-hero__top">
+        <div class="atlas-logo-badge" aria-label="Logo Atlas Data Sosial Ekonomi BPS">
+          <svg viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+            <rect x="4" y="4" width="40" height="40" rx="12" fill="currentColor" fill-opacity="0.12" />
+            <path d="M14 30 L20 22 L26 26 L34 16" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+            <circle cx="14" cy="30" r="3" fill="currentColor" />
+            <circle cx="26" cy="26" r="3" fill="currentColor" />
+            <circle cx="34" cy="16" r="3" fill="currentColor" />
+          </svg>
+        </div>
+      </div>
       <h1 id="page-title">Atlas Data Sosial Ekonomi BPS</h1>
-      <p class="lede" id="project-status">Memuat ringkasan dashboard dari artifact ETL...</p>
-      <dl class="evidence-ribbon" aria-label="Ringkasan sumber data">
-        <div>
-          <dt>Indikator</dt>
-          <dd id="summary-indicators">0</dd>
-        </div>
-        <div>
-          <dt>Wilayah</dt>
-          <dd id="summary-regions">0</dd>
-        </div>
-        <div>
-          <dt>Tahun</dt>
-          <dd id="summary-years">0</dd>
-        </div>
-        <div>
-          <dt>Baris fakta</dt>
-          <dd id="summary-records">0</dd>
-        </div>
-      </dl>
-      <p class="source-line" id="source-line">Sumber: memuat dashboard/data/dashboard-data.json</p>
+      <div class="atlas-hero__chips" aria-label="Breadcrumb informasi">
+        <span class="hero-chip">REKAYASA DATA</span>
+        <span class="hero-chip">WEB API BPS</span>
+        <span class="hero-chip">SQLITE EVIDENCE</span>
+      </div>
+      <p class="lede lede--muted" id="project-status">Fase 6.1 data expansion...</p>
     </div>
   </header>
 
   <main id="content">
-    <section class="control-band" aria-labelledby="filter-title">
-      <div class="section-heading">
-        <p class="kicker">Kontrol atlas</p>
-        <h2 id="filter-title">Pilih indikator, tahun, dan mode ranking</h2>
-      </div>
-      <form class="filter-form" id="filter-form">
-        <label>
-          <span>Indikator</span>
-          <select id="indicator-select" name="indicator" aria-describedby="selected-indicator-label"></select>
-          <small class="selected-indicator" id="selected-indicator-label">Memuat nama indikator...</small>
-        </label>
-        <label>
-          <span>Tahun</span>
-          <select id="year-select" name="year"></select>
-        </label>
-        <label>
-          <span>Cari wilayah</span>
-          <input id="region-search" name="region" type="search" autocomplete="off" placeholder="Contoh: Jawa, Aceh, Papua" />
-        </label>
-        <fieldset class="segmented" aria-label="Mode ranking">
-          <legend>Ranking</legend>
-          <label><input type="radio" name="ranking-mode" value="top" checked /> <span class="segmented-button"><span class="segmented-text">Tertinggi</span></span></label>
-          <label><input type="radio" name="ranking-mode" value="bottom" /> <span class="segmented-button"><span class="segmented-text">Terendah</span></span></label>
-          <label><input type="radio" name="ranking-mode" value="change" /> <span class="segmented-button"><span class="segmented-text">Perubahan</span></span></label>
-        </fieldset>
-      </form>
-    </section>
+    <div class="dashboard-layout">
+      <aside class="sidebar-panel">
+        <p class="sidebar-title">Filter Data</p>
+        <form class="filter-form" id="filter-form">
+          <div class="control-group">
+            <label for="indicator-select">INDIKATOR</label>
+            <select id="indicator-select" name="indicator" aria-describedby="selected-indicator-label"></select>
+            <span id="selected-indicator-label" style="font-size:12px; color:#475569; margin-top:4px;">Memuat nama indikator...</span>
+          </div>
+          <div class="control-group">
+            <label for="year-select">TAHUN</label>
+            <select id="year-select" name="year"></select>
+          </div>
+          <div class="control-group">
+            <label for="region-search">CARI WILAYAH</label>
+            <input id="region-search" name="region" type="search" autocomplete="off" placeholder="Contoh: Jawa, Aceh, Papua" />
+          </div>
+          <div class="control-group">
+            <label>RANKING</label>
+            <fieldset class="segmented ranking-buttons" aria-label="Mode ranking">
+              <legend style="position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap; border:0;">Ranking</legend>
+              <label><input type="radio" name="ranking-mode" value="top" checked /> <span class="segmented-button"><span class="segmented-text">TERTINGGI</span></span></label>
+              <label><input type="radio" name="ranking-mode" value="bottom" /> <span class="segmented-button"><span class="segmented-text">TERENDAH</span></span></label>
+              <label><input type="radio" name="ranking-mode" value="change" /> <span class="segmented-button"><span class="segmented-text">PERUBAHAN</span></span></label>
+            </fieldset>
+          </div>
+        </form>
+      </aside>
+      <div class="main-content">
+        <section class="atlas-section atlas-section--summary" aria-labelledby="summary-title">
+          <div class="section-heading">
+            <p class="kicker">Ringkasan statistik</p>
+            <h2 id="summary-title">Statistik ringkasan</h2>
+          </div>
+          <dl class="evidence-ribbon" aria-label="Ringkasan sumber data">
+            <div class="summary-card summary-card--indicator">
+              <dt>Indikator</dt>
+              <dd id="summary-indicators">0</dd>
+            </div>
+            <div class="summary-card summary-card--regions">
+              <dt>Wilayah</dt>
+              <dd id="summary-regions">0</dd>
+            </div>
+            <div class="summary-card summary-card--years">
+              <dt>Tahun</dt>
+              <dd id="summary-years">0</dd>
+            </div>
+            <div class="summary-card summary-card--records">
+              <dt>Baris fakta</dt>
+              <dd id="summary-records">0</dd>
+            </div>
+          </dl>
+          <p class="source-line" id="source-line">Sumber: memuat dashboard/data/dashboard-data.json</p>
+        </section>
 
     <section class="atlas-section atlas-section--trend" aria-labelledby="trend-title">
       <div class="section-heading">
@@ -142,13 +165,11 @@
         </table>
       </div>
     </section>
-  </main>
-
-  <footer class="evidence-footer" aria-labelledby="evidence-title">
-    <div class="section-heading">
-      <p class="kicker">Evidence footer</p>
-      <h2 id="evidence-title">Jejak artifact dan kualitas data</h2>
-    </div>
+      <footer class="evidence-footer" aria-labelledby="evidence-title">
+        <div class="section-heading">
+          <p class="kicker">Evidence footer</p>
+          <h2 id="evidence-title">Jejak artifact dan kualitas data</h2>
+        </div>
     <div class="evidence-footer__grid">
       <dl>
         <div><dt>Run ETL terakhir</dt><dd id="evidence-run">-</dd></div>
@@ -162,6 +183,9 @@
       </div>
     </div>
   </footer>
+      </div>
+    </div>
+  </main>
 
   <div class="load-error" id="load-error" role="status" aria-live="assertive" hidden></div>
 </body>

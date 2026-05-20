@@ -1,18 +1,58 @@
 .evidence-ribbon {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
   margin: 30px 0 0;
-  border-block: 1px solid var(--line-strong);
+  border: 0;
 }
 
-.evidence-ribbon div {
+.summary-card {
   min-width: 0;
-  padding: 18px 20px;
-  border-inline-start: 1px solid var(--line);
+  padding: 26px 22px;
+  border-radius: 12px;
+  box-shadow: var(--shadow-low);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  position: relative;
 }
 
-.evidence-ribbon div:first-child {
-  border-inline-start: 0;
+.summary-card::before {
+  content: "";
+  display: block;
+  margin-block-end: 14px;
+  font-size: 1.1rem;
+}
+
+.summary-card--indicator {
+  background: oklch(0.956 0.045 82 / 0.92);
+}
+
+.summary-card--indicator::before {
+  content: "📊";
+}
+
+.summary-card--regions {
+  background: oklch(0.956 0.045 82 / 0.92);
+}
+
+.summary-card--regions::before {
+  content: "🗺️";
+}
+
+.summary-card--years {
+  background: oklch(0.956 0.045 82 / 0.92);
+}
+
+.summary-card--years::before {
+  content: "📅";
+}
+
+.summary-card--records {
+  background: oklch(0.956 0.045 82 / 0.92);
+}
+
+.summary-card--records::before {
+  content: "🧾";
 }
 
 .evidence-ribbon dt,
@@ -33,15 +73,15 @@
 }
 
 .evidence-ribbon dd {
-  font-size: 2rem;
+  font-size: 32px;
   line-height: 1.05;
 }
 
 .filter-form {
-  display: grid;
-  grid-template-columns: minmax(360px, 1.65fr) minmax(118px, 0.42fr) minmax(220px, 0.95fr);
-  gap: 14px;
-  align-items: end;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: stretch;
 }
 
 .filter-form label,
@@ -49,15 +89,20 @@
   min-width: 0;
 }
 
+.sidebar-title,
 .filter-form label span,
 .segmented legend {
   display: block;
-  margin-block-end: 6px;
-  color: var(--muted);
-  font-size: 0.74rem;
-  font-weight: 800;
-  letter-spacing: 0.07em;
+  margin-block-end: 8px;
+  color: var(--atlas-blue);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
+}
+
+.filter-form label span {
+  color: var(--muted);
 }
 
 .filter-form select,
@@ -65,13 +110,17 @@
   width: 100%;
   min-height: 46px;
   border: 1px solid var(--line-strong);
-  border-radius: var(--radius-control);
+  border-radius: 10px;
   background: var(--surface-inset);
   color: var(--ink);
   padding: 10px 13px;
   transition-duration: 160ms;
   transition-property: border-color, background-color, box-shadow;
   transition-timing-function: var(--ease-out);
+}
+
+.filter-form label {
+  margin-bottom: 1rem;
 }
 
 .filter-form select {
@@ -95,9 +144,8 @@
 
 .segmented {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  grid-column: 1 / -1;
-  gap: 8px;
+  grid-template-columns: 1fr;
+  gap: 10px;
   margin: 0;
   border: 0;
   padding: 0;
@@ -109,7 +157,7 @@
 
 .segmented label {
   display: block;
-  block-size: 46px;
+  block-size: 40px;
 }
 
 .segmented input {
@@ -124,15 +172,15 @@
 .segmented-button {
   display: grid;
   place-items: center;
-  block-size: 100%;
+  block-size: 40px;
   inline-size: 100%;
   box-sizing: border-box;
-  border: 1px solid var(--line-strong);
-  border-radius: var(--radius-control);
-  background: var(--surface-inset);
-  color: var(--ink-soft);
-  font-size: 0.9rem;
-  font-weight: 760;
+  border: 1px solid rgba(128, 128, 128, 0.5);
+  border-radius: 8px;
+  background: transparent;
+  color: #4d4d4d;
+  font-size: 0.95rem;
+  font-weight: 600;
   line-height: 1;
   padding: 0 14px;
   text-align: center;
@@ -149,9 +197,9 @@
 }
 
 .segmented input:checked + .segmented-button {
-  border-color: var(--atlas-blue);
-  background: var(--atlas-blue);
-  color: var(--paper-warm);
+  border-color: #1B4FD8;
+  background: #a0c7ee;
+  color: #ffffff;
 }
 
 .segmented input:focus-visible + .segmented-button {
